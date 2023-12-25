@@ -1,5 +1,9 @@
 {
-  "url": "https://www.espncricinfo.com/series/icc-cricket-world-cup-2023-24-1367856/match-schedule-fixtures-and-results",
+  "url": {
+   "fixtures": "https://www.espncricinfo.com/series/icc-cricket-world-cup-2023-24-1367856/match-schedule-fixtures-and-results",
+    "table": "https://www.espncricinfo.com/series/icc-cricket-world-cup-2023-24-1367856/points-table-standings",
+    "team": "https://www.espncricinfo.com/series/icc-cricket-world-cup-2023-24-1367856/teams"
+  },
   "scrap": {
     "teams": "True",
     "matches": "True",

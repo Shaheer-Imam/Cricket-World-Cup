@@ -3,47 +3,84 @@ import csv
 from .scrapper import Scrapper
 import os
 import json
-
+from Utils.Constants import Constants
 class Dataset(object):
     def __init__(self):
         json_data = self.read_config()
-        self.url = json_data['url']
+        self.fixtures_url = json_data['url']['fixtures']
+        self.points_url = json_data['url']['table']
+        self.teams_url = json_data['url']['team']
         self.scrap_matches = bool(json_data['scrap']['matches'])
         self.scrap_officials = bool(json_data['scrap']['officials'])
         self.scrap_teams = bool(json_data['scrap']['teams'])
+        self.teams = {}
 
     def get_world_cup_match_ids(self):
-        scrapper = Scrapper(self.url)
+        scrapper = Scrapper(self.fixtures_url)
         return scrapper.get_match_ids()
 
     def start_processing(self, match_ids):
         for match_id in match_ids:
             match = Match(match_id)
 
-    def build_team_dataset(self, match_id):
+    def build_team_dataset(self):
         if not os.path.exists(os.path.join(os.getcwd(),"Datasets")):
             os.mkdir("Datasets")
-
         teams_dataset = []
-        match = Match(match_id)
-        teams = match.json["series"][0]["teams"]
+        teams = self.scrap_teams_in_tournament()
         for team_id, team in enumerate(teams,1):
             team_data = {}
+            self.teams[team.text] = team_id
             team_data["team_id"] = team_id
-            team_data["team_name"] = team["team_name"]
-            team_data["team_abbreviation"] = team["team_abbreviation"]
+            team_data["team_name"] = team.text
+            team_data["team_abbreviation"] = Constants.TEAMS[team.text]
             teams_dataset.append(team_data)
+
         headers = teams_dataset[0].keys()
         with open("Datasets/teams.csv", 'w', newline='') as csvfile:
             csv_writer = csv.DictWriter(csvfile, fieldnames=headers)
             csv_writer.writeheader()
             csv_writer.writerows(teams_dataset)
 
+    def build_points_table_dataset(self):
+        if not os.path.exists(os.path.join(os.getcwd(),"Datasets")):
+            os.mkdir("Datasets")
+
+        points = []
+        scrapper = Scrapper(self.points_url)
+        points_table = scrapper.get_points_table()
+        for row in points_table:
+            point_data = {}
+            team = row.find("span", {"class" : "ds-text-tight-s ds-font-bold ds-uppercase ds-text-left ds-text-typo"}).text
+            stats = row.find_all("td", {"class" : "ds-w-0 ds-whitespace-nowrap ds-min-w-max"})
+            point_data["team_id"] = self.teams[team]
+            point_data["team"] = team
+            point_data["matches_played"] = stats[0].text
+            point_data["won"] = stats[1].text
+            point_data["lost"] = stats[2].text
+            point_data["tie"] = stats[3].text
+            point_data["no_result"] = stats[4].text
+            point_data["points"] = stats[5].text
+            point_data["NRR"] = stats[6].text
+            points.append(point_data)
+        sorted_team_points = sorted(points, key=lambda x:x["team_id"])
+        headers = sorted_team_points[0].keys()
+        with open("Datasets/points.csv", 'w', newline='') as csvfile:
+            csv_writer = csv.DictWriter(csvfile, fieldnames=headers)
+            csv_writer.writeheader()
+            csv_writer.writerows(sorted_team_points)
+
+    def scrap_teams_in_tournament(self):
+        team_scrapper = Scrapper(self.teams_url)
+        teams = team_scrapper.get_teams()
+        return teams
+
     def begin(self):
-        match_ids = self.get_world_cup_match_ids()
-        if match_ids is not None:
-            #self.build_team_dataset(match_ids[0])
-            self.start_processing(match_ids)
+        self.build_team_dataset()
+        self.build_points_table_dataset()
+        # match_ids = self.get_world_cup_match_ids()
+        # if match_ids is not None:
+        #     self.start_processing(match_ids)
 
     def read_config(self):
         path = os.path.join(os.getcwd(),"config.json")

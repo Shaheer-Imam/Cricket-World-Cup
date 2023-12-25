@@ -19,6 +19,16 @@ class Scrapper(object):
         hrefs = div_tag.find_all('a', {'class': 'ds-no-tap-higlight'})
         return hrefs
 
+    def get_points_table(self):
+        points_tbody = self.html.find('tbody', 'ds-text-center')
+        points_rows = points_tbody.find_all("tr",{"class":"ds-text-tight-s ds-text-typo-mid2"})
+        return points_rows
+
+    def get_teams(self):
+        teams_div = self.html.find("div", "ds-flex ds-space-x-5")
+        teams_span = teams_div.find_all("span", {"class": "ds-text-title-s ds-font-bold"})
+        return teams_span
+
     def get_html(self):
         req = requests.get(self.url)
         if req.status_code == 404:
