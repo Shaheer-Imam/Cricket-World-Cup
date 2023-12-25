@@ -1,0 +1,8 @@
+{
+  "url": "https://www.espncricinfo.com/series/icc-cricket-world-cup-2023-24-1367856/match-schedule-fixtures-and-results",
+  "scrap": {
+    "teams": "True",
+    "matches": "True",
+    "officials": "True"
+  }
+}
