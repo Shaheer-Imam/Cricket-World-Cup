@@ -29,6 +29,24 @@ class Scrapper(object):
         teams_span = teams_div.find_all("span", {"class": "ds-text-title-s ds-font-bold"})
         return teams_span
 
+    def get_squad_url(self):
+        squad_url = self.html.find_all("a", {"class" : "ds-inline-flex ds-items-start ds-leading-none"})
+        urls = [url.get('href') for url in squad_url][:10]
+        return urls
+
+    def get_squad_player_ids(self):
+        players = []
+        main_divs = self.html.find("div","ds-mb-4")
+        player_divs = main_divs.find_all("div", {"class": "ds-border-line odd:ds-border-r ds-border-b"})
+        for player in player_divs:
+            captain_span = player.find("span", {"class":"ds-text-tight-m ds-font-medium"})
+            player_data = {
+                "is_captain": captain_span == None,
+                "player_id": player.find("a", "ds-cursor-pointer").get("href").split("-")[-1]
+            }
+            players.append(player_data)
+        return players
+
     def get_html(self):
         req = requests.get(self.url)
         if req.status_code == 404:

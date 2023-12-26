@@ -1,4 +1,5 @@
 from WorldCup.match import Match
+from WorldCup.player import Player
 import csv
 from .scrapper import Scrapper
 import os
@@ -10,6 +11,7 @@ class Dataset(object):
         self.fixtures_url = json_data['url']['fixtures']
         self.points_url = json_data['url']['table']
         self.teams_url = json_data['url']['team']
+        self.squads_url = json_data['url']['squad']
         self.scrap_matches = bool(json_data['scrap']['matches'])
         self.scrap_officials = bool(json_data['scrap']['officials'])
         self.scrap_teams = bool(json_data['scrap']['teams'])
@@ -75,9 +77,32 @@ class Dataset(object):
         teams = team_scrapper.get_teams()
         return teams
 
+    def build_squad_dataset(self):
+        dataset = []
+        squads_url = self.scrap_team_squad_url()
+        for team_id, squad_url in enumerate(squads_url, 1):
+            url = f"https://www.espncricinfo.com{squad_url}"
+            squad_page = Scrapper(url)
+            players = squad_page.get_squad_player_ids()
+            for p in players:
+                player = Player(p["player_id"], p["is_captain"], team_id)
+                player_json = player.toJson()
+                dataset.append(player_json)
+        headers = player_json.keys()
+        with open("Datasets/players.csv", 'w', newline='') as csvfile:
+            csv_writer = csv.DictWriter(csvfile, fieldnames=headers)
+            csv_writer.writeheader()
+            csv_writer.writerows(dataset)
+
+
+    def scrap_team_squad_url(self):
+        team_squad_scrapper = Scrapper(self.squads_url)
+        return team_squad_scrapper.get_squad_url()
+
     def begin(self):
-        self.build_team_dataset()
-        self.build_points_table_dataset()
+        #self.build_team_dataset()
+        #self.build_points_table_dataset()
+        self.build_squad_dataset()
         # match_ids = self.get_world_cup_match_ids()
         # if match_ids is not None:
         #     self.start_processing(match_ids)

@@ -1,0 +1,164 @@
+player_id,name,first_name,last_name,full_name,date_of_birth,age,role,captain,batting_style,bowling_style,is_batsman,is_bowler,is_allrounder,is_wicketkeeper
+440970,Hashmatullah Shahidi,Hashmatullah,Shahidi,Hashmatullah Shahidi,1994-11-04T00:00Z,29,Top-order batter,False,Left-hand bat,Right-arm offbreak,1,0,0,0
+921509,Ibrahim Zadran,Ibrahim,Zadran,Ibrahim Zadran,2001-12-12T00:00Z,22,Opening batter,True,Right-hand bat,Right-arm medium-fast,1,0,0,0
+935553,Ikram Alikhil,Ikram,Alikhil,Ikram Alikhil,2000-09-29T00:00Z,23,Wicketkeeper batter,False,Left-hand bat,,1,0,0,1
+524049,Najibullah Zadran,Najibullah,Zadran,Najibullah Zadran,1993-02-28T00:00Z,30,Middle-order batter,True,Left-hand bat,Right-arm offbreak,1,0,0,0
+974087,Rahmanullah Gurbaz,Rahmanullah,Gurbaz,Rahmanullah Gurbaz,2001-11-28T00:00Z,22,Wicketkeeper batter,False,Right-hand bat,,1,0,0,1
+1061090,Riaz Hassan,Riaz,Hassan,Riaz Hassan,2002-11-07T00:00Z,21,Batter,True,Right-hand bat,,1,0,0,0
+819429,Azmatullah Omarzai,Azmatullah,Omarzai,Azmatullah Omarzai,2000-03-24T00:00Z,23,Allrounder,True,Right-hand bat,Right-arm medium-fast,0,0,1,0
+25913,Mohammad Nabi,Mohammad,Nabi,Mohammad Nabi,1985-01-01T00:00Z,38,Allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+533956,Rahmat Shah,Rahmat,Shah,Rahmat Shah Zurmatai,1993-07-06T00:00Z,30,Allrounder,True,Right-hand bat,Legbreak googly,0,0,1,0
+793463,Rashid Khan,Rashid,Khan,Rashid Khan Arman,1998-09-20T00:00Z,25,Bowling allrounder,True,Right-hand bat,Legbreak googly,0,0,1,0
+819507,Abdul Rahman,Abdul,Rahman,Abdul Rahman Rahmani,2001-11-22T00:00Z,22,Bowler,True,Right-hand bat,Right-arm fast-medium,0,1,0,0
+974175,Fazalhaq Farooqi,Fazalhaq,Farooqi,Fazalhaq Farooqi,2000-09-22T00:00Z,23,Bowler,True,Right-hand bat,Left-arm fast-medium,0,1,0,0
+974109,Mujeeb Ur Rahman,Mujeeb,Rahman,Mujeeb Ur Rahman,2001-03-28T00:00Z,22,Bowler,True,Right-hand bat,Right-arm offbreak,0,1,0,0
+793447,Naveen-ul-Haq,Naveen-ul-Haq,Naveen-ul-Haq,Naveen-ul-Haq Murid,1999-09-23T00:00Z,24,Bowler,True,Right-hand bat,Right-arm medium-fast,0,1,0,0
+1182529,Noor Ahmad,Noor,Ahmad,Noor Ahmad Lakanwal,2005-01-03T00:00Z,18,Bowler,True,Right-hand bat,Left-arm wrist-spin,0,1,0,0
+326434,Alex Carey,Alex,Carey,Alex Tyson Carey,1991-08-27T00:00Z,32,Wicketkeeper batter,False,Left-hand bat,,1,0,0,1
+530011,Travis Head,Travis,Head,Travis Michael Head,1993-12-29T00:00Z,29,Middle-order batter,True,Left-hand bat,Right-arm offbreak,1,0,0,0
+662235,Josh Inglis,Josh,Inglis,Joshua Patrick Inglis,1995-03-04T00:00Z,28,Wicketkeeper batter,False,Right-hand bat,,1,0,0,1
+787987,Marnus Labuschagne,Marnus,Labuschagne,Marnus Labuschagne,1994-06-22T00:00Z,29,Batter,True,Right-hand bat,Legbreak,1,0,0,0
+267192,Steven Smith,Steven,Smith,Steven Peter Devereux Smith,1989-06-02T00:00Z,34,Middle-order batter,True,Right-hand bat,Legbreak googly,1,0,0,0
+219889,David Warner,David,Warner,David Andrew Warner,1986-10-27T00:00Z,37,Opening batter,True,Left-hand bat,Legbreak,1,0,0,0
+398666,Sean Abbott,Sean,Abbott,Sean Anthony Abbott,1992-02-29T00:00Z,31,Bowling allrounder,True,Right-hand bat,Right-arm fast-medium,0,0,1,0
+1076713,Cameron Green,Cameron,Green,Cameron Donald Green,1999-06-03T00:00Z,24,Batting allrounder,True,Right-hand bat,Right-arm fast-medium,0,0,1,0
+272450,Mitchell Marsh,Mitchell,Marsh,Mitchell Ross Marsh,1991-10-20T00:00Z,32,Allrounder,True,Right-hand bat,Right-arm medium,0,0,1,0
+325026,Glenn Maxwell,Glenn,Maxwell,Glenn James Maxwell,1988-10-14T00:00Z,35,Batting allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+325012,Marcus Stoinis,Marcus,Stoinis,Marcus Peter Stoinis,1989-08-16T00:00Z,34,Batting allrounder,True,Right-hand bat,Right-arm medium,0,0,1,0
+489889,Pat Cummins,Pat,Cummins,Patrick James Cummins,1993-05-08T00:00Z,30,Bowler,False,Right-hand bat,Right-arm fast,0,1,0,0
+288284,Josh Hazlewood,Josh,Hazlewood,Josh Reginald Hazlewood,1991-01-08T00:00Z,32,Bowler,True,Left-hand bat,Right-arm fast-medium,0,1,0,0
+311592,Mitchell Starc,Mitchell,Starc,Mitchell Aaron Starc,1990-01-30T00:00Z,33,Bowler,True,Left-hand bat,Left-arm fast,0,1,0,0
+379504,Adam Zampa,Adam,Zampa,Adam Zampa,1992-03-31T00:00Z,31,Bowler,True,Right-hand bat,Legbreak googly,0,1,0,0
+505120,Ashton Agar,Ashton,Agar,Ashton Charles Agar,1993-10-14T00:00Z,30,Bowler,True,Left-hand bat,Slow left-arm orthodox,0,1,0,0
+629058,Najmul Hossain Shanto,Najmul,Shanto,Najmul Hossain Shanto,1998-08-25T00:00Z,25,Top-order batter,False,Left-hand bat,Right-arm offbreak,1,0,0,0
+380354,Anamul Haque,Anamul,Haque,Mohammad Anamul Haque Bijoy,1992-12-16T00:00Z,31,Wicketkeeper batter,False,Right-hand bat,,1,0,0,1
+536936,Litton Das,Litton,Das,Litton Kumer Das,1994-10-13T00:00Z,29,Wicketkeeper batter,False,Right-hand bat,Right-arm offbreak,1,0,0,1
+56029,Mushfiqur Rahim,Mushfiqur,Rahim,Mohammad Mushfiqur Rahim,1987-05-09T00:00Z,36,Wicketkeeper batter,False,Right-hand bat,,1,0,0,1
+990023,Tanzid Hasan,Tanzid,Hasan,Tanzid Hasan Tamim,2000-12-01T00:00Z,23,Opening batter,True,Left-hand bat,,1,0,0,0
+990031,Towhid Hridoy,Towhid,Hridoy,Md Towhid Hridoy,2000-12-04T00:00Z,23,Top-order batter,True,Right-hand bat,Right-arm offbreak,1,0,0,0
+833087,Mahedi Hasan,Mahedi,Hasan,Mahedi Hasan,1994-12-12T00:00Z,29,Allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+56025,Mahmudullah,Mahmudullah,Mahmudullah,Mohammad Mahmudullah,1986-02-04T00:00Z,37,Allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+629063,Mehidy Hasan Miraz,Mehidy,Miraz,Mehidy Hasan Miraz,1997-10-25T00:00Z,26,Allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+56143,Shakib Al Hasan,Shakib,Hasan,Shakib Al Hasan,1987-03-24T00:00Z,36,Allrounder,True,Left-hand bat,Slow left-arm orthodox,0,0,1,0
+926629,Hasan Mahmud,Hasan,Mahmud,Hasan Mahmud,1999-10-12T00:00Z,24,Bowler,True,Right-hand bat,Right-arm fast-medium,0,1,0,0
+330902,Mustafizur Rahman,Mustafizur,Rahman,Mustafizur Rahman,1995-09-06T00:00Z,28,Bowler,True,Left-hand bat,Left-arm fast-medium,0,1,0,0
+348049,Nasum Ahmed,Nasum,Ahmed,Nasum Ahmed,1994-12-05T00:00Z,29,Bowler,True,Left-hand bat,Slow left-arm orthodox,0,1,0,0
+990039,Shoriful Islam,Shoriful,Islam,Mohammad Shoriful Islam,2001-06-03T00:00Z,22,Bowler,True,Left-hand bat,Left-arm medium-fast,0,1,0,0
+1139520,Tanzim Hasan Sakib,Tanzim,Sakib,Tanzim Hasan Sakib,2002-10-20T00:00Z,21,Bowler,True,Right-hand bat,Right-arm medium,0,1,0,0
+538506,Taskin Ahmed,Taskin,Ahmed,Taskin Ahmed,1995-04-03T00:00Z,28,Bowler,True,Left-hand bat,Right-arm fast,0,1,0,0
+308967,Jos Buttler,Jos,Buttler,Joseph Charles Buttler,1990-09-08T00:00Z,33,Wicketkeeper batter,False,Right-hand bat,,1,0,0,1
+297433,Jonny Bairstow,Jonny,Bairstow,Jonathan Marc Bairstow,1989-09-26T00:00Z,34,Wicketkeeper batter,False,Right-hand bat,Right-arm medium,1,0,0,1
+911707,Harry Brook,Harry,Brook,Harry Cherrington Brook,1999-02-22T00:00Z,24,Batter,True,Right-hand bat,Right-arm medium,1,0,0,0
+236489,Dawid Malan,Dawid,Malan,Dawid Johannes Malan,1987-09-03T00:00Z,36,Top-order batter,True,Left-hand bat,Legbreak,1,0,0,0
+303669,Joe Root,Joe,Root,Joseph Edward Root,1990-12-30T00:00Z,32,Top-order batter,True,Right-hand bat,Right-arm offbreak,1,0,0,0
+298438,Jason Roy,Jason,Roy,Jason Jonathan Roy,1990-07-21T00:00Z,33,Opening batter,True,Right-hand bat,,1,0,0,0
+8917,Moeen Ali,Moeen,Ali,Moeen Munir Ali,1987-06-18T00:00Z,36,Batting allrounder,True,Left-hand bat,Right-arm offbreak,0,0,1,0
+596417,Brydon Carse,Brydon,Carse,Brydon Alexander Carse,1995-07-31T00:00Z,28,Bowling allrounder,True,Right-hand bat,Right-arm fast,0,0,1,0
+662973,Sam Curran,Sam,Curran,Samuel Matthew Curran,1998-06-03T00:00Z,25,Allrounder,True,Left-hand bat,Left-arm medium-fast,0,0,1,0
+403902,Liam Livingstone,Liam,Livingstone,Liam Stephen Livingstone,1993-08-04T00:00Z,30,Batting allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+311158,Ben Stokes,Ben,Stokes,Benjamin Andrew Stokes,1991-06-04T00:00Z,32,Allrounder,True,Left-hand bat,Right-arm fast-medium,0,0,1,0
+308251,David Willey,David,Willey,David Jonathan Willey,1990-02-28T00:00Z,33,Bowling allrounder,True,Left-hand bat,Left-arm fast-medium,0,0,1,0
+247235,Chris Woakes,Chris,Woakes,Christopher Roger Woakes,1989-03-02T00:00Z,34,Allrounder,True,Right-hand bat,Right-arm fast-medium,0,0,1,0
+1039481,Gus Atkinson,Gus,Atkinson,Angus Alexander Patrick Atkinson,1998-01-19T00:00Z,25,Bowler,True,Right-hand bat,Right-arm fast-medium,0,1,0,0
+244497,Adil Rashid,Adil,Rashid,Adil Usman Rashid,1988-02-17T00:00Z,35,Bowler,True,Right-hand bat,Legbreak,0,1,0,0
+351588,Mark Wood,Mark,Wood,Mark Andrew Wood,1990-01-11T00:00Z,33,Bowler,True,Right-hand bat,Right-arm fast,0,1,0,0
+461632,Reece Topley,Reece,Topley,Reece James William Topley,1994-02-21T00:00Z,29,Bowler,True,Right-hand bat,Left-arm fast-medium,0,1,0,0
+34102,Rohit Sharma,Rohit,Sharma,Rohit Gurunath Sharma,1987-04-30T00:00Z,36,Top-order batter,False,Right-hand bat,Right-arm offbreak,1,0,0,0
+720471,Ishan Kishan,Ishan,Kishan,Ishan Pranav Kumar Pandey Kishan,1998-07-18T00:00Z,25,Wicketkeeper batter,False,Left-hand bat,,1,0,0,1
+642519,Shreyas Iyer,Shreyas,Iyer,Shreyas Santosh Iyer,1994-12-06T00:00Z,29,Top-order batter,True,Right-hand bat,Right-arm offbreak,1,0,0,0
+253802,Virat Kohli,Virat,Kohli,Virat Kohli,1988-11-05T00:00Z,35,Top-order batter,True,Right-hand bat,Right-arm medium,1,0,0,0
+422108,KL Rahul,KL,Rahul,Kannaur Lokesh Rahul,1992-04-18T00:00Z,31,Wicketkeeper batter,False,Right-hand bat,,1,0,0,1
+1070173,Shubman Gill,Shubman,Gill,Shubman Gill,1999-09-08T00:00Z,24,Opening batter,True,Right-hand bat,Right-arm offbreak,1,0,0,0
+446507,Suryakumar Yadav,Suryakumar,Yadav,Suryakumar Ashok Yadav,1990-09-14T00:00Z,33,Batter,True,Right-hand bat,Right-arm medium,1,0,0,0
+26421,Ravichandran Ashwin,Ravichandran,Ashwin,Ravichandran Ashwin,1986-09-17T00:00Z,37,Bowling allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+234675,Ravindra Jadeja,Ravindra,Jadeja,Ravindrasinh Anirudhsinh Jadeja,1988-12-06T00:00Z,35,Allrounder,True,Left-hand bat,Slow left-arm orthodox,0,0,1,0
+625371,Hardik Pandya,Hardik,Pandya,Hardik Himanshu Pandya,1993-10-11T00:00Z,30,Allrounder,True,Right-hand bat,Right-arm medium-fast,0,0,1,0
+554691,Axar Patel,Axar,Patel,Axar Rajeshbhai Patel,1994-01-20T00:00Z,29,Bowling allrounder,True,Left-hand bat,Slow left-arm orthodox,0,0,1,0
+625383,Jasprit Bumrah,Jasprit,Bumrah,Jasprit Jasbirsingh Bumrah,1993-12-06T00:00Z,30,Bowler,True,Right-hand bat,Right-arm fast,0,1,0,0
+559235,Kuldeep Yadav,Kuldeep,Yadav,Kuldeep Yadav,1994-12-14T00:00Z,29,Bowler,True,Left-hand bat,Left-arm wrist-spin,0,1,0,0
+481896,Mohammed Shami,Mohammed,Shami,Mohammed Shami Ahmed,1990-09-03T00:00Z,33,Bowler,True,Right-hand bat,Right-arm fast,0,1,0,0
+940973,Mohammed Siraj,Mohammed,Siraj,Mohammed Siraj,1994-03-13T00:00Z,29,Bowler,True,Right-hand bat,Right-arm fast,0,1,0,0
+917159,Prasidh Krishna,Prasidh,Krishna,Muralikrishna Prasidh Krishna,1996-02-19T00:00Z,27,Bowler,True,Right-hand bat,Right-arm fast-medium,0,1,0,0
+475281,Shardul Thakur,Shardul,Thakur,Shardul Narendra Thakur,1991-10-16T00:00Z,32,Bowler,True,Right-hand bat,Right-arm medium,0,1,0,0
+1127317,Scott Edwards,Scott,Edwards,Scott Andrew Edwards,1996-08-23T00:00Z,27,Wicketkeeper batter,False,Right-hand bat,,1,0,0,1
+44407,Wesley Barresi,Wesley,Barresi,Wesley Barresi,1984-05-03T00:00Z,39,Batter,True,Right-hand bat,Right-arm offbreak,1,0,0,0
+1191381,Noah Croes,Noah,Croes,Noah Roderick Joseph Croes,1999-12-13T00:00Z,24,Batter,True,Right-hand bat,,1,0,0,0
+643197,Max O'Dowd,Max,O'Dowd,Maxwell Patrick O'Dowd,1994-03-04T00:00Z,29,Opening batter,True,Right-hand bat,Right-arm offbreak,1,0,0,0
+1153767,Vikramjit Singh,Vikramjit,Singh,Vikramjit Singh,2003-01-09T00:00Z,20,Opening batter,True,Left-hand bat,Right-arm medium,1,0,0,0
+379774,Colin Ackermann,Colin,Ackermann,Colin Niel Ackermann,1991-04-04T00:00Z,32,Batting allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+1036191,Bas de Leede,Bas,Leede,Bas de Leede,1999-11-15T00:00Z,24,Batting allrounder,True,Right-hand bat,Right-arm fast-medium,0,0,1,0
+315035,Sybrand Engelbrecht,Sybrand,Engelbrecht,Sybrand Abraham Engelbrecht,1988-09-15T00:00Z,35,Allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+1129328,Teja Nidamanuru,Teja,Nidamanuru,Anil Teja Nidamanuru,1994-08-22T00:00Z,29,Allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+526481,Saqib Zulfiqar,Saqib,Zulfiqar,M Saqib Zulfiqar,1997-03-28T00:00Z,26,Bowling allrounder,True,Right-hand bat,Legbreak,0,0,1,0
+47850,Roelof van der Merwe,Roelof,Merwe,Roelof Erasmus van der Merwe,1984-12-31T00:00Z,38,Bowling allrounder,True,Right-hand bat,Slow left-arm orthodox,0,0,1,0
+1195672,Aryan Dutt,Aryan,Dutt,Aryan Dutt,2003-05-12T00:00Z,20,Bowler,True,Right-hand bat,Right-arm offbreak,0,1,0,0
+1278252,Shariz Ahmad,Shariz,Ahmad,Shariz Ahmad,2003-04-21T00:00Z,20,Bowler,True,Left-hand bat,Legbreak googly,0,1,0,0
+440522,Logan van Beek,Logan,Beek,Logan Verjus van Beek,1990-09-07T00:00Z,33,Bowler,True,Right-hand bat,Right-arm medium-fast,0,1,0,0
+348109,Paul van Meekeren,Paul,Meekeren,Paul Adriaan van Meekeren,1993-01-15T00:00Z,30,Bowler,True,Right-hand bat,Right-arm fast-medium,0,1,0,0
+594996,Ryan Klein,Ryan,Klein,Ryan Klein,1997-06-15T00:00Z,26,Bowler,True,Right-hand bat,Right-arm medium-fast,0,1,0,0
+277906,Kane Williamson,Kane,Williamson,Kane Stuart Williamson,1990-08-08T00:00Z,33,Top-order batter,False,Right-hand bat,Right-arm offbreak,1,0,0,0
+388802,Tom Latham,Tom,Latham,Thomas William Maxwell Latham,1992-04-02T00:00Z,31,Wicketkeeper batter,False,Left-hand bat,Right-arm medium,1,0,0,1
+379140,Devon Conway,Devon,Conway,Devon Philip Conway,1991-07-08T00:00Z,32,Wicketkeeper batter,False,Left-hand bat,Right-arm medium,1,0,0,1
+547749,Will Young,Will,Young,William Alexander Young,1992-11-22T00:00Z,31,Top-order batter,True,Right-hand bat,Right-arm offbreak,1,0,0,0
+438563,Mark Chapman,Mark,Chapman,Mark Sinclair Chapman,1994-06-27T00:00Z,29,Allrounder,True,Left-hand bat,Slow left-arm orthodox,0,0,1,0
+381743,Daryl Mitchell,Daryl,Mitchell,Daryl Joseph Mitchell,1991-05-20T00:00Z,32,Batting allrounder,True,Right-hand bat,Right-arm medium,0,0,1,0
+355269,James Neesham,James,Neesham,James Douglas Sheahan Neesham,1990-09-17T00:00Z,33,Batting allrounder,True,Left-hand bat,Right-arm medium-fast,0,0,1,0
+823509,Glenn Phillips,Glenn,Phillips,Glenn Dominic Phillips,1996-12-06T00:00Z,27,Allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+959767,Rachin Ravindra,Rachin,Ravindra,Rachin Ravindra,1999-11-18T00:00Z,24,Batting allrounder,True,Left-hand bat,Slow left-arm orthodox,0,0,1,0
+502714,Mitchell Santner,Mitchell,Santner,Mitchell Josef Santner,1992-02-05T00:00Z,31,Bowling allrounder,True,Left-hand bat,Slow left-arm orthodox,0,0,1,0
+277912,Trent Boult,Trent,Boult,Trent Alexander Boult,1989-07-22T00:00Z,34,Bowler,True,Right-hand bat,Left-arm fast-medium,0,1,0,0
+493773,Lockie Ferguson,Lockie,Ferguson,Lachlan Hammond Ferguson,1991-06-13T00:00Z,32,Bowler,True,Right-hand bat,Right-arm fast,0,1,0,0
+625960,Kyle Jamieson,Kyle,Jamieson,Kyle Alex Jamieson,1994-12-30T00:00Z,28,Bowler,True,Right-hand bat,Right-arm fast-medium,0,1,0,0
+559066,Ish Sodhi,Ish,Sodhi,Inderbir Singh Sodhi,1992-10-31T00:00Z,31,Bowler,True,Right-hand bat,Legbreak,0,1,0,0
+232364,Tim Southee,Tim,Southee,Timothy Grant Southee,1988-12-11T00:00Z,35,Bowler,True,Right-hand bat,Right-arm medium-fast,0,1,0,0
+506612,Matt Henry,Matt,Henry,Matthew James Henry,1991-12-14T00:00Z,32,Bowler,True,Right-hand bat,Right-arm fast-medium,0,1,0,0
+348144,Babar Azam,Babar,Azam,Mohammad Babar Azam,1994-10-15T00:00Z,29,Batter,False,Right-hand bat,Right-arm offbreak,1,0,0,0
+922941,Abdullah Shafique,Abdullah,Shafique,Abdullah Shafique,1999-11-20T00:00Z,24,Top-order batter,True,Right-hand bat,Right-arm offbreak,1,0,0,0
+512191,Fakhar Zaman,Fakhar,Zaman,Fakhar Zaman,1990-04-10T00:00Z,33,Opening batter,True,Left-hand bat,Slow left-arm orthodox,1,0,0,0
+480603,Iftikhar Ahmed,Iftikhar,Ahmed,Iftikhar Ahmed,1990-09-03T00:00Z,33,Middle-order batter,True,Right-hand bat,Right-arm offbreak,1,0,0,0
+568276,Imam-ul-Haq,Imam-ul-Haq,Imam-ul-Haq,Imam-ul-Haq,1995-12-22T00:00Z,28,Top-order batter,True,Left-hand bat,,1,0,0,0
+323389,Mohammad Rizwan,Mohammad,Rizwan,Mohammad Rizwan,1992-06-01T00:00Z,31,Wicketkeeper batter,False,Right-hand bat,,1,0,0,1
+652687,Saud Shakeel,Saud,Shakeel,Saud Shakeel,1995-09-05T00:00Z,28,Middle-order batter,True,Left-hand bat,Left-arm slow,1,0,0,0
+623977,Agha Salman,Agha,Salman,Agha Salman,1993-11-23T00:00Z,30,Allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+348148,Mohammad Nawaz,Mohammad,Nawaz,Mohammad Nawaz,1994-03-21T00:00Z,29,Allrounder,True,Left-hand bat,Slow left-arm orthodox,0,0,1,0
+1185538,Mohammad Wasim,Mohammad,Wasim,Mohammad Wasim,2001-08-25T00:00Z,22,Bowling allrounder,True,Right-hand bat,Right-arm fast-medium,0,0,1,0
+922943,Shadab Khan,Shadab,Khan,Shadab Khan,1998-10-04T00:00Z,25,Allrounder,True,Right-hand bat,Legbreak,0,0,1,0
+1161606,Haris Rauf,Haris,Rauf,Haris Rauf,1993-11-07T00:00Z,30,Bowler,True,Right-hand bat,Right-arm fast,0,1,0,0
+681305,Hasan Ali,Hasan,Ali,Hasan Ali,1994-07-02T00:00Z,29,Bowler,True,Right-hand bat,Right-arm medium-fast,0,1,0,0
+1072470,Shaheen Shah Afridi,Shaheen,Afridi,Shaheen Shah Afridi,2000-04-06T00:00Z,23,Bowler,True,Left-hand bat,Left-arm fast,0,1,0,0
+647667,Usama Mir,Usama,Mir,Usama Mir,1995-12-23T00:00Z,28,Bowler,True,Right-hand bat,Legbreak,0,1,0,0
+372116,Temba Bavuma,Temba,Bavuma,Temba Bavuma,1990-05-17T00:00Z,33,Middle-order batter,False,Right-hand bat,Right-arm medium,1,0,0,0
+379143,Quinton de Kock,Quinton,Kock,Quinton de Kock,1992-12-17T00:00Z,31,Wicketkeeper batter,False,Left-hand bat,,1,0,0,1
+269280,Reeza Hendricks,Reeza,Hendricks,Reeza Raphael Hendricks,1989-08-14T00:00Z,34,Opening batter,True,Right-hand bat,Right-arm offbreak,1,0,0,0
+436757,Heinrich Klaasen,Heinrich,Klaasen,Heinrich Klaasen,1991-07-30T00:00Z,32,Wicketkeeper batter,False,Right-hand bat,Right-arm offbreak,1,0,0,1
+600498,Aiden Markram,Aiden,Markram,Aiden Kyle Markram,1994-10-04T00:00Z,29,Opening batter,True,Right-hand bat,Right-arm offbreak,1,0,0,0
+321777,David Miller,David,Miller,David Andrew Miller,1989-06-10T00:00Z,34,Middle-order batter,True,Left-hand bat,Right-arm offbreak,1,0,0,0
+337790,Rassie van der Dussen,Rassie,Dussen,Hendrik Erasmus van der Dussen,1989-02-07T00:00Z,34,Top-order batter,True,Right-hand bat,Legbreak,1,0,0,0
+696401,Marco Jansen,Marco,Jansen,Marco Jansen,2000-05-01T00:00Z,23,Bowling allrounder,True,Right-hand bat,Left-arm medium-fast,0,0,1,0
+540316,Andile Phehlukwayo,Andile,Phehlukwayo,Andile Lucky Phehlukwayo,1996-03-03T00:00Z,27,Bowling allrounder,True,Left-hand bat,Right-arm medium-fast,0,0,1,0
+596010,Gerald Coetzee,Gerald,Coetzee,Gerald Coetzee,2000-10-02T00:00Z,23,Bowler,True,Right-hand bat,Right-arm fast,0,1,0,0
+267724,Keshav Maharaj,Keshav,Maharaj,Keshav Athmanand Maharaj,1990-02-07T00:00Z,33,Bowler,True,Right-hand bat,Slow left-arm orthodox,0,1,0,0
+542023,Lungi Ngidi,Lungi,Ngidi,Lungisani True-man Ngidi,1996-03-29T00:00Z,27,Bowler,True,Right-hand bat,Right-arm fast-medium,0,1,0,0
+550215,Kagiso Rabada,Kagiso,Rabada,Kagiso Rabada,1995-05-25T00:00Z,28,Bowler,True,Left-hand bat,Right-arm fast,0,1,0,0
+379145,Tabraiz Shamsi,Tabraiz,Shamsi,Tabraiz Shamsi,1990-02-18T00:00Z,33,Bowler,True,Right-hand bat,Left-arm wrist-spin,0,1,0,0
+379887,Lizaad Williams,Lizaad,Williams,Lizaad Buyron Williams,1993-10-01T00:00Z,30,Bowler,True,Left-hand bat,Right-arm medium-fast,0,1,0,0
+379776,Sisanda Magala,Sisanda,Magala,Sisanda Somila Bruce Magala,1991-01-07T00:00Z,32,Bowler,True,Right-hand bat,Right-arm fast-medium,0,1,0,0
+481979,Anrich Nortje,Anrich,Nortje,Anrich Arno Nortje,1993-11-16T00:00Z,30,Bowler,True,Right-hand bat,Right-arm fast,0,1,0,0
+629074,Kusal Mendis,Kusal,Mendis,Balapuwaduge Kusal Gimhan Mendis,1995-02-02T00:00Z,28,Wicketkeeper batter,False,Right-hand bat,Legbreak,1,0,0,1
+227772,Dimuth Karunaratne,Dimuth,Karunaratne,Frank Dimuth Madushanka Karunaratne,1988-04-21T00:00Z,35,Opening batter,True,Left-hand bat,Right-arm medium,1,0,0,0
+1028655,Pathum Nissanka,Pathum,Nissanka,Pathum Nissanka Silva,1998-05-18T00:00Z,25,Top-order batter,True,Right-hand bat,,1,0,0,0
+300631,Kusal Perera,Kusal,Perera,Mathurage Don Kusal Janith Perera,1990-08-17T00:00Z,33,Wicketkeeper batter,False,Left-hand bat,,1,0,0,1
+629076,Sadeera Samarawickrama,Sadeera,Samarawickrama,Wedagedara Sadeera Rashen Samarawickrama,1995-08-30T00:00Z,28,Wicketkeeper batter,False,Right-hand bat,,1,0,0,1
+784367,Charith Asalanka,Charith,Asalanka,Kariyawasam Indipalage Charith Asalanka,1997-06-29T00:00Z,26,Batting allrounder,True,Left-hand bat,Right-arm offbreak,0,0,1,0
+465793,Dhananjaya de Silva,Dhananjaya,Silva,Dhananjaya Maduranga de Silva,1991-09-06T00:00Z,32,Allrounder,True,Right-hand bat,Right-arm offbreak,0,0,1,0
+721041,Dushan Hemantha,Dushan,Hemantha,Munasinghe Arachchige Dushan Ishara Hemantha,1994-05-24T00:00Z,29,Allrounder,True,Right-hand bat,Legbreak,0,0,1,0
+623695,Chamika Karunaratne,Chamika,Karunaratne,Chamika Karunaratne,1996-05-29T00:00Z,27,Bowling allrounder,True,Right-hand bat,Right-arm medium-fast,0,0,1,0
+49764,Angelo Mathews,Angelo,Mathews,Angelo Davis Mathews,1987-06-02T00:00Z,36,Allrounder,True,Right-hand bat,Right-arm medium,0,0,1,0
+437316,Dasun Shanaka,Dasun,Shanaka,Madagamagamage Dasun Shanaka,1991-09-09T00:00Z,32,Allrounder,True,Right-hand bat,Right-arm medium,0,0,1,0
+552152,Dushmantha Chameera,Dushmantha,Chameera,Pathira Vasan Dushmantha Chameera,1992-01-11T00:00Z,31,Bowler,True,Right-hand bat,Right-arm fast,0,1,0,0
+793007,Dilshan Madushanka,Dilshan,Madushanka,Lokumarakkalage Dilshan Madushanka,2000-09-18T00:00Z,23,Bowler,True,Right-hand bat,Left-arm fast-medium,0,1,0,0
+499594,Kasun Rajitha,Kasun,Rajitha,Chandrasekara Arachchilage Kasun Rajitha,1993-06-01T00:00Z,30,Bowler,True,Right-hand bat,Right-arm medium-fast,0,1,0,0
+1138316,Maheesh Theekshana,Maheesh,Theekshana,Morawakage Maheesh Theekshana,2000-08-01T00:00Z,23,Bowler,True,Right-hand bat,Right-arm offbreak,0,1,0,0
+1152427,Dunith Wellalage,Dunith,Wellalage,Dunith Nethmika Wellalage,2003-01-09T00:00Z,20,Bowler,True,Left-hand bat,Slow left-arm orthodox,0,1,0,0
+784375,Lahiru Kumara,Lahiru,Kumara,Chandradasa Brahammana Ralalage Lahiru Sudesh Kumara,1997-02-13T00:00Z,26,Bowler,True,Left-hand bat,Right-arm fast,0,1,0,0
+1194795,Matheesha Pathirana,Matheesha,Pathirana,Matheesha Pathirana,2002-12-18T00:00Z,21,Bowler,True,Right-hand bat,Right-arm fast,0,1,0,0
