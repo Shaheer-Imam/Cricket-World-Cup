@@ -47,6 +47,11 @@ class Scrapper(object):
             players.append(player_data)
         return players
 
+    def scrap_tournament_fixtures(self):
+        main_div = self.html.find("div","ds-p-0")
+        fixtures_div = main_div.find_all("div",{"class":"ds-p-4"})
+        return fixtures_div
+
     def get_html(self):
         req = requests.get(self.url)
         if req.status_code == 404:

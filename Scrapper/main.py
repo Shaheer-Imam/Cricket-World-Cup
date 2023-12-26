@@ -5,6 +5,7 @@ from .scrapper import Scrapper
 import os
 import json
 from Utils.Constants import Constants
+from Utils.date_formatter import DateFormatter
 class Dataset(object):
     def __init__(self):
         json_data = self.read_config()
@@ -12,9 +13,9 @@ class Dataset(object):
         self.points_url = json_data['url']['table']
         self.teams_url = json_data['url']['team']
         self.squads_url = json_data['url']['squad']
-        self.scrap_matches = bool(json_data['scrap']['matches'])
-        self.scrap_officials = bool(json_data['scrap']['officials'])
-        self.scrap_teams = bool(json_data['scrap']['teams'])
+        self.build_matches = bool(json_data['dataset']['matches'])
+        self.build_officials = bool(json_data['dataset']['officials'])
+        self.build_team = bool(json_data['dataset']['teams'])
         self.teams = {}
 
     def get_world_cup_match_ids(self):
@@ -38,11 +39,12 @@ class Dataset(object):
             team_data["team_abbreviation"] = Constants.TEAMS[team.text]
             teams_dataset.append(team_data)
 
-        headers = teams_dataset[0].keys()
-        with open("Datasets/teams.csv", 'w', newline='') as csvfile:
-            csv_writer = csv.DictWriter(csvfile, fieldnames=headers)
-            csv_writer.writeheader()
-            csv_writer.writerows(teams_dataset)
+        if self.build_team:
+            headers = teams_dataset[0].keys()
+            with open("Datasets/teams.csv", 'w', newline='') as csvfile:
+                csv_writer = csv.DictWriter(csvfile, fieldnames=headers)
+                csv_writer.writeheader()
+                csv_writer.writerows(teams_dataset)
 
     def build_points_table_dataset(self):
         if not os.path.exists(os.path.join(os.getcwd(),"Datasets")):
@@ -99,10 +101,34 @@ class Dataset(object):
         team_squad_scrapper = Scrapper(self.squads_url)
         return team_squad_scrapper.get_squad_url()
 
+    def build_fixtures_dataset(self):
+        fixtures = self.scrap_fixtures()
+        for match_id, fixture in enumerate(fixtures, 1):
+            date_str = fixture.find("div", "ds-text-compact-xs ds-font-bold ds-w-24").text
+            date = DateFormatter.convert_date_to_DDMMYY(date_str)
+            match_link = fixture.find("a", "ds-no-tap-higlight")
+            cricinfo_matchid = match_link.get("href").split("/")[-2].split("-")[-1]
+            teams = fixture.find_all("p", {"class": "ds-text-tight-m ds-font-bold ds-capitalize ds-truncate"})
+            team_one_name = teams[0].text
+            team_one_id = self.teams[team_one_name]
+            team_two_name = teams[1].text
+            team_two_id = self.teams[team_two_name]
+            scores = fixture.find_all("div", {"class": "ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap"})
+            team_one_score = scores[0].text
+            team_two_score = scores[1].text.split(" ")[-1]
+            result = fixture.find("p", {"class": "ds-text-tight-s ds-font-regular ds-line-clamp-2 ds-text-typo"}).text
+
+
+
+    def scrap_fixtures(self):
+        scrapper = Scrapper(self.fixtures_url)
+        return scrapper.scrap_tournament_fixtures()
+
     def begin(self):
-        #self.build_team_dataset()
-        #self.build_points_table_dataset()
+        self.build_team_dataset()
+        self.build_points_table_dataset()
         self.build_squad_dataset()
+        self.build_fixtures_dataset()
         # match_ids = self.get_world_cup_match_ids()
         # if match_ids is not None:
         #     self.start_processing(match_ids)

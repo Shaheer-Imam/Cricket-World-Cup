@@ -86,6 +86,7 @@ class Player(object):
         json = {
             "player_id": self.player_id,
             "name": self.name,
+            "team_id": self.team_id,
             "first_name": self.first_name,
             "last_name": self.last_name,
             "full_name": self.full_name,
