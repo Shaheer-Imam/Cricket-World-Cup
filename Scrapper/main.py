@@ -56,16 +56,16 @@ class Dataset(object):
         for row in points_table:
             point_data = {}
             team = row.find("span", {"class" : "ds-text-tight-s ds-font-bold ds-uppercase ds-text-left ds-text-typo"}).text
-            stats = row.find_all("td", {"class" : "ds-w-0 ds-whitespace-nowrap ds-min-w-max"})
+            stats = row.find_all("td", {"class" : "ds-min-w-max"})
             point_data["team_id"] = self.teams[team]
             point_data["team"] = team
-            point_data["matches_played"] = stats[0].text
-            point_data["won"] = stats[1].text
-            point_data["lost"] = stats[2].text
-            point_data["tie"] = stats[3].text
-            point_data["no_result"] = stats[4].text
-            point_data["points"] = stats[5].text
-            point_data["NRR"] = stats[6].text
+            point_data["matches_played"] = stats[1].text
+            point_data["won"] = stats[2].text
+            point_data["lost"] = stats[3].text
+            point_data["tie"] = stats[4].text
+            point_data["no_result"] = stats[5].text
+            point_data["points"] = stats[6].text
+            point_data["NRR"] = stats[7].text
             points.append(point_data)
         sorted_team_points = sorted(points, key=lambda x:x["team_id"])
         headers = sorted_team_points[0].keys()
@@ -127,8 +127,8 @@ class Dataset(object):
     def begin(self):
         self.build_team_dataset()
         self.build_points_table_dataset()
-        self.build_squad_dataset()
-        self.build_fixtures_dataset()
+        #self.build_squad_dataset()
+        #self.build_fixtures_dataset()
         # match_ids = self.get_world_cup_match_ids()
         # if match_ids is not None:
         #     self.start_processing(match_ids)
