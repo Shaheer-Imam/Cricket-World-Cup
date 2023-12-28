@@ -42,7 +42,7 @@ class Scrapper(object):
             captain_span = player.find("span", {"class":"ds-text-tight-m ds-font-medium"})
             player_data = {
                 "is_captain": captain_span == None,
-                "player_id": player.find("a", "ds-cursor-pointer").get("href").split("-")[-1]
+                "cricinfo_player_id": player.find("a", "ds-cursor-pointer").get("href").split("-")[-1]
             }
             players.append(player_data)
         return players
