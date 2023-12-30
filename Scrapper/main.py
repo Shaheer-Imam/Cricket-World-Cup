@@ -149,7 +149,11 @@ class Dataset(object):
 
     def build_matches_dataset(self, match_links):
         for match_link in match_links:
-            scrapper = Scrapper(f"https://www.espncricinfo.com{match_link}")
+            main_url = f"https://www.espncricinfo.com{match_link}"
+            playing_xi_url = f"https://www.espncricinfo.com{match_link.replace('full-scorecard', 'match-playing-xi')}"
+            playing_eleven_scrapper = Scrapper(playing_xi_url)
+            playing_xi = playing_eleven_scrapper.scrap_playing_XI()
+            scrapper = Scrapper(main_url)
             scorecards = scrapper.scrap_scorecard()
             for scorecard in scorecards:
                 data = scrapper.scrap_data_from_scorecard(scorecard)

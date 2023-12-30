@@ -58,6 +58,7 @@ class Scrapper(object):
         return scorecard_tables
 
     def scrap_data_from_scorecard(self, scorecard):
+        scores = []
         score_rows = scorecard.find_all("tr", {"class": ""})
         for row in score_rows[:10]:
             is_out = 0
@@ -87,7 +88,22 @@ class Scrapper(object):
                 "dismissal_type": dismissal_type
             }
 
-
+    def scrap_playing_XI(self):
+        main_table = self.html.find("table", "ds-w-full ds-table ds-table-sm ds-table-bordered ds-border-collapse ds-border ds-border-line ds-table-auto ds-bg-fill-content-prime")
+        headings = main_table.find_all("th")
+        team_one = headings[1].text
+        team_two = headings[2].text
+        playing_xi = {
+            team_one: [],
+            team_two: []
+        }
+        tbody = main_table.find("tbody")
+        team_rows = tbody.find_all("tr")
+        for row in team_rows[:11]:
+            player_link = row.find_all("a")
+            playing_xi[team_one].append(player_link[0].text.strip())
+            playing_xi[team_two].append(player_link[1].text.strip())
+        return playing_xi
 
     def get_html(self):
         req = requests.get(self.url)
