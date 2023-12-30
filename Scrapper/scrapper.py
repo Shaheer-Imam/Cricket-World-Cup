@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import re
 
 class Scrapper(object):
     def __init__(self, url):
@@ -51,6 +52,42 @@ class Scrapper(object):
         main_div = self.html.find("div","ds-p-0")
         fixtures_div = main_div.find_all("div",{"class":"ds-p-4"})
         return fixtures_div
+
+    def scrap_scorecard(self):
+        scorecard_tables = self.html.find_all("table", {"class": "ds-w-full ds-table ds-table-md ds-table-auto ci-scorecard-table"})
+        return scorecard_tables
+
+    def scrap_data_from_scorecard(self, scorecard):
+        score_rows = scorecard.find_all("tr", {"class": ""})
+        for row in score_rows[:10]:
+            is_out = 0
+            play_stats = row.find_all("td", {"class": "ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-text-right"})
+            player_name = row.find("span", "ds-text-tight-s ds-font-medium ds-text-typo ds-underline ds-decoration-ui-stroke hover:ds-text-typo-primary hover:ds-decoration-ui-stroke-primary ds-block ds-cursor-pointer").text
+            cleaned_player_name = re.sub(r'\xa0', '', player_name)
+            player_score = row.find("td", "ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-text-right ds-text-typo").text
+            balls_faced = play_stats[0]
+            fours = play_stats[2]
+            sixes = play_stats[3]
+            strike_rate = play_stats[4]
+            out = row.find("span", "ds-flex ds-cursor-pointer ds-items-center")
+            if out:
+                out = 1
+                dismissal_type = out.text
+            else:
+                dismissal_type = "not out"
+
+            data_json = {
+                "player_name": cleaned_player_name,
+                "player_score": player_score,
+                "balls_faced": balls_faced,
+                "fours": fours,
+                "sixes": sixes,
+                "strike_rate": strike_rate,
+                "is_out": out,
+                "dismissal_type": dismissal_type
+            }
+
+
 
     def get_html(self):
         req = requests.get(self.url)

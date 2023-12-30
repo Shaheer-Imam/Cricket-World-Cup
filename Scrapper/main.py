@@ -1,5 +1,6 @@
 from WorldCup.match import Match
 from WorldCup.player import Player
+#from WorldCup.fixture import Fixture
 import csv
 from .scrapper import Scrapper
 import os
@@ -80,6 +81,9 @@ class Dataset(object):
         return teams
 
     def build_squad_dataset(self):
+        if not os.path.exists(os.path.join(os.getcwd(),"Datasets")):
+            os.mkdir("Datasets")
+
         dataset = []
         squads_url = self.scrap_team_squad_url()
         player_id = 1
@@ -104,33 +108,58 @@ class Dataset(object):
         return team_squad_scrapper.get_squad_url()
 
     def build_fixtures_dataset(self):
+        matches = []
+        match_links = []
         fixtures = self.scrap_fixtures()
+        match_date = None
         for match_id, fixture in enumerate(fixtures, 1):
+            #fixture_ = Fixture(fixture, match_id)
             date_str = fixture.find("div", "ds-text-compact-xs ds-font-bold ds-w-24").text
-            date = DateFormatter.convert_date_to_DDMMYY(date_str)
-            match_link = fixture.find("a", "ds-no-tap-higlight")
-            cricinfo_matchid = match_link.get("href").split("/")[-2].split("-")[-1]
-            teams = fixture.find_all("p", {"class": "ds-text-tight-m ds-font-bold ds-capitalize ds-truncate"})
-            team_one_name = teams[0].text
-            team_one_id = self.teams[team_one_name]
-            team_two_name = teams[1].text
-            team_two_id = self.teams[team_two_name]
+            if date_str == '':
+                date_str = match_date
             scores = fixture.find_all("div", {"class": "ds-text-compact-s ds-text-typo ds-text-right ds-whitespace-nowrap"})
-            team_one_score = scores[0].text
-            team_two_score = scores[1].text.split(" ")[-1]
-            result = fixture.find("p", {"class": "ds-text-tight-s ds-font-regular ds-line-clamp-2 ds-text-typo"}).text
-
-
+            teams = fixture.find_all("p", {"class": "ds-text-tight-m ds-font-bold ds-capitalize ds-truncate"})
+            match_link = fixture.find("a", "ds-no-tap-higlight")
+            cricinfo_match_id = match_link.get("href").split("/")[-2].split("-")[-1]
+            json_data = {
+                "match_id": match_id,
+                "cricinfo_matchid": cricinfo_match_id,
+                "date": DateFormatter.convert_date_to_DDMMYY(date_str),
+                "team_one_name": teams[0].text,
+                "team_one_id": self.teams[teams[0].text],
+                "team_two_name": teams[1].text,
+                "team_two_id": self.teams[teams[1].text],
+                "team_one_score": scores[0].text,
+                "team_two_score": scores[1].text.split(" ")[-1],
+                "result": fixture.find("p", {"class": "ds-text-tight-s ds-font-regular ds-line-clamp-2 ds-text-typo"}).text
+            }
+            match_links.append(match_link.get("href"))
+            match_date = date_str
+            matches.append(json_data)
+        headers = matches[0].keys()
+        with open("Datasets/fixtures.csv", 'w', newline='') as csvfile:
+            csv_writer = csv.DictWriter(csvfile, fieldnames=headers)
+            csv_writer.writeheader()
+            csv_writer.writerows(matches)
+        return match_links
 
     def scrap_fixtures(self):
         scrapper = Scrapper(self.fixtures_url)
         return scrapper.scrap_tournament_fixtures()
 
+    def build_matches_dataset(self, match_links):
+        for match_link in match_links:
+            scrapper = Scrapper(f"https://www.espncricinfo.com{match_link}")
+            scorecards = scrapper.scrap_scorecard()
+            for scorecard in scorecards:
+                data = scrapper.scrap_data_from_scorecard(scorecard)
+
     def begin(self):
         self.build_team_dataset()
-        self.build_points_table_dataset()
-        self.build_squad_dataset()
-        #self.build_fixtures_dataset()
+        #self.build_points_table_dataset()
+        #self.build_squad_dataset()
+        match_links = self.build_fixtures_dataset()
+        self.build_matches_dataset(match_links)
         # match_ids = self.get_world_cup_match_ids()
         # if match_ids is not None:
         #     self.start_processing(match_ids)
