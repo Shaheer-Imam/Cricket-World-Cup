@@ -60,7 +60,7 @@ class Scrapper(object):
     def scrap_data_from_scorecard(self, scorecard):
         scores = []
         score_rows = scorecard.find_all("tr", {"class": ""})
-        for row in score_rows[:10]:
+        for row in score_rows[:11]:
             is_out = 0
             play_stats = row.find_all("td", {"class": "ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-text-right"})
             player_name = row.find("span", "ds-text-tight-s ds-font-medium ds-text-typo ds-underline ds-decoration-ui-stroke hover:ds-text-typo-primary hover:ds-decoration-ui-stroke-primary ds-block ds-cursor-pointer").text
