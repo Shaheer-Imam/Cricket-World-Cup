@@ -1,2 +1,6 @@
 __pycache
-idea/
+.idea
+Scrapper/__pycache__/main.cpython-38.pyc
+WorldCup/__pycache__/*
+Utils/__pycache__/*
+__pycache__/*
