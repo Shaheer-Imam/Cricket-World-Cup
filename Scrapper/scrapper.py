@@ -57,7 +57,7 @@ class Scrapper(object):
         scorecard_tables = self.html.find_all("table", {"class": "ds-w-full ds-table ds-table-md ds-table-auto ci-scorecard-table"})
         return scorecard_tables
 
-    def scrap_data_from_scorecard(self, scorecard):
+    def scrap_data_from_scorecard(self, scorecard, match_id, team_id, playing_xi, players_df):
         scores = []
         score_rows = scorecard.find_all("tr", {"class": ""})
         for row in score_rows[:11]:
@@ -65,28 +65,36 @@ class Scrapper(object):
             play_stats = row.find_all("td", {"class": "ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-text-right"})
             player_name = row.find("span", "ds-text-tight-s ds-font-medium ds-text-typo ds-underline ds-decoration-ui-stroke hover:ds-text-typo-primary hover:ds-decoration-ui-stroke-primary ds-block ds-cursor-pointer").text
             cleaned_player_name = re.sub(r'\xa0', '', player_name)
+            player_id = players_df.loc[players_df["name"] == cleaned_player_name, "player_id"].values[0]
             player_score = row.find("td", "ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-text-right ds-text-typo").text
-            balls_faced = play_stats[0]
-            fours = play_stats[2]
-            sixes = play_stats[3]
-            strike_rate = play_stats[4]
-            out = row.find("span", "ds-flex ds-cursor-pointer ds-items-center")
-            if out:
-                out = 1
-                dismissal_type = out.text
+            balls_faced = play_stats[0].text
+            fours = play_stats[2].text
+            sixes = play_stats[3].text
+            strike_rate = play_stats[4].text
+            dismissal = row.find("span", "ds-flex ds-cursor-pointer ds-items-center")
+            if dismissal:
+                is_out = 1
+                dismissal_type = dismissal.text
             else:
                 dismissal_type = "not out"
 
             data_json = {
                 "player_name": cleaned_player_name,
+                "player_id": player_id,
+                "team_id": team_id,
+                "match_id": match_id,
                 "player_score": player_score,
                 "balls_faced": balls_faced,
                 "fours": fours,
                 "sixes": sixes,
                 "strike_rate": strike_rate,
-                "is_out": out,
+                "is_out": is_out,
                 "dismissal_type": dismissal_type
             }
+
+            scores.append(data_json)
+
+        return scores
 
     def scrap_playing_XI(self):
         main_table = self.html.find("table", "ds-w-full ds-table ds-table-sm ds-table-bordered ds-border-collapse ds-border ds-border-line ds-table-auto ds-bg-fill-content-prime")
@@ -104,6 +112,10 @@ class Scrapper(object):
             playing_xi[team_one].append(player_link[0].text.strip())
             playing_xi[team_two].append(player_link[1].text.strip())
         return playing_xi
+
+    def get_team_name_from_scorecard(self, scorecard):
+        team = scorecard.find_parent().find_previous_sibling().find("span", "ds-text-title-xs ds-font-bold ds-capitalize").text
+        return team
 
     def get_html(self):
         req = requests.get(self.url)

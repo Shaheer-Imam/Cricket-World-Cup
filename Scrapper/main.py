@@ -7,6 +7,7 @@ import os
 import json
 from Utils.Constants import Constants
 from Utils.date_formatter import DateFormatter
+import pandas as pd
 class Dataset(object):
     def __init__(self):
         json_data = self.read_config()
@@ -81,6 +82,8 @@ class Dataset(object):
         return teams
 
     def build_squad_dataset(self):
+        teams_df = pd.read_csv(os.path.join(os.getcwd(), "Datasets/teams.csv"))
+
         if not os.path.exists(os.path.join(os.getcwd(),"Datasets")):
             os.mkdir("Datasets")
 
@@ -91,8 +94,9 @@ class Dataset(object):
             url = f"https://www.espncricinfo.com{squad_url}"
             squad_page = Scrapper(url)
             players = squad_page.get_squad_player_ids()
+            team_name = teams_df[teams_df["team_id"] == team_id]["team_name"].to_string(index=False)
             for p in players:
-                player = Player(player_id, p["cricinfo_player_id"], p["is_captain"], team_id)
+                player = Player(player_id, p["cricinfo_player_id"], p["is_captain"], team_id, team_name)
                 player_json = player.toJson()
                 dataset.append(player_json)
                 player_id += 1
@@ -148,7 +152,9 @@ class Dataset(object):
         return scrapper.scrap_tournament_fixtures()
 
     def build_matches_dataset(self, match_links):
-        for match_link in match_links:
+        players_df = pd.read_csv(os.path.join(os.getcwd(),"Datasets/players.csv"))
+        teams_df = pd.read_csv(os.path.join(os.getcwd(), "Datasets/teams.csv"))
+        for match_id, match_link in enumerate(match_links, 1):
             main_url = f"https://www.espncricinfo.com{match_link}"
             playing_xi_url = f"https://www.espncricinfo.com{match_link.replace('full-scorecard', 'match-playing-xi')}"
             playing_eleven_scrapper = Scrapper(playing_xi_url)
@@ -156,7 +162,9 @@ class Dataset(object):
             scrapper = Scrapper(main_url)
             scorecards = scrapper.scrap_scorecard()
             for scorecard in scorecards:
-                data = scrapper.scrap_data_from_scorecard(scorecard)
+                team_name = scrapper.get_team_name_from_scorecard(scorecard)
+                team_id = teams_df.loc[teams_df["team_name"] == team_name, "team_id"].values[0]
+                data = scrapper.scrap_data_from_scorecard(scorecard, match_id, team_id, playing_xi, players_df)
 
     def begin(self):
         self.build_team_dataset()
@@ -164,9 +172,6 @@ class Dataset(object):
         #self.build_squad_dataset()
         match_links = self.build_fixtures_dataset()
         self.build_matches_dataset(match_links)
-        # match_ids = self.get_world_cup_match_ids()
-        # if match_ids is not None:
-        #     self.start_processing(match_ids)
 
     def read_config(self):
         path = os.path.join(os.getcwd(),"config.json")

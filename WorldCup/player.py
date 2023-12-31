@@ -2,10 +2,11 @@ from bs4 import BeautifulSoup
 import requests
 
 class Player(object):
-    def __init__(self, player_id, cricinfo_player_id, is_captain, team_id):
+    def __init__(self, player_id, cricinfo_player_id, is_captain, team_id, team_name):
         self.player_id = player_id
         self.cricinfo_player_id = cricinfo_player_id
         self.team_id = team_id
+        self.team_name = team_name
         self.html_url = f"https://www.espncricinfo.com/player/player-name-{cricinfo_player_id}"
         self.json_url = f"http://core.espnuk.org/v2/sports/cricket/athletes/{cricinfo_player_id}"
         self.html = self.get_html()
@@ -89,6 +90,7 @@ class Player(object):
             "cricinfo_player_id": self.cricinfo_player_id,
             "name": self.name,
             "team_id": self.team_id,
+            "team_name": self.team_name,
             "first_name": self.first_name,
             "last_name": self.last_name,
             "full_name": self.full_name,
