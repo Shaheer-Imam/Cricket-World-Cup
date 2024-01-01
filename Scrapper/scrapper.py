@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import re
+from Utils.utils import Utils
 
 class Scrapper(object):
     def __init__(self, url):
@@ -57,15 +58,17 @@ class Scrapper(object):
         scorecard_tables = self.html.find_all("table", {"class": "ds-w-full ds-table ds-table-md ds-table-auto ci-scorecard-table"})
         return scorecard_tables
 
-    def scrap_data_from_scorecard(self, scorecard, match_id, team_id, playing_xi, players_df):
+    def scrap_data_from_scorecard(self, scorecard, match_id, team_id, team_name, playing_xi, players_df):
         scores = []
-        score_rows = scorecard.find_all("tr", {"class": ""})
-        for row in score_rows[:11]:
+        score_rows = scorecard.find_all("td", class_=["ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-flex ds-items-center", "ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-flex ds-items-center ds-border-line-primary ci-scorecard-player-notout"])
+        for td in score_rows:
+            row = td.find_parent()
+            dnb = 0
             is_out = 0
             play_stats = row.find_all("td", {"class": "ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-text-right"})
             player_name = row.find("span", "ds-text-tight-s ds-font-medium ds-text-typo ds-underline ds-decoration-ui-stroke hover:ds-text-typo-primary hover:ds-decoration-ui-stroke-primary ds-block ds-cursor-pointer").text
-            cleaned_player_name = re.sub(r'\xa0', '', player_name)
-            player_id = players_df.loc[players_df["name"] == cleaned_player_name, "player_id"].values[0]
+            player_name = Utils.clean_text_data_from_name(player_name)
+            player_id = players_df.loc[players_df["name"] == player_name, "player_id"].values[0]
             player_score = row.find("td", "ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-text-right ds-text-typo").text
             balls_faced = play_stats[0].text
             fours = play_stats[2].text
@@ -79,7 +82,7 @@ class Scrapper(object):
                 dismissal_type = "not out"
 
             data_json = {
-                "player_name": cleaned_player_name,
+                "player_name": player_name,
                 "player_id": player_id,
                 "team_id": team_id,
                 "match_id": match_id,
@@ -88,11 +91,35 @@ class Scrapper(object):
                 "fours": fours,
                 "sixes": sixes,
                 "strike_rate": strike_rate,
+                "dnb": dnb,
                 "is_out": is_out,
                 "dismissal_type": dismissal_type
             }
 
             scores.append(data_json)
+
+        # Some batsman did not bat
+        if len(scores) != 11:
+            team_playing_xi = playing_xi[team_name]
+            batsmen = [value for value in team_playing_xi if not any(value in my_dict.values() for my_dict in scores)]
+            for batsman in batsmen:
+                batsman = Utils.clean_text_data_from_name(batsman)
+                player_id = players_df.loc[players_df["name"] == batsman, "player_id"].values[0]
+                data_json = {
+                    "player_name": Utils.clean_text_data_from_name(batsman),
+                    "player_id": player_id,
+                    "team_id": team_id,
+                    "match_id": match_id,
+                    "player_score": 0,
+                    "balls_faced": 0,
+                    "fours": 0,
+                    "sixes": 0,
+                    "strike_rate": 0,
+                    "dnb": 1,
+                    "is_out": 0,
+                    "dismissal_type": None
+                }
+                scores.append(data_json)
 
         return scores
 

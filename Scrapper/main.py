@@ -152,6 +152,7 @@ class Dataset(object):
         return scrapper.scrap_tournament_fixtures()
 
     def build_matches_dataset(self, match_links):
+        scorecard_data = []
         players_df = pd.read_csv(os.path.join(os.getcwd(),"Datasets/players.csv"))
         teams_df = pd.read_csv(os.path.join(os.getcwd(), "Datasets/teams.csv"))
         for match_id, match_link in enumerate(match_links, 1):
@@ -164,12 +165,18 @@ class Dataset(object):
             for scorecard in scorecards:
                 team_name = scrapper.get_team_name_from_scorecard(scorecard)
                 team_id = teams_df.loc[teams_df["team_name"] == team_name, "team_id"].values[0]
-                data = scrapper.scrap_data_from_scorecard(scorecard, match_id, team_id, playing_xi, players_df)
+                data = scrapper.scrap_data_from_scorecard(scorecard, match_id, team_id, team_name, playing_xi, players_df)
+                scorecard_data.extend(data)
+        headers = scorecard_data[0].keys()
+        with open("Datasets/match_scores.csv", 'w', newline='') as csvfile:
+            csv_writer = csv.DictWriter(csvfile, fieldnames=headers)
+            csv_writer.writeheader()
+            csv_writer.writerows(scorecard_data)
 
     def begin(self):
         self.build_team_dataset()
-        #self.build_points_table_dataset()
-        #self.build_squad_dataset()
+        self.build_points_table_dataset()
+        self.build_squad_dataset()
         match_links = self.build_fixtures_dataset()
         self.build_matches_dataset(match_links)
 
