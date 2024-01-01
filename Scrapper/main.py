@@ -177,8 +177,8 @@ class Dataset(object):
         self.build_team_dataset()
         self.build_points_table_dataset()
         self.build_squad_dataset()
-        match_links = self.build_fixtures_dataset()
-        self.build_matches_dataset(match_links)
+        # match_links = self.build_fixtures_dataset()
+        # self.build_matches_dataset(match_links)
 
     def read_config(self):
         path = os.path.join(os.getcwd(),"config.json")

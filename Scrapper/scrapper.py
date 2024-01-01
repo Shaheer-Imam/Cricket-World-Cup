@@ -69,7 +69,7 @@ class Scrapper(object):
             player_name = row.find("span", "ds-text-tight-s ds-font-medium ds-text-typo ds-underline ds-decoration-ui-stroke hover:ds-text-typo-primary hover:ds-decoration-ui-stroke-primary ds-block ds-cursor-pointer").text
             player_name = Utils.clean_text_data_from_name(player_name)
             player_id = players_df.loc[players_df["name"] == player_name, "player_id"].values[0]
-            player_score = row.find("td", "ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-text-right ds-text-typo").text
+            runs = row.find("td", "ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-text-right ds-text-typo").text
             balls_faced = play_stats[0].text
             fours = play_stats[2].text
             sixes = play_stats[3].text
@@ -78,15 +78,22 @@ class Scrapper(object):
             if dismissal:
                 is_out = 1
                 dismissal_type = dismissal.text
+            elif dismissal is None and runs == "-":
+                runs = 0
+                fours = 0
+                sixes = 0
+                strike_rate = 0
+                dnb = 1
+                dismissal_type = "Retired hurt"
             else:
-                dismissal_type = "not out"
+                dismissal_type = None
 
             data_json = {
                 "player_name": player_name,
                 "player_id": player_id,
                 "team_id": team_id,
                 "match_id": match_id,
-                "player_score": player_score,
+                "runs": int(runs),
                 "balls_faced": balls_faced,
                 "fours": fours,
                 "sixes": sixes,
@@ -110,7 +117,7 @@ class Scrapper(object):
                     "player_id": player_id,
                     "team_id": team_id,
                     "match_id": match_id,
-                    "player_score": 0,
+                    "runs": 0,
                     "balls_faced": 0,
                     "fours": 0,
                     "sixes": 0,
