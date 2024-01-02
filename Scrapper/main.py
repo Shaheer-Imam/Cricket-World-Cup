@@ -31,6 +31,7 @@ class Dataset(object):
     def build_team_dataset(self):
         if not os.path.exists(os.path.join(os.getcwd(),"Datasets")):
             os.mkdir("Datasets")
+
         teams_dataset = []
         teams = self.scrap_teams_in_tournament()
         for team_id, team in enumerate(teams,1):
@@ -112,12 +113,17 @@ class Dataset(object):
         return team_squad_scrapper.get_squad_url()
 
     def build_fixtures_dataset(self):
+        teams_df = pd.read_csv(os.path.join(os.getcwd(), "Datasets/teams.csv"))
+        tournament_teams = list(teams_df["team_name"])
         matches = []
         match_links = []
         fixtures = self.scrap_fixtures()
         match_date = None
         for match_id, fixture in enumerate(fixtures, 1):
             #fixture_ = Fixture(fixture, match_id)
+            is_semi_final_one = 0
+            is_semi_final_two = 0
+            is_final = 0
             date_str = fixture.find("div", "ds-text-compact-xs ds-font-bold ds-w-24").text
             if date_str == '':
                 date_str = match_date
@@ -125,9 +131,22 @@ class Dataset(object):
             teams = fixture.find_all("p", {"class": "ds-text-tight-m ds-font-bold ds-capitalize ds-truncate"})
             match_link = fixture.find("a", "ds-no-tap-higlight")
             cricinfo_match_id = match_link.get("href").split("/")[-2].split("-")[-1]
+            result = fixture.find("p", {"class": "ds-text-tight-s ds-font-regular ds-line-clamp-2 ds-text-typo"}).text
+            team_won = next((team for team in tournament_teams if team.lower() in result.lower()), None)
+            team_won_id = self.teams[team_won]
+            match_title = fixture.find("span", "ds-text-tight-s ds-font-medium ds-text-typo").text
+            if "Final (D/N)" in match_title:
+                is_final = 1
+            if "1st Semi Final" in match_title:
+                is_semi_final_one = 1
+            if "2nd Semi Final" in match_title:
+                is_semi_final_two = 1
             json_data = {
                 "match_id": match_id,
                 "cricinfo_matchid": cricinfo_match_id,
+                "semi_final_1": is_semi_final_one,
+                "semi_final_2": is_semi_final_two,
+                "is_final": is_final,
                 "date": DateFormatter.convert_date_to_DDMMYY(date_str),
                 "team_one_name": teams[0].text,
                 "team_one_id": self.teams[teams[0].text],
@@ -135,7 +154,8 @@ class Dataset(object):
                 "team_two_id": self.teams[teams[1].text],
                 "team_one_score": scores[0].text,
                 "team_two_score": scores[1].text.split(" ")[-1],
-                "result": fixture.find("p", {"class": "ds-text-tight-s ds-font-regular ds-line-clamp-2 ds-text-typo"}).text
+                "result": fixture.find("p", {"class": "ds-text-tight-s ds-font-regular ds-line-clamp-2 ds-text-typo"}).text,
+                "team_won_id": team_won_id
             }
             match_links.append(match_link.get("href"))
             match_date = date_str
@@ -177,8 +197,8 @@ class Dataset(object):
         self.build_team_dataset()
         self.build_points_table_dataset()
         self.build_squad_dataset()
-        # match_links = self.build_fixtures_dataset()
-        # self.build_matches_dataset(match_links)
+        match_links = self.build_fixtures_dataset()
+        self.build_matches_dataset(match_links)
 
     def read_config(self):
         path = os.path.join(os.getcwd(),"config.json")
