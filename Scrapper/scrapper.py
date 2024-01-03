@@ -58,6 +58,10 @@ class Scrapper(object):
         scorecard_tables = self.html.find_all("table", {"class": "ds-w-full ds-table ds-table-md ds-table-auto ci-scorecard-table"})
         return scorecard_tables
 
+    def scrap_bowling_scorecard(self):
+        bowling_scorecard = self.html.find_all("table", {"class":"ds-w-full ds-table ds-table-md ds-table-auto"})
+        return bowling_scorecard
+
     def scrap_data_from_scorecard(self, scorecard, match_id, team_id, team_name, playing_xi, players_df):
         scores = []
         score_rows = scorecard.find_all("td", class_=["ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-flex ds-items-center", "ds-w-0 ds-whitespace-nowrap ds-min-w-max ds-flex ds-items-center ds-border-line-primary ci-scorecard-player-notout"])

@@ -182,11 +182,16 @@ class Dataset(object):
             playing_xi = playing_eleven_scrapper.scrap_playing_XI()
             scrapper = Scrapper(main_url)
             scorecards = scrapper.scrap_scorecard()
+            bowling_scorecards = scrapper.scrap_bowling_scorecard()
             for scorecard in scorecards:
                 team_name = scrapper.get_team_name_from_scorecard(scorecard)
                 team_id = teams_df.loc[teams_df["team_name"] == team_name, "team_id"].values[0]
                 data = scrapper.scrap_data_from_scorecard(scorecard, match_id, team_id, team_name, playing_xi, players_df)
                 scorecard_data.extend(data)
+
+            for bowling_scorecard in bowling_scorecards:
+                pass
+
         headers = scorecard_data[0].keys()
         with open("Datasets/match_scores.csv", 'w', newline='') as csvfile:
             csv_writer = csv.DictWriter(csvfile, fieldnames=headers)
@@ -195,10 +200,10 @@ class Dataset(object):
 
     def begin(self):
         self.build_team_dataset()
-        self.build_points_table_dataset()
-        self.build_squad_dataset()
-        match_links = self.build_fixtures_dataset()
-        self.build_matches_dataset(match_links)
+        # self.build_points_table_dataset()
+        # self.build_squad_dataset()
+        # match_links = self.build_fixtures_dataset()
+        # self.build_matches_dataset(match_links)
 
     def read_config(self):
         path = os.path.join(os.getcwd(),"config.json")
