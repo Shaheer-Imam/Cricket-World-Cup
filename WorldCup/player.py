@@ -26,7 +26,7 @@ class Player(object):
         self.is_bowler = self.is_player_bowler()
         self.is_allrounder = self.is_player_allrounder()
         self.is_wicketkeeper = self.get_is_wicketkeeper()
-        self.image_path = f"{os.path.join(os.getcwd(),'static/imgs')}/{self.name}.jpg"
+        self.image_path = f"static/imgs/players/{self.name}.jpg"
 
     def get_html(self):
         req = requests.get(self.html_url)
