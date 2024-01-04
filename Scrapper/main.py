@@ -36,10 +36,12 @@ class Dataset(object):
         teams = self.scrap_teams_in_tournament()
         for team_id, team in enumerate(teams,1):
             team_data = {}
-            self.teams[team.text] = team_id
+            team_name = team.text
+            self.teams[team_name] = team_id
             team_data["team_id"] = team_id
-            team_data["team_name"] = team.text
+            team_data["team_name"] = team_name
             team_data["team_abbreviation"] = Constants.TEAMS[team.text]
+            team_data["flag_img"] = f"static/imgs/flags/{team_name}.jpg"
             teams_dataset.append(team_data)
 
         if self.build_team:
@@ -200,10 +202,10 @@ class Dataset(object):
 
     def begin(self):
         self.build_team_dataset()
-        # self.build_points_table_dataset()
-        # self.build_squad_dataset()
-        # match_links = self.build_fixtures_dataset()
-        # self.build_matches_dataset(match_links)
+        self.build_points_table_dataset()
+        self.build_squad_dataset()
+        match_links = self.build_fixtures_dataset()
+        self.build_matches_dataset(match_links)
 
     def read_config(self):
         path = os.path.join(os.getcwd(),"config.json")

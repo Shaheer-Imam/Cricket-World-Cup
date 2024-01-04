@@ -86,11 +86,15 @@ class Scrapper(object):
                 runs = 0
                 fours = 0
                 sixes = 0
-                strike_rate = 0
+                strike_rate = 0.0
                 dnb = 1
+                balls_faced = 0
                 dismissal_type = "Retired hurt"
             else:
                 dismissal_type = None
+
+            if runs == "0" and balls_faced == "0" and strike_rate == "-":
+                strike_rate = 0.0
 
             data_json = {
                 "player_name": player_name,
@@ -98,10 +102,10 @@ class Scrapper(object):
                 "team_id": team_id,
                 "match_id": match_id,
                 "runs": int(runs),
-                "balls_faced": balls_faced,
+                "balls_faced": int(balls_faced),
                 "fours": fours,
                 "sixes": sixes,
-                "strike_rate": strike_rate,
+                "strike_rate": float(strike_rate),
                 "dnb": dnb,
                 "is_out": is_out,
                 "dismissal_type": dismissal_type
@@ -125,7 +129,7 @@ class Scrapper(object):
                     "balls_faced": 0,
                     "fours": 0,
                     "sixes": 0,
-                    "strike_rate": 0,
+                    "strike_rate": 0.0,
                     "dnb": 1,
                     "is_out": 0,
                     "dismissal_type": None
