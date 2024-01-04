@@ -4,3 +4,5 @@ Scrapper/__pycache__/*
 WorldCup/__pycache__/*
 Utils/__pycache__/*
 __pycache__/*
+Datasets/.~lock*
+EDA/.ipynb_checkpoints/*
