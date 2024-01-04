@@ -3,25 +3,25 @@ Jonny Bairstow,49,4,1,33,35,4,1,94.28,0,1,c Mitchell b Santner
 Dawid Malan,51,4,1,14,24,2,0,58.33,0,1,c †Latham b Henry
 Joe Root,52,4,1,77,86,4,1,89.53,0,1, b Phillips
 Harry Brook,50,4,1,25,16,4,1,156.25,0,1,c Conway b Ravindra
-Moeen Ali,54,4,1,11,17,1,0,64.70,0,1, b Phillips
+Moeen Ali,54,4,1,11,17,1,0,64.7,0,1, b Phillips
 Jos Buttler,48,4,1,43,42,2,2,102.38,0,1,c †Latham b Henry
-Liam Livingstone,57,4,1,20,22,3,0,90.90,0,1,c Henry b Boult
+Liam Livingstone,57,4,1,20,22,3,0,90.9,0,1,c Henry b Boult
 Sam Curran,56,4,1,14,19,0,0,73.68,0,1,c †Latham b Henry
 Chris Woakes,60,4,1,11,12,1,0,91.66,0,1,c Young b Santner
 Adil Rashid,62,4,1,15,13,0,1,115.38,0,0,
 Mark Wood,63,4,1,13,14,0,0,92.85,0,0,
 Devon Conway,100,7,1,152,121,19,3,125.61,0,0,
-Will Young,101,7,1,0,1,0,0,0.00,0,1,c †Buttler b Curran
+Will Young,101,7,1,0,1,0,0,0.0,0,1,c †Buttler b Curran
 Rachin Ravindra,106,7,1,123,96,11,5,128.12,0,0,
-Daryl Mitchell,103,7,1,0,0,0,0,0,1,0,
-Tom Latham,99,7,1,0,0,0,0,0,1,0,
-Glenn Phillips,105,7,1,0,0,0,0,0,1,0,
-Mark Chapman,102,7,1,0,0,0,0,0,1,0,
-James Neesham,104,7,1,0,0,0,0,0,1,0,
-Mitchell Santner,107,7,1,0,0,0,0,0,1,0,
-Matt Henry,113,7,1,0,0,0,0,0,1,0,
-Trent Boult,108,7,1,0,0,0,0,0,1,0,
-Fakhar Zaman,116,8,2,12,15,3,0,80.00,0,1,c & b van Beek
+Daryl Mitchell,103,7,1,0,0,0,0,0.0,1,0,
+Tom Latham,99,7,1,0,0,0,0,0.0,1,0,
+Glenn Phillips,105,7,1,0,0,0,0,0.0,1,0,
+Mark Chapman,102,7,1,0,0,0,0,0.0,1,0,
+James Neesham,104,7,1,0,0,0,0,0.0,1,0,
+Mitchell Santner,107,7,1,0,0,0,0,0.0,1,0,
+Matt Henry,113,7,1,0,0,0,0,0.0,1,0,
+Trent Boult,108,7,1,0,0,0,0,0.0,1,0,
+Fakhar Zaman,116,8,2,12,15,3,0,80.0,0,1,c & b van Beek
 Imam-ul-Haq,118,8,2,15,19,2,0,78.94,0,1,c Dutt b van Meekeren
 Babar Azam,114,8,2,5,18,0,0,27.77,0,1,c Saqib Zulfiqar b Ackermann
 Mohammad Rizwan,119,8,2,68,75,8,0,90.66,0,1, b de Leede
@@ -29,7 +29,7 @@ Saud Shakeel,120,8,2,68,52,9,1,130.76,0,1,c Saqib Zulfiqar b Dutt
 Iftikhar Ahmed,117,8,2,9,11,1,0,81.81,0,1,c †Edwards b de Leede
 Mohammad Nawaz,122,8,2,39,43,4,0,90.69,0,1,run out (van Meekeren/Ackermann)
 Shadab Khan,124,8,2,32,34,2,1,94.11,0,1, b de Leede
-Hasan Ali,126,8,2,0,1,0,0,0.00,0,1,lbw b de Leede
+Hasan Ali,126,8,2,0,1,0,0,0.0,0,1,lbw b de Leede
 Shaheen Shah Afridi,127,8,2,13,12,2,0,108.33,0,0,
 Haris Rauf,125,8,2,16,14,2,1,114.28,0,1,st †Edwards b Ackermann
 Vikramjit Singh,86,6,2,52,67,4,1,77.61,0,1,c Fakhar Zaman b Shadab Khan
@@ -37,267 +37,267 @@ Max O'Dowd,85,6,2,5,12,1,0,41.66,0,1,c Shaheen Shah Afridi b Hasan Ali
 Colin Ackermann,87,6,2,17,21,3,0,80.95,0,1, b Iftikhar Ahmed
 Bas de Leede,88,6,2,67,68,6,2,98.52,0,1, b Mohammad Nawaz
 Teja Nidamanuru,90,6,2,5,9,1,0,55.55,0,1,c Fakhar Zaman b Haris Rauf
-Scott Edwards,82,6,2,0,2,0,0,0.00,0,1,lbw b Haris Rauf
+Scott Edwards,82,6,2,0,2,0,0,0.0,0,1,lbw b Haris Rauf
 Saqib Zulfiqar,91,6,2,10,18,1,0,55.55,0,1,lbw b Shaheen Shah Afridi
 Roelof van der Merwe,92,6,2,4,7,0,0,57.14,0,1,run out (Babar Azam/†Mohammad Rizwan)
-Logan van Beek,95,6,2,28,28,3,1,100.00,0,0,
-Aryan Dutt,93,6,2,1,2,0,0,50.00,0,1, b Hasan Ali
+Logan van Beek,95,6,2,28,28,3,1,100.0,0,0,
+Aryan Dutt,93,6,2,1,2,0,0,50.0,0,1, b Hasan Ali
 Paul van Meekeren,96,6,2,7,12,1,0,58.33,0,1, b Haris Rauf
-Rahmanullah Gurbaz,5,1,3,47,62,4,1,75.80,0,1,c Tanzid Hasan b Mustafizur Rahman
-Ibrahim Zadran,2,1,3,22,25,3,1,88.00,0,1,c Tanzid Hasan b Shakib Al Hasan
-Rahmat Shah,9,1,3,18,25,1,0,72.00,0,1,c Litton Das b Shakib Al Hasan
+Rahmanullah Gurbaz,5,1,3,47,62,4,1,75.8,0,1,c Tanzid Hasan b Mustafizur Rahman
+Ibrahim Zadran,2,1,3,22,25,3,1,88.0,0,1,c Tanzid Hasan b Shakib Al Hasan
+Rahmat Shah,9,1,3,18,25,1,0,72.0,0,1,c Litton Das b Shakib Al Hasan
 Hashmatullah Shahidi,1,1,3,18,38,2,0,47.36,0,1,c Towhid Hridoy b Mehidy Hasan Miraz
 Najibullah Zadran,4,1,3,5,13,0,0,38.46,0,1, b Shakib Al Hasan
-Mohammad Nabi,8,1,3,6,12,0,0,50.00,0,1, b Taskin Ahmed
-Azmatullah Omarzai,7,1,3,22,20,4,0,110.00,0,1, b Shoriful Islam
+Mohammad Nabi,8,1,3,6,12,0,0,50.0,0,1, b Taskin Ahmed
+Azmatullah Omarzai,7,1,3,22,20,4,0,110.0,0,1, b Shoriful Islam
 Rashid Khan,10,1,3,9,16,1,0,56.25,0,1, b Mehidy Hasan Miraz
-Mujeeb Ur Rahman,13,1,3,1,4,0,0,25.00,0,1, b Mehidy Hasan Miraz
-Naveen-ul-Haq,14,1,3,0,6,0,0,0.00,0,1,c Towhid Hridoy b Shoriful Islam
-Fazalhaq Farooqi,12,1,3,0,3,0,0,0.00,0,0,
+Mujeeb Ur Rahman,13,1,3,1,4,0,0,25.0,0,1, b Mehidy Hasan Miraz
+Naveen-ul-Haq,14,1,3,0,6,0,0,0.0,0,1,c Towhid Hridoy b Shoriful Islam
+Fazalhaq Farooqi,12,1,3,0,3,0,0,0.0,0,0,
 Tanzid Hasan,36,3,3,5,13,1,0,38.46,0,1,run out (Najibullah Zadran)
 Litton Das,34,3,3,13,18,2,0,72.22,0,1, b Fazalhaq Farooqi
 Mehidy Hasan Miraz,40,3,3,57,73,5,0,78.08,0,1,c Rahmat Shah b Naveen-ul-Haq
 Najmul Hossain Shanto,32,3,3,59,83,3,1,71.08,0,0,
 Shakib Al Hasan,41,3,3,14,19,2,0,73.68,0,1,c Fazalhaq Farooqi b Azmatullah Omarzai
 Mushfiqur Rahim,35,3,3,2,3,0,0,66.66,0,0,
-Shakib Al Hasan,41,3,3,0,0,0,0,0,1,0,
-Mushfiqur Rahim,35,3,3,0,0,0,0,0,1,0,
-Towhid Hridoy,37,3,3,0,0,0,0,0,1,0,
-Mahmudullah,39,3,3,0,0,0,0,0,1,0,
-Taskin Ahmed,47,3,3,0,0,0,0,0,1,0,
-Shoriful Islam,45,3,3,0,0,0,0,0,1,0,
-Mustafizur Rahman,43,3,3,0,0,0,0,0,1,0,
+Shakib Al Hasan,41,3,3,0,0,0,0,0.0,1,0,
+Mushfiqur Rahim,35,3,3,0,0,0,0,0.0,1,0,
+Towhid Hridoy,37,3,3,0,0,0,0,0.0,1,0,
+Mahmudullah,39,3,3,0,0,0,0,0.0,1,0,
+Taskin Ahmed,47,3,3,0,0,0,0,0.0,1,0,
+Shoriful Islam,45,3,3,0,0,0,0,0.0,1,0,
+Mustafizur Rahman,43,3,3,0,0,0,0,0.0,1,0,
 Quinton de Kock,130,9,4,100,84,12,3,119.04,0,1,c de Silva b Pathirana
-Temba Bavuma,129,9,4,8,5,2,0,160.00,0,1,lbw b Madushanka
+Temba Bavuma,129,9,4,8,5,2,0,160.0,0,1,lbw b Madushanka
 Rassie van der Dussen,135,9,4,108,110,13,2,98.18,0,1,c Samarawickrama b Wellalage
 Aiden Markram,133,9,4,106,54,14,3,196.29,0,1,c Rajitha b Madushanka
-Heinrich Klaasen,132,9,4,32,20,1,3,160.00,0,1,c Shanaka b Rajitha
+Heinrich Klaasen,132,9,4,32,20,1,3,160.0,0,1,c Shanaka b Rajitha
 David Miller,134,9,4,39,21,3,2,185.71,0,0,
 Marco Jansen,136,9,4,12,7,0,1,171.42,0,0,
-Quinton de Kock,130,9,4,0,0,0,0,0,1,0,
-Temba Bavuma,129,9,4,0,0,0,0,0,1,0,
-Gerald Coetzee,138,9,4,0,0,0,0,0,1,0,
-Keshav Maharaj,139,9,4,0,0,0,0,0,1,0,
-Kagiso Rabada,141,9,4,0,0,0,0,0,1,0,
-Lungi Ngidi,140,9,4,0,0,0,0,0,1,0,
-Pathum Nissanka,148,10,4,0,3,0,0,0.00,0,1, b Jansen
+Quinton de Kock,130,9,4,0,0,0,0,0.0,1,0,
+Temba Bavuma,129,9,4,0,0,0,0,0.0,1,0,
+Gerald Coetzee,138,9,4,0,0,0,0,0.0,1,0,
+Keshav Maharaj,139,9,4,0,0,0,0,0.0,1,0,
+Kagiso Rabada,141,9,4,0,0,0,0,0.0,1,0,
+Lungi Ngidi,140,9,4,0,0,0,0,0.0,1,0,
+Pathum Nissanka,148,10,4,0,3,0,0,0.0,0,1, b Jansen
 Kusal Perera,149,10,4,7,15,1,0,46.66,0,1, b Jansen
 Kusal Mendis,146,10,4,76,42,4,8,180.95,0,1,c †Klaasen b Rabada
 Sadeera Samarawickrama,150,10,4,23,19,3,1,121.05,0,1,c Jansen b Coetzee
 Charith Asalanka,151,10,4,79,65,8,4,121.53,0,1,c sub (RR Hendricks) b Ngidi
 Dhananjaya de Silva,152,10,4,11,14,1,0,78.57,0,1,c sub (AL Phehlukwayo) b Maharaj
 Dasun Shanaka,156,10,4,68,62,6,3,109.67,0,1, b Maharaj
-Dunith Wellalage,161,10,4,0,1,0,0,0.00,0,1,c †Klaasen b Coetzee
+Dunith Wellalage,161,10,4,0,1,0,0,0.0,0,1,c †Klaasen b Coetzee
 Kasun Rajitha,159,10,4,33,31,4,1,106.45,0,1,c Markram b Coetzee
 Matheesha Pathirana,163,10,4,5,16,1,0,31.25,0,1, b Rabada
-Dilshan Madushanka,158,10,4,4,2,1,0,200.00,0,0,
+Dilshan Madushanka,158,10,4,4,2,1,0,200.0,0,0,
 David Warner,21,2,5,41,52,6,0,78.84,0,1,c & b Kuldeep Yadav
-Mitchell Marsh,24,2,5,0,6,0,0,0.00,0,1,c Kohli b Bumrah
+Mitchell Marsh,24,2,5,0,6,0,0,0.0,0,1,c Kohli b Bumrah
 Steven Smith,20,2,5,46,71,5,0,64.78,0,1, b Jadeja
 Marnus Labuschagne,19,2,5,27,41,1,0,65.85,0,1,c †Rahul b Jadeja
-Glenn Maxwell,25,2,5,15,25,1,0,60.00,0,1, b Kuldeep Yadav
-Alex Carey,16,2,5,0,2,0,0,0.00,0,1,lbw b Jadeja
-Cameron Green,23,2,5,8,20,0,0,40.00,0,1,c Pandya b Ashwin
-Pat Cummins,27,2,5,15,24,1,1,62.50,0,1,c Iyer b Bumrah
-Mitchell Starc,29,2,5,28,35,2,1,80.00,0,1,c Iyer b Mohammed Siraj
-Adam Zampa,30,2,5,6,20,0,0,30.00,0,1,c Kohli b Pandya
-Josh Hazlewood,28,2,5,1,1,0,0,100.00,0,0,
-Rohit Sharma,65,5,5,0,6,0,0,0.00,0,1,lbw b Hazlewood
-Ishan Kishan,66,5,5,0,1,0,0,0.00,0,1,c Green b Starc
+Glenn Maxwell,25,2,5,15,25,1,0,60.0,0,1, b Kuldeep Yadav
+Alex Carey,16,2,5,0,2,0,0,0.0,0,1,lbw b Jadeja
+Cameron Green,23,2,5,8,20,0,0,40.0,0,1,c Pandya b Ashwin
+Pat Cummins,27,2,5,15,24,1,1,62.5,0,1,c Iyer b Bumrah
+Mitchell Starc,29,2,5,28,35,2,1,80.0,0,1,c Iyer b Mohammed Siraj
+Adam Zampa,30,2,5,6,20,0,0,30.0,0,1,c Kohli b Pandya
+Josh Hazlewood,28,2,5,1,1,0,0,100.0,0,0,
+Rohit Sharma,65,5,5,0,6,0,0,0.0,0,1,lbw b Hazlewood
+Ishan Kishan,66,5,5,0,1,0,0,0.0,0,1,c Green b Starc
 Virat Kohli,68,5,5,85,116,6,0,73.27,0,1,c Labuschagne b Hazlewood
-Shreyas Iyer,67,5,5,0,3,0,0,0.00,0,1,c Warner b Hazlewood
+Shreyas Iyer,67,5,5,0,3,0,0,0.0,0,1,c Warner b Hazlewood
 KL Rahul,69,5,5,97,115,8,2,84.34,0,0,
-Hardik Pandya,74,5,5,11,8,0,1,137.50,0,0,
-Rohit Sharma,65,5,5,0,0,0,0,0,1,0,
-KL Rahul,69,5,5,0,0,0,0,0,1,0,
-Ravindra Jadeja,73,5,5,0,0,0,0,0,1,0,
-Ravichandran Ashwin,72,5,5,0,0,0,0,0,1,0,
-Kuldeep Yadav,77,5,5,0,0,0,0,0,1,0,
-Jasprit Bumrah,76,5,5,0,0,0,0,0,1,0,
-Mohammed Siraj,79,5,5,0,0,0,0,0,1,0,
-Devon Conway,100,7,6,32,40,5,1,80.00,0,1,c de Leede b van der Merwe
-Will Young,101,7,6,70,80,7,2,87.50,0,1,c de Leede b van Meekeren
-Rachin Ravindra,106,7,6,51,51,3,1,100.00,0,1,c †Edwards b van der Merwe
+Hardik Pandya,74,5,5,11,8,0,1,137.5,0,0,
+Rohit Sharma,65,5,5,0,0,0,0,0.0,1,0,
+KL Rahul,69,5,5,0,0,0,0,0.0,1,0,
+Ravindra Jadeja,73,5,5,0,0,0,0,0.0,1,0,
+Ravichandran Ashwin,72,5,5,0,0,0,0,0.0,1,0,
+Kuldeep Yadav,77,5,5,0,0,0,0,0.0,1,0,
+Jasprit Bumrah,76,5,5,0,0,0,0,0.0,1,0,
+Mohammed Siraj,79,5,5,0,0,0,0,0.0,1,0,
+Devon Conway,100,7,6,32,40,5,1,80.0,0,1,c de Leede b van der Merwe
+Will Young,101,7,6,70,80,7,2,87.5,0,1,c de Leede b van Meekeren
+Rachin Ravindra,106,7,6,51,51,3,1,100.0,0,1,c †Edwards b van der Merwe
 Daryl Mitchell,103,7,6,48,47,5,2,102.12,0,1, b van Meekeren
 Tom Latham,99,7,6,53,46,6,1,115.21,0,1,st †Edwards b Dutt
-Glenn Phillips,105,7,6,4,4,1,0,100.00,0,1,c †Edwards b de Leede
+Glenn Phillips,105,7,6,4,4,1,0,100.0,0,1,c †Edwards b de Leede
 Mark Chapman,102,7,6,5,13,0,0,38.46,0,1,c van der Merwe b Dutt
 Mitchell Santner,107,7,6,36,17,3,2,211.76,0,0,
-Matt Henry,113,7,6,10,4,0,1,250.00,0,0,
-Tom Latham,99,7,6,0,0,0,0,0,1,0,
-Lockie Ferguson,109,7,6,0,0,0,0,0,1,0,
-Trent Boult,108,7,6,0,0,0,0,0,1,0,
-Vikramjit Singh,86,6,6,12,20,1,0,60.00,0,1, b Henry
+Matt Henry,113,7,6,10,4,0,1,250.0,0,0,
+Tom Latham,99,7,6,0,0,0,0,0.0,1,0,
+Lockie Ferguson,109,7,6,0,0,0,0,0.0,1,0,
+Trent Boult,108,7,6,0,0,0,0,0.0,1,0,
+Vikramjit Singh,86,6,6,12,20,1,0,60.0,0,1, b Henry
 Max O'Dowd,85,6,6,16,31,2,0,51.61,0,1,lbw b Santner
 Colin Ackermann,87,6,6,69,73,5,0,94.52,0,1,c Henry b Santner
-Bas de Leede,88,6,6,18,25,3,0,72.00,0,1,c Boult b Ravindra
+Bas de Leede,88,6,6,18,25,3,0,72.0,0,1,c Boult b Ravindra
 Teja Nidamanuru,90,6,6,21,26,2,1,80.76,0,1,run out (Ferguson/†Latham)
 Scott Edwards,82,6,6,30,27,2,1,111.11,0,1,c & b Santner
 Sybrand Engelbrecht,89,6,6,29,34,3,0,85.29,0,1,c Conway b Henry
 Roelof van der Merwe,92,6,6,1,6,0,0,16.66,0,1,c Henry b Santner
 Ryan Klein,97,6,6,8,15,0,0,53.33,0,1,lbw b Santner
-Aryan Dutt,93,6,6,11,20,0,1,55.00,0,1, b Henry
+Aryan Dutt,93,6,6,11,20,0,1,55.0,0,1, b Henry
 Paul van Meekeren,96,6,6,4,3,1,0,133.33,0,0,
 Jonny Bairstow,49,4,7,52,59,8,0,88.13,0,1, b Shakib Al Hasan
 Dawid Malan,51,4,7,140,107,16,5,130.84,0,1, b Mahedi Hasan
 Joe Root,52,4,7,82,68,8,1,120.58,0,1,c †Mushfiqur Rahim b Shoriful Islam
-Jos Buttler,48,4,7,20,10,1,1,200.00,0,1, b Shoriful Islam
+Jos Buttler,48,4,7,20,10,1,1,200.0,0,1, b Shoriful Islam
 Harry Brook,50,4,7,20,15,3,0,133.33,0,1,c Litton Das b Mahedi Hasan
-Liam Livingstone,57,4,7,0,1,0,0,0.00,0,1, b Shoriful Islam
+Liam Livingstone,57,4,7,0,1,0,0,0.0,0,1, b Shoriful Islam
 Sam Curran,56,4,7,11,15,1,0,73.33,0,1,c Najmul Hossain Shanto b Mahedi Hasan
 Chris Woakes,60,4,7,14,11,2,0,127.27,0,1,c Mahedi Hasan b Taskin Ahmed
 Adil Rashid,62,4,7,11,7,1,0,157.14,0,1,c Najmul Hossain Shanto b Mahedi Hasan
-Mark Wood,63,4,7,6,5,1,0,120.00,0,0,
-Reece Topley,64,4,7,1,2,0,0,50.00,0,0,
+Mark Wood,63,4,7,6,5,1,0,120.0,0,0,
+Reece Topley,64,4,7,1,2,0,0,50.0,0,0,
 Litton Das,34,3,7,76,66,7,2,115.15,0,1,c †Buttler b Woakes
-Tanzid Hasan,36,3,7,1,2,0,0,50.00,0,1,c Bairstow b Topley
-Najmul Hossain Shanto,32,3,7,0,1,0,0,0.00,0,1,c Livingstone b Topley
+Tanzid Hasan,36,3,7,1,2,0,0,50.0,0,1,c Bairstow b Topley
+Najmul Hossain Shanto,32,3,7,0,1,0,0,0.0,0,1,c Livingstone b Topley
 Shakib Al Hasan,41,3,7,1,9,0,0,11.11,0,1, b Topley
 Mehidy Hasan Miraz,40,3,7,8,7,1,0,114.28,0,1,c †Buttler b Woakes
 Mushfiqur Rahim,35,3,7,51,64,4,0,79.68,0,1,c Rashid b Topley
 Towhid Hridoy,37,3,7,39,61,2,0,63.93,0,1,c †Buttler b Livingstone
 Mahedi Hasan,38,3,7,14,32,1,0,43.75,0,1, b Rashid
-Taskin Ahmed,47,3,7,15,25,0,1,60.00,0,1, b Curran
+Taskin Ahmed,47,3,7,15,25,0,1,60.0,0,1, b Curran
 Shoriful Islam,45,3,7,12,14,2,0,85.71,0,1, b Wood
 Mustafizur Rahman,43,3,7,3,9,0,0,33.33,0,0,
-Pathum Nissanka,148,10,8,51,61,7,1,83.60,0,1,c Abdullah Shafique b Shadab Khan
-Kusal Perera,149,10,8,0,4,0,0,0.00,0,1,c †Mohammad Rizwan b Hasan Ali
+Pathum Nissanka,148,10,8,51,61,7,1,83.6,0,1,c Abdullah Shafique b Shadab Khan
+Kusal Perera,149,10,8,0,4,0,0,0.0,0,1,c †Mohammad Rizwan b Hasan Ali
 Kusal Mendis,146,10,8,122,77,14,6,158.44,0,1,c Imam-ul-Haq b Hasan Ali
 Sadeera Samarawickrama,150,10,8,108,89,11,2,121.34,0,1,c †Mohammad Rizwan b Hasan Ali
 Charith Asalanka,151,10,8,1,3,0,0,33.33,0,1,c †Mohammad Rizwan b Hasan Ali
 Dhananjaya de Silva,152,10,8,25,34,3,0,73.52,0,1,c Shaheen Shah Afridi b Mohammad Nawaz
 Dasun Shanaka,156,10,8,12,18,0,0,66.66,0,1,c Babar Azam b Shaheen Shah Afridi
-Dunith Wellalage,161,10,8,10,8,1,0,125.00,0,1,c Abdullah Shafique b Haris Rauf
-Maheesh Theekshana,160,10,8,0,4,0,0,0.00,0,1, b Haris Rauf
+Dunith Wellalage,161,10,8,10,8,1,0,125.0,0,1,c Abdullah Shafique b Haris Rauf
+Maheesh Theekshana,160,10,8,0,4,0,0,0.0,0,1, b Haris Rauf
 Matheesha Pathirana,163,10,8,1,3,0,0,33.33,0,0,
-Kusal Mendis,146,10,8,0,0,0,0,0,1,0,
-Dasun Shanaka,156,10,8,0,0,0,0,0,1,0,
-Dilshan Madushanka,158,10,8,0,0,0,0,0,1,0,
-Abdullah Shafique,115,8,8,113,103,10,3,109.70,0,1,c sub (MADI Hemantha) b Pathirana
-Imam-ul-Haq,118,8,8,12,12,1,0,100.00,0,1,c Perera b Madushanka
+Kusal Mendis,146,10,8,0,0,0,0,0.0,1,0,
+Dasun Shanaka,156,10,8,0,0,0,0,0.0,1,0,
+Dilshan Madushanka,158,10,8,0,0,0,0,0.0,1,0,
+Abdullah Shafique,115,8,8,113,103,10,3,109.7,0,1,c sub (MADI Hemantha) b Pathirana
+Imam-ul-Haq,118,8,8,12,12,1,0,100.0,0,1,c Perera b Madushanka
 Babar Azam,114,8,8,10,15,1,0,66.66,0,1,c †Samarawickrama b Madushanka
 Mohammad Rizwan,119,8,8,131,121,8,3,108.26,0,0,
 Saud Shakeel,120,8,8,31,30,2,0,103.33,0,1,c Wellalage b Theekshana
-Iftikhar Ahmed,117,8,8,22,10,4,0,220.00,0,0,
-Babar Azam,114,8,8,0,0,0,0,0,1,0,
-Mohammad Rizwan,119,8,8,0,0,0,0,0,1,0,
-Shadab Khan,124,8,8,0,0,0,0,0,1,0,
-Mohammad Nawaz,122,8,8,0,0,0,0,0,1,0,
-Hasan Ali,126,8,8,0,0,0,0,0,1,0,
-Shaheen Shah Afridi,127,8,8,0,0,0,0,0,1,0,
-Haris Rauf,125,8,8,0,0,0,0,0,1,0,
-Rahmanullah Gurbaz,5,1,9,21,28,3,1,75.00,0,1,c Thakur b Pandya
+Iftikhar Ahmed,117,8,8,22,10,4,0,220.0,0,0,
+Babar Azam,114,8,8,0,0,0,0,0.0,1,0,
+Mohammad Rizwan,119,8,8,0,0,0,0,0.0,1,0,
+Shadab Khan,124,8,8,0,0,0,0,0.0,1,0,
+Mohammad Nawaz,122,8,8,0,0,0,0,0.0,1,0,
+Hasan Ali,126,8,8,0,0,0,0,0.0,1,0,
+Shaheen Shah Afridi,127,8,8,0,0,0,0,0.0,1,0,
+Haris Rauf,125,8,8,0,0,0,0,0.0,1,0,
+Rahmanullah Gurbaz,5,1,9,21,28,3,1,75.0,0,1,c Thakur b Pandya
 Ibrahim Zadran,2,1,9,22,28,4,0,78.57,0,1,c †Rahul b Bumrah
 Rahmat Shah,9,1,9,16,22,3,0,72.72,0,1,lbw b Thakur
-Hashmatullah Shahidi,1,1,9,80,88,8,1,90.90,0,1,lbw b Kuldeep Yadav
+Hashmatullah Shahidi,1,1,9,80,88,8,1,90.9,0,1,lbw b Kuldeep Yadav
 Azmatullah Omarzai,7,1,9,62,69,2,4,89.85,0,1, b Pandya
 Mohammad Nabi,8,1,9,19,27,1,0,70.37,0,1,lbw b Bumrah
-Najibullah Zadran,4,1,9,2,8,0,0,25.00,0,1,c Kohli b Bumrah
+Najibullah Zadran,4,1,9,2,8,0,0,25.0,0,1,c Kohli b Bumrah
 Rashid Khan,10,1,9,16,12,1,1,133.33,0,1,c Kuldeep Yadav b Bumrah
 Mujeeb Ur Rahman,13,1,9,10,12,2,0,83.33,0,0,
-Naveen-ul-Haq,14,1,9,9,8,1,0,112.50,0,0,
-Rahmanullah Gurbaz,5,1,9,0,0,0,0,0,1,0,
-Hashmatullah Shahidi,1,1,9,0,0,0,0,0,1,0,
-Fazalhaq Farooqi,12,1,9,0,0,0,0,0,1,0,
+Naveen-ul-Haq,14,1,9,9,8,1,0,112.5,0,0,
+Rahmanullah Gurbaz,5,1,9,0,0,0,0,0.0,1,0,
+Hashmatullah Shahidi,1,1,9,0,0,0,0,0.0,1,0,
+Fazalhaq Farooqi,12,1,9,0,0,0,0,0.0,1,0,
 Rohit Sharma,65,5,9,131,84,16,5,155.95,0,1, b Rashid Khan
-Ishan Kishan,66,5,9,47,47,5,2,100.00,0,1,c Ibrahim Zadran b Rashid Khan
+Ishan Kishan,66,5,9,47,47,5,2,100.0,0,1,c Ibrahim Zadran b Rashid Khan
 Virat Kohli,68,5,9,55,56,6,0,98.21,0,0,
 Shreyas Iyer,67,5,9,25,23,1,1,108.69,0,0,
-Rohit Sharma,65,5,9,0,0,0,0,0,1,0,
-KL Rahul,69,5,9,0,0,0,0,0,1,0,
-Hardik Pandya,74,5,9,0,0,0,0,0,1,0,
-Ravindra Jadeja,73,5,9,0,0,0,0,0,1,0,
-Shardul Thakur,81,5,9,0,0,0,0,0,1,0,
-Kuldeep Yadav,77,5,9,0,0,0,0,0,1,0,
-Jasprit Bumrah,76,5,9,0,0,0,0,0,1,0,
-Mohammed Siraj,79,5,9,0,0,0,0,0,1,0,
+Rohit Sharma,65,5,9,0,0,0,0,0.0,1,0,
+KL Rahul,69,5,9,0,0,0,0,0.0,1,0,
+Hardik Pandya,74,5,9,0,0,0,0,0.0,1,0,
+Ravindra Jadeja,73,5,9,0,0,0,0,0.0,1,0,
+Shardul Thakur,81,5,9,0,0,0,0,0.0,1,0,
+Kuldeep Yadav,77,5,9,0,0,0,0,0.0,1,0,
+Jasprit Bumrah,76,5,9,0,0,0,0,0.0,1,0,
+Mohammed Siraj,79,5,9,0,0,0,0,0.0,1,0,
 Quinton de Kock,130,9,10,109,106,8,5,102.83,0,1, b Maxwell
 Temba Bavuma,129,9,10,35,55,2,0,63.63,0,1,c Warner b Maxwell
 Rassie van der Dussen,135,9,10,26,30,2,0,86.66,0,1,c sub (SA Abbott) b Zampa
 Aiden Markram,133,9,10,56,44,7,1,127.27,0,1,c Hazlewood b Cummins
-Heinrich Klaasen,132,9,10,29,27,3,0,107.40,0,1,c †Inglis b Hazlewood
+Heinrich Klaasen,132,9,10,29,27,3,0,107.4,0,1,c †Inglis b Hazlewood
 David Miller,134,9,10,17,13,1,1,130.76,0,1, b Starc
 Marco Jansen,136,9,10,26,22,3,1,118.18,0,1,c Warner b Starc
-Kagiso Rabada,141,9,10,0,1,0,0,0.00,0,0,
-Keshav Maharaj,139,9,10,0,2,0,0,0.00,0,0,
-Quinton de Kock,130,9,10,0,0,0,0,0,1,0,
-Temba Bavuma,129,9,10,0,0,0,0,0,1,0,
-Lungi Ngidi,140,9,10,0,0,0,0,0,1,0,
-Tabraiz Shamsi,142,9,10,0,0,0,0,0,1,0,
+Kagiso Rabada,141,9,10,0,1,0,0,0.0,0,0,
+Keshav Maharaj,139,9,10,0,2,0,0,0.0,0,0,
+Quinton de Kock,130,9,10,0,0,0,0,0.0,1,0,
+Temba Bavuma,129,9,10,0,0,0,0,0.0,1,0,
+Lungi Ngidi,140,9,10,0,0,0,0,0.0,1,0,
+Tabraiz Shamsi,142,9,10,0,0,0,0,0.0,1,0,
 Mitchell Marsh,24,2,10,7,15,0,0,46.66,0,1,c Bavuma b Jansen
 David Warner,21,2,10,13,27,2,0,48.14,0,1,c van der Dussen b Ngidi
 Steven Smith,20,2,10,19,16,4,0,118.75,0,1,lbw b Rabada
 Marnus Labuschagne,19,2,10,46,74,3,0,62.16,0,1,c Bavuma b Maharaj
-Josh Inglis,18,2,10,5,4,1,0,125.00,0,1, b Rabada
+Josh Inglis,18,2,10,5,4,1,0,125.0,0,1, b Rabada
 Glenn Maxwell,25,2,10,3,17,0,0,17.64,0,1,c & b Maharaj
-Marcus Stoinis,26,2,10,5,4,1,0,125.00,0,1,c †de Kock b Rabada
+Marcus Stoinis,26,2,10,5,4,1,0,125.0,0,1,c †de Kock b Rabada
 Mitchell Starc,29,2,10,27,51,3,0,52.94,0,1,c †de Kock b Jansen
 Pat Cummins,27,2,10,22,21,4,0,104.76,0,1,c Miller b Shamsi
 Adam Zampa,30,2,10,11,16,1,0,68.75,0,0,
-Josh Hazlewood,28,2,10,2,2,0,0,100.00,0,1,c Rabada b Shamsi
-Litton Das,34,3,11,0,1,0,0,0.00,0,1,c Henry b Boult
+Josh Hazlewood,28,2,10,2,2,0,0,100.0,0,1,c Rabada b Shamsi
+Litton Das,34,3,11,0,1,0,0,0.0,0,1,c Henry b Boult
 Tanzid Hasan,36,3,11,16,17,4,0,94.11,0,1,c Conway b Ferguson
 Mehidy Hasan Miraz,40,3,11,30,46,4,0,65.21,0,1,c Henry b Ferguson
-Najmul Hossain Shanto,32,3,11,7,8,1,0,87.50,0,1,c Conway b Phillips
+Najmul Hossain Shanto,32,3,11,7,8,1,0,87.5,0,1,c Conway b Phillips
 Shakib Al Hasan,41,3,11,40,51,3,2,78.43,0,1,c †Latham b Ferguson
-Mushfiqur Rahim,35,3,11,66,75,6,2,88.00,0,1, b Henry
-Towhid Hridoy,37,3,11,13,25,0,0,52.00,0,1,c Santner b Boult
+Mushfiqur Rahim,35,3,11,66,75,6,2,88.0,0,1, b Henry
+Towhid Hridoy,37,3,11,13,25,0,0,52.0,0,1,c Santner b Boult
 Mahmudullah,39,3,11,41,49,2,2,83.67,0,0,
 Taskin Ahmed,47,3,11,17,19,0,2,89.47,0,1,c Mitchell b Santner
-Mustafizur Rahman,43,3,11,4,10,0,0,40.00,0,1,c †Latham b Henry
+Mustafizur Rahman,43,3,11,4,10,0,0,40.0,0,1,c †Latham b Henry
 Shoriful Islam,45,3,11,2,3,0,0,66.66,0,0,
 Devon Conway,100,7,11,45,59,3,0,76.27,0,1,lbw b Shakib Al Hasan
 Rachin Ravindra,106,7,11,9,13,2,0,69.23,0,1,c †Mushfiqur Rahim b Mustafizur Rahman
 Kane Williamson,98,7,11,78,107,8,1,72.89,0,0,
 Daryl Mitchell,103,7,11,89,67,6,4,132.83,0,0,
 Glenn Phillips,105,7,11,16,11,1,1,145.45,0,0,
-Kane Williamson,98,7,11,0,0,0,0,0,1,0,
-Tom Latham,99,7,11,0,0,0,0,0,1,0,
-Mark Chapman,102,7,11,0,0,0,0,0,1,0,
-Mitchell Santner,107,7,11,0,0,0,0,0,1,0,
-Matt Henry,113,7,11,0,0,0,0,0,1,0,
-Lockie Ferguson,109,7,11,0,0,0,0,0,1,0,
-Trent Boult,108,7,11,0,0,0,0,0,1,0,
+Kane Williamson,98,7,11,0,0,0,0,0.0,1,0,
+Tom Latham,99,7,11,0,0,0,0,0.0,1,0,
+Mark Chapman,102,7,11,0,0,0,0,0.0,1,0,
+Mitchell Santner,107,7,11,0,0,0,0,0.0,1,0,
+Matt Henry,113,7,11,0,0,0,0,0.0,1,0,
+Lockie Ferguson,109,7,11,0,0,0,0,0.0,1,0,
+Trent Boult,108,7,11,0,0,0,0,0.0,1,0,
 Abdullah Shafique,115,8,12,20,24,3,0,83.33,0,1,lbw b Mohammed Siraj
 Imam-ul-Haq,118,8,12,36,38,6,0,94.73,0,1,c †Rahul b Pandya
-Babar Azam,114,8,12,50,58,7,0,86.20,0,1, b Mohammed Siraj
+Babar Azam,114,8,12,50,58,7,0,86.2,0,1, b Mohammed Siraj
 Mohammad Rizwan,119,8,12,49,69,7,0,71.01,0,1, b Bumrah
-Saud Shakeel,120,8,12,6,10,0,0,60.00,0,1,lbw b Kuldeep Yadav
-Iftikhar Ahmed,117,8,12,4,4,1,0,100.00,0,1, b Kuldeep Yadav
-Shadab Khan,124,8,12,2,5,0,0,40.00,0,1, b Bumrah
+Saud Shakeel,120,8,12,6,10,0,0,60.0,0,1,lbw b Kuldeep Yadav
+Iftikhar Ahmed,117,8,12,4,4,1,0,100.0,0,1, b Kuldeep Yadav
+Shadab Khan,124,8,12,2,5,0,0,40.0,0,1, b Bumrah
 Mohammad Nawaz,122,8,12,4,14,0,0,28.57,0,1,c Bumrah b Pandya
 Hasan Ali,126,8,12,12,19,2,0,63.15,0,1,c Shubman Gill b Jadeja
-Shaheen Shah Afridi,127,8,12,2,10,0,0,20.00,0,0,
+Shaheen Shah Afridi,127,8,12,2,10,0,0,20.0,0,0,
 Haris Rauf,125,8,12,2,6,0,0,33.33,0,1,lbw b Jadeja
-Rohit Sharma,65,5,12,86,63,6,6,136.50,0,1,c Iftikhar Ahmed b Shaheen Shah Afridi
+Rohit Sharma,65,5,12,86,63,6,6,136.5,0,1,c Iftikhar Ahmed b Shaheen Shah Afridi
 Shubman Gill,70,5,12,16,11,4,0,145.45,0,1,c Shadab Khan b Shaheen Shah Afridi
 Virat Kohli,68,5,12,16,18,3,0,88.88,0,1,c Mohammad Nawaz b Hasan Ali
 Shreyas Iyer,67,5,12,53,62,3,2,85.48,0,0,
 KL Rahul,69,5,12,19,29,2,0,65.51,0,0,
-Rohit Sharma,65,5,12,0,0,0,0,0,1,0,
-KL Rahul,69,5,12,0,0,0,0,0,1,0,
-Hardik Pandya,74,5,12,0,0,0,0,0,1,0,
-Ravindra Jadeja,73,5,12,0,0,0,0,0,1,0,
-Shardul Thakur,81,5,12,0,0,0,0,0,1,0,
-Jasprit Bumrah,76,5,12,0,0,0,0,0,1,0,
-Kuldeep Yadav,77,5,12,0,0,0,0,0,1,0,
-Mohammed Siraj,79,5,12,0,0,0,0,0,1,0,
+Rohit Sharma,65,5,12,0,0,0,0,0.0,1,0,
+KL Rahul,69,5,12,0,0,0,0,0.0,1,0,
+Hardik Pandya,74,5,12,0,0,0,0,0.0,1,0,
+Ravindra Jadeja,73,5,12,0,0,0,0,0.0,1,0,
+Shardul Thakur,81,5,12,0,0,0,0,0.0,1,0,
+Jasprit Bumrah,76,5,12,0,0,0,0,0.0,1,0,
+Kuldeep Yadav,77,5,12,0,0,0,0,0.0,1,0,
+Mohammed Siraj,79,5,12,0,0,0,0,0.0,1,0,
 Rahmanullah Gurbaz,5,1,13,80,57,8,4,140.35,0,1,run out (sub [DJ Willey]/†Buttler)
 Ibrahim Zadran,2,1,13,28,48,3,0,58.33,0,1,c Root b Rashid
-Rahmat Shah,9,1,13,3,8,0,0,37.50,0,1,st †Buttler b Rashid
+Rahmat Shah,9,1,13,3,8,0,0,37.5,0,1,st †Buttler b Rashid
 Hashmatullah Shahidi,1,1,13,14,36,0,0,38.88,0,1, b Root
 Azmatullah Omarzai,7,1,13,19,24,1,1,79.16,0,1,c Woakes b Livingstone
 Ikram Alikhil,3,1,13,58,66,3,2,87.87,0,1,c Curran b Topley
-Mohammad Nabi,8,1,13,9,15,1,0,60.00,0,1,c Root b Wood
+Mohammad Nabi,8,1,13,9,15,1,0,60.0,0,1,c Root b Wood
 Rashid Khan,10,1,13,23,22,3,0,104.54,0,1,c Root b Rashid
-Mujeeb Ur Rahman,13,1,13,28,16,3,1,175.00,0,1,c Root b Wood
+Mujeeb Ur Rahman,13,1,13,28,16,3,1,175.0,0,1,c Root b Wood
 Naveen-ul-Haq,14,1,13,5,6,1,0,83.33,0,1,run out (†Buttler)
-Fazalhaq Farooqi,12,1,13,2,4,0,0,50.00,0,0,
-Jonny Bairstow,49,4,13,2,4,0,0,50.00,0,1,lbw b Fazalhaq Farooqi
+Fazalhaq Farooqi,12,1,13,2,4,0,0,50.0,0,0,
+Jonny Bairstow,49,4,13,2,4,0,0,50.0,0,1,lbw b Fazalhaq Farooqi
 Dawid Malan,51,4,13,32,39,4,0,82.05,0,1,c Ibrahim Zadran b Mohammad Nabi
-Joe Root,52,4,13,11,17,2,0,64.70,0,1, b Mujeeb Ur Rahman
+Joe Root,52,4,13,11,17,2,0,64.7,0,1, b Mujeeb Ur Rahman
 Harry Brook,50,4,13,66,61,7,1,108.19,0,1,c †Ikram Alikhil b Mujeeb Ur Rahman
-Jos Buttler,48,4,13,9,18,1,0,50.00,0,1, b Naveen-ul-Haq
+Jos Buttler,48,4,13,9,18,1,0,50.0,0,1, b Naveen-ul-Haq
 Liam Livingstone,57,4,13,10,14,1,0,71.42,0,1,lbw b Rashid Khan
 Sam Curran,56,4,13,10,23,0,0,43.47,0,1,c Rahmat Shah b Mohammad Nabi
 Chris Woakes,60,4,13,9,26,1,0,34.61,0,1, b Mujeeb Ur Rahman
@@ -307,48 +307,48 @@ Reece Topley,64,4,13,15,7,3,0,214.28,0,0,
 Pathum Nissanka,148,10,14,61,67,8,0,91.04,0,1,c Warner b Cummins
 Kusal Perera,149,10,14,78,82,12,0,95.12,0,1, b Cummins
 Kusal Mendis,146,10,14,9,13,0,0,69.23,0,1,c Warner b Zampa
-Sadeera Samarawickrama,150,10,14,8,8,1,0,100.00,0,1,lbw b Zampa
-Charith Asalanka,151,10,14,25,39,0,1,64.10,0,1,c Labuschagne b Maxwell
+Sadeera Samarawickrama,150,10,14,8,8,1,0,100.0,0,1,lbw b Zampa
+Charith Asalanka,151,10,14,25,39,0,1,64.1,0,1,c Labuschagne b Maxwell
 Dhananjaya de Silva,152,10,14,7,13,1,0,53.84,0,1, b Starc
 Dunith Wellalage,161,10,14,2,9,0,0,22.22,0,1,run out (Cummins)
 Chamika Karunaratne,154,10,14,2,11,0,0,18.18,0,1,lbw b Zampa
-Maheesh Theekshana,160,10,14,0,5,0,0,0.00,0,1,lbw b Zampa
-Lahiru Kumara,162,10,14,4,8,1,0,50.00,0,1, b Starc
-Dilshan Madushanka,158,10,14,0,6,0,0,0.00,0,0,
+Maheesh Theekshana,160,10,14,0,5,0,0,0.0,0,1,lbw b Zampa
+Lahiru Kumara,162,10,14,4,8,1,0,50.0,0,1, b Starc
+Dilshan Madushanka,158,10,14,0,6,0,0,0.0,0,0,
 Mitchell Marsh,24,2,14,52,51,9,0,101.96,0,1,run out (Karunaratne/†Mendis)
 David Warner,21,2,14,11,6,0,1,183.33,0,1,lbw b Madushanka
-Steven Smith,20,2,14,0,5,0,0,0.00,0,1,lbw b Madushanka
+Steven Smith,20,2,14,0,5,0,0,0.0,0,1,lbw b Madushanka
 Marnus Labuschagne,19,2,14,40,60,2,0,66.66,0,1,c Karunaratne b Madushanka
-Josh Inglis,18,2,14,58,59,5,1,98.30,0,1,c Theekshana b Wellalage
+Josh Inglis,18,2,14,58,59,5,1,98.3,0,1,c Theekshana b Wellalage
 Glenn Maxwell,25,2,14,31,21,4,2,147.61,0,0,
-Marcus Stoinis,26,2,14,20,10,2,1,200.00,0,0,
-Josh Inglis,18,2,14,0,0,0,0,0,1,0,
-Mitchell Starc,29,2,14,0,0,0,0,0,1,0,
-Pat Cummins,27,2,14,0,0,0,0,0,1,0,
-Adam Zampa,30,2,14,0,0,0,0,0,1,0,
-Josh Hazlewood,28,2,14,0,0,0,0,0,1,0,
-Vikramjit Singh,86,6,15,2,16,0,0,12.50,0,1,c Klaasen b Rabada
-Max O'Dowd,85,6,15,18,25,4,0,72.00,0,1,c †de Kock b Jansen
-Colin Ackermann,87,6,15,12,25,1,0,48.00,0,1, b Coetzee
+Marcus Stoinis,26,2,14,20,10,2,1,200.0,0,0,
+Josh Inglis,18,2,14,0,0,0,0,0.0,1,0,
+Mitchell Starc,29,2,14,0,0,0,0,0.0,1,0,
+Pat Cummins,27,2,14,0,0,0,0,0.0,1,0,
+Adam Zampa,30,2,14,0,0,0,0,0.0,1,0,
+Josh Hazlewood,28,2,14,0,0,0,0,0.0,1,0,
+Vikramjit Singh,86,6,15,2,16,0,0,12.5,0,1,c Klaasen b Rabada
+Max O'Dowd,85,6,15,18,25,4,0,72.0,0,1,c †de Kock b Jansen
+Colin Ackermann,87,6,15,12,25,1,0,48.0,0,1, b Coetzee
 Bas de Leede,88,6,15,2,7,0,0,28.57,0,1,lbw b Rabada
 Sybrand Engelbrecht,89,6,15,19,37,1,1,51.35,0,1,c Jansen b Ngidi
-Teja Nidamanuru,90,6,15,20,25,3,0,80.00,0,1,lbw b Jansen
+Teja Nidamanuru,90,6,15,20,25,3,0,80.0,0,1,lbw b Jansen
 Scott Edwards,82,6,15,78,69,10,1,113.04,0,0,
 Logan van Beek,95,6,15,10,27,1,0,37.03,0,1,st †de Kock b Maharaj
 Roelof van der Merwe,92,6,15,29,19,3,1,152.63,0,1,c †de Kock b Ngidi
 Aryan Dutt,93,6,15,23,9,0,3,255.55,0,0,
-Scott Edwards,82,6,15,0,0,0,0,0,1,0,
-Paul van Meekeren,96,6,15,0,0,0,0,0,1,0,
+Scott Edwards,82,6,15,0,0,0,0,0.0,1,0,
+Paul van Meekeren,96,6,15,0,0,0,0,0.0,1,0,
 Temba Bavuma,129,9,15,16,31,2,1,51.61,0,1, b van der Merwe
-Quinton de Kock,130,9,15,20,22,3,0,90.90,0,1,c †Edwards b Ackermann
+Quinton de Kock,130,9,15,20,22,3,0,90.9,0,1,c †Edwards b Ackermann
 Rassie van der Dussen,135,9,15,4,7,0,0,57.14,0,1,c Dutt b van der Merwe
 Aiden Markram,133,9,15,1,3,0,0,33.33,0,1, b van Meekeren
-Heinrich Klaasen,132,9,15,28,28,4,0,100.00,0,1,c Vikramjit Singh b van Beek
+Heinrich Klaasen,132,9,15,28,28,4,0,100.0,0,1,c Vikramjit Singh b van Beek
 David Miller,134,9,15,43,52,4,1,82.69,0,1, b van Beek
-Marco Jansen,136,9,15,9,25,0,0,36.00,0,1, b van Meekeren
+Marco Jansen,136,9,15,9,25,0,0,36.0,0,1, b van Meekeren
 Gerald Coetzee,138,9,15,22,23,2,1,95.65,0,1,c †Edwards b de Leede
-Keshav Maharaj,139,9,15,40,37,5,1,108.10,0,1,c †Edwards b van Beek
-Kagiso Rabada,141,9,15,9,6,0,1,150.00,0,1,c Engelbrecht b de Leede
+Keshav Maharaj,139,9,15,40,37,5,1,108.1,0,1,c †Edwards b van Beek
+Kagiso Rabada,141,9,15,9,6,0,1,150.0,0,1,c Engelbrecht b de Leede
 Lungi Ngidi,140,9,15,7,24,0,0,29.16,0,0,
 Devon Conway,100,7,16,20,18,3,0,111.11,0,1,lbw b Mujeeb Ur Rahman
 Will Young,101,7,16,54,64,4,3,84.37,0,1,c †Ikram Alikhil b Azmatullah Omarzai
@@ -357,11 +357,11 @@ Daryl Mitchell,103,7,16,1,7,0,0,14.28,0,1,c Ibrahim Zadran b Rashid Khan
 Tom Latham,99,7,16,68,74,3,2,91.89,0,1, b Naveen-ul-Haq
 Glenn Phillips,105,7,16,71,80,4,4,88.75,0,1,c Rashid Khan b Naveen-ul-Haq
 Mark Chapman,102,7,16,25,12,2,1,208.33,0,0,
-Mitchell Santner,107,7,16,7,5,1,0,140.00,0,0,
-Tom Latham,99,7,16,0,0,0,0,0,1,0,
-Matt Henry,113,7,16,0,0,0,0,0,1,0,
-Lockie Ferguson,109,7,16,0,0,0,0,0,1,0,
-Trent Boult,108,7,16,0,0,0,0,0,1,0,
+Mitchell Santner,107,7,16,7,5,1,0,140.0,0,0,
+Tom Latham,99,7,16,0,0,0,0,0.0,1,0,
+Matt Henry,113,7,16,0,0,0,0,0.0,1,0,
+Lockie Ferguson,109,7,16,0,0,0,0,0.0,1,0,
+Trent Boult,108,7,16,0,0,0,0,0.0,1,0,
 Rahmanullah Gurbaz,5,1,16,11,21,0,1,52.38,0,1, b Henry
 Ibrahim Zadran,2,1,16,14,15,2,0,93.33,0,1,c Santner b Boult
 Rahmat Shah,9,1,16,36,62,1,0,58.06,0,1,c & b Ravindra
@@ -371,239 +371,239 @@ Ikram Alikhil,3,1,16,19,21,3,0,90.47,0,0,
 Mohammad Nabi,8,1,16,7,9,1,0,77.77,0,1, b Santner
 Rashid Khan,10,1,16,8,13,0,1,61.53,0,1,c Mitchell b Ferguson
 Mujeeb Ur Rahman,13,1,16,4,3,1,0,133.33,0,1,c Young b Ferguson
-Naveen-ul-Haq,14,1,16,0,1,0,0,0.00,0,1,c Chapman b Santner
-Fazalhaq Farooqi,12,1,16,0,2,0,0,0.00,0,1,c Mitchell b Santner
-Tanzid Hasan,36,3,17,51,43,5,3,118.60,0,1,lbw b Kuldeep Yadav
+Naveen-ul-Haq,14,1,16,0,1,0,0,0.0,0,1,c Chapman b Santner
+Fazalhaq Farooqi,12,1,16,0,2,0,0,0.0,0,1,c Mitchell b Santner
+Tanzid Hasan,36,3,17,51,43,5,3,118.6,0,1,lbw b Kuldeep Yadav
 Litton Das,34,3,17,66,82,7,0,80.48,0,1,c Shubman Gill b Jadeja
 Najmul Hossain Shanto,32,3,17,8,17,0,0,47.05,0,1,lbw b Jadeja
 Mehidy Hasan Miraz,40,3,17,3,13,0,0,23.07,0,1,c †Rahul b Mohammed Siraj
 Towhid Hridoy,37,3,17,16,35,0,0,45.71,0,1,c Shubman Gill b Thakur
-Mushfiqur Rahim,35,3,17,38,46,1,1,82.60,0,1,c Jadeja b Bumrah
+Mushfiqur Rahim,35,3,17,38,46,1,1,82.6,0,1,c Jadeja b Bumrah
 Mahmudullah,39,3,17,46,36,3,3,127.77,0,1, b Bumrah
 Nasum Ahmed,44,3,17,14,18,2,0,77.77,0,1,c †Rahul b Mohammed Siraj
 Mustafizur Rahman,43,3,17,1,7,0,0,14.28,0,0,
 Shoriful Islam,45,3,17,7,3,0,1,233.33,0,0,
-Najmul Hossain Shanto,32,3,17,0,0,0,0,0,1,0,
-Mushfiqur Rahim,35,3,17,0,0,0,0,0,1,0,
-Hasan Mahmud,42,3,17,0,0,0,0,0,1,0,
-Rohit Sharma,65,5,17,48,40,7,2,120.00,0,1,c Towhid Hridoy b Hasan Mahmud
+Najmul Hossain Shanto,32,3,17,0,0,0,0,0.0,1,0,
+Mushfiqur Rahim,35,3,17,0,0,0,0,0.0,1,0,
+Hasan Mahmud,42,3,17,0,0,0,0,0.0,1,0,
+Rohit Sharma,65,5,17,48,40,7,2,120.0,0,1,c Towhid Hridoy b Hasan Mahmud
 Shubman Gill,70,5,17,53,55,5,2,96.36,0,1,c Mahmudullah b Mehidy Hasan Miraz
 Virat Kohli,68,5,17,103,97,6,4,106.18,0,0,
-Shreyas Iyer,67,5,17,19,25,2,0,76.00,0,1,c Mahmudullah b Mehidy Hasan Miraz
-KL Rahul,69,5,17,34,34,3,1,100.00,0,0,
-Rohit Sharma,65,5,17,0,0,0,0,0,1,0,
-KL Rahul,69,5,17,0,0,0,0,0,1,0,
-Hardik Pandya,74,5,17,0,0,0,0,0,1,0,
-Ravindra Jadeja,73,5,17,0,0,0,0,0,1,0,
-Shardul Thakur,81,5,17,0,0,0,0,0,1,0,
-Jasprit Bumrah,76,5,17,0,0,0,0,0,1,0,
-Kuldeep Yadav,77,5,17,0,0,0,0,0,1,0,
-Mohammed Siraj,79,5,17,0,0,0,0,0,1,0,
+Shreyas Iyer,67,5,17,19,25,2,0,76.0,0,1,c Mahmudullah b Mehidy Hasan Miraz
+KL Rahul,69,5,17,34,34,3,1,100.0,0,0,
+Rohit Sharma,65,5,17,0,0,0,0,0.0,1,0,
+KL Rahul,69,5,17,0,0,0,0,0.0,1,0,
+Hardik Pandya,74,5,17,0,0,0,0,0.0,1,0,
+Ravindra Jadeja,73,5,17,0,0,0,0,0.0,1,0,
+Shardul Thakur,81,5,17,0,0,0,0,0.0,1,0,
+Jasprit Bumrah,76,5,17,0,0,0,0,0.0,1,0,
+Kuldeep Yadav,77,5,17,0,0,0,0,0.0,1,0,
+Mohammed Siraj,79,5,17,0,0,0,0,0.0,1,0,
 David Warner,21,2,18,163,124,14,9,131.45,0,1,c sub (Shadab Khan) b Haris Rauf
 Mitchell Marsh,24,2,18,121,108,10,9,112.03,0,1,c Usama Mir b Shaheen Shah Afridi
-Glenn Maxwell,25,2,18,0,1,0,0,0.00,0,1,c Babar Azam b Shaheen Shah Afridi
+Glenn Maxwell,25,2,18,0,1,0,0,0.0,0,1,c Babar Azam b Shaheen Shah Afridi
 Steven Smith,20,2,18,7,9,0,0,77.77,0,1,c & b Usama Mir
-Marcus Stoinis,26,2,18,21,24,1,1,87.50,0,1,lbw b Shaheen Shah Afridi
+Marcus Stoinis,26,2,18,21,24,1,1,87.5,0,1,lbw b Shaheen Shah Afridi
 Josh Inglis,18,2,18,13,9,3,0,144.44,0,1,c †Mohammad Rizwan b Haris Rauf
 Marnus Labuschagne,19,2,18,8,12,1,0,66.66,0,1,c sub (Shadab Khan) b Haris Rauf
-Pat Cummins,27,2,18,6,8,0,0,75.00,0,0,
+Pat Cummins,27,2,18,6,8,0,0,75.0,0,0,
 Mitchell Starc,29,2,18,2,3,0,0,66.66,0,1,c Saud Shakeel b Shaheen Shah Afridi
-Josh Hazlewood,28,2,18,0,1,0,0,0.00,0,1,c †Mohammad Rizwan b Shaheen Shah Afridi
-Adam Zampa,30,2,18,1,1,0,0,100.00,0,0,
+Josh Hazlewood,28,2,18,0,1,0,0,0.0,0,1,c †Mohammad Rizwan b Shaheen Shah Afridi
+Adam Zampa,30,2,18,1,1,0,0,100.0,0,0,
 Abdullah Shafique,115,8,18,64,61,7,2,104.91,0,1,c Maxwell b Stoinis
 Imam-ul-Haq,118,8,18,70,71,10,0,98.59,0,1,c Starc b Stoinis
 Babar Azam,114,8,18,18,14,3,0,128.57,0,1,c Cummins b Zampa
-Mohammad Rizwan,119,8,18,46,40,5,0,115.00,0,1,lbw b Zampa
+Mohammad Rizwan,119,8,18,46,40,5,0,115.0,0,1,lbw b Zampa
 Saud Shakeel,120,8,18,30,31,5,0,96.77,0,1,c Stoinis b Cummins
-Iftikhar Ahmed,117,8,18,26,20,0,3,130.00,0,1,lbw b Zampa
-Mohammad Nawaz,122,8,18,14,16,0,1,87.50,0,1,st †Inglis b Zampa
-Usama Mir,128,8,18,0,3,0,0,0.00,0,1,c Starc b Hazlewood
-Shaheen Shah Afridi,127,8,18,10,8,2,0,125.00,0,1,c Labuschagne b Cummins
-Hasan Ali,126,8,18,8,8,2,0,100.00,0,1,c †Inglis b Starc
-Haris Rauf,125,8,18,0,1,0,0,0.00,0,0,
+Iftikhar Ahmed,117,8,18,26,20,0,3,130.0,0,1,lbw b Zampa
+Mohammad Nawaz,122,8,18,14,16,0,1,87.5,0,1,st †Inglis b Zampa
+Usama Mir,128,8,18,0,3,0,0,0.0,0,1,c Starc b Hazlewood
+Shaheen Shah Afridi,127,8,18,10,8,2,0,125.0,0,1,c Labuschagne b Cummins
+Hasan Ali,126,8,18,8,8,2,0,100.0,0,1,c †Inglis b Starc
+Haris Rauf,125,8,18,0,1,0,0,0.0,0,0,
 Vikramjit Singh,86,6,19,4,13,1,0,30.76,0,1,lbw b Rajitha
 Max O'Dowd,85,6,19,16,27,1,1,59.25,0,1, b Rajitha
 Colin Ackermann,87,6,19,29,31,5,0,93.54,0,1,c †Mendis b Rajitha
 Bas de Leede,88,6,19,6,21,0,0,28.57,0,1,c Perera b Madushanka
 Teja Nidamanuru,90,6,19,9,16,0,0,56.25,0,1,lbw b Madushanka
-Scott Edwards,82,6,19,16,16,0,0,100.00,0,1, b Theekshana
+Scott Edwards,82,6,19,16,16,0,0,100.0,0,1, b Theekshana
 Sybrand Engelbrecht,89,6,19,70,82,4,1,85.36,0,1, b Madushanka
 Logan van Beek,95,6,19,59,75,1,1,78.66,0,1,c Asalanka b Rajitha
-Roelof van der Merwe,92,6,19,7,7,0,0,100.00,0,1,c †Mendis b Madushanka
-Aryan Dutt,93,6,19,9,6,1,0,150.00,0,0,
-Paul van Meekeren,96,6,19,4,5,0,0,80.00,0,1,run out (†Mendis/Madushanka)
+Roelof van der Merwe,92,6,19,7,7,0,0,100.0,0,1,c †Mendis b Madushanka
+Aryan Dutt,93,6,19,9,6,1,0,150.0,0,0,
+Paul van Meekeren,96,6,19,4,5,0,0,80.0,0,1,run out (†Mendis/Madushanka)
 Pathum Nissanka,148,10,19,54,52,9,0,103.84,0,1,c †Edwards b van Meekeren
-Kusal Perera,149,10,19,5,8,1,0,62.50,0,1,c de Leede b Dutt
-Kusal Mendis,146,10,19,11,17,2,0,64.70,0,1,c van Meekeren b Dutt
+Kusal Perera,149,10,19,5,8,1,0,62.5,0,1,c de Leede b Dutt
+Kusal Mendis,146,10,19,11,17,2,0,64.7,0,1,c van Meekeren b Dutt
 Sadeera Samarawickrama,150,10,19,91,107,7,0,85.04,0,0,
 Charith Asalanka,151,10,19,44,66,2,1,66.66,0,1, b Dutt
 Dhananjaya de Silva,152,10,19,30,37,1,2,81.08,0,1, b Ackermann
 Dushan Hemantha,153,10,19,4,3,1,0,133.33,0,0,
-Kusal Mendis,146,10,19,0,0,0,0,0,1,0,
-Chamika Karunaratne,154,10,19,0,0,0,0,0,1,0,
-Maheesh Theekshana,160,10,19,0,0,0,0,0,1,0,
-Kasun Rajitha,159,10,19,0,0,0,0,0,1,0,
-Dilshan Madushanka,158,10,19,0,0,0,0,0,1,0,
-Quinton de Kock,130,9,20,4,2,1,0,200.00,0,1,c †Buttler b Topley
+Kusal Mendis,146,10,19,0,0,0,0,0.0,1,0,
+Chamika Karunaratne,154,10,19,0,0,0,0,0.0,1,0,
+Maheesh Theekshana,160,10,19,0,0,0,0,0.0,1,0,
+Kasun Rajitha,159,10,19,0,0,0,0,0.0,1,0,
+Dilshan Madushanka,158,10,19,0,0,0,0,0.0,1,0,
+Quinton de Kock,130,9,20,4,2,1,0,200.0,0,1,c †Buttler b Topley
 Reeza Hendricks,131,9,20,85,75,9,3,113.33,0,1, b Rashid
 Rassie van der Dussen,135,9,20,60,61,8,0,98.36,0,1,c Bairstow b Rashid
 Aiden Markram,133,9,20,42,44,4,0,95.45,0,1,c Bairstow b Topley
 Heinrich Klaasen,132,9,20,109,67,12,4,162.68,0,1, b Atkinson
 David Miller,134,9,20,5,6,1,0,83.33,0,1,c Stokes b Topley
 Marco Jansen,136,9,20,75,42,3,6,178.57,0,0,
-Gerald Coetzee,138,9,20,3,3,0,0,100.00,0,1,c sub (LS Livingstone) b Atkinson
-Keshav Maharaj,139,9,20,1,1,0,0,100.00,0,0,
-Quinton de Kock,130,9,20,0,0,0,0,0,1,0,
-Aiden Markram,133,9,20,0,0,0,0,0,1,0,
-Kagiso Rabada,141,9,20,0,0,0,0,0,1,0,
-Lungi Ngidi,140,9,20,0,0,0,0,0,1,0,
+Gerald Coetzee,138,9,20,3,3,0,0,100.0,0,1,c sub (LS Livingstone) b Atkinson
+Keshav Maharaj,139,9,20,1,1,0,0,100.0,0,0,
+Quinton de Kock,130,9,20,0,0,0,0,0.0,1,0,
+Aiden Markram,133,9,20,0,0,0,0,0.0,1,0,
+Kagiso Rabada,141,9,20,0,0,0,0,0.0,1,0,
+Lungi Ngidi,140,9,20,0,0,0,0,0.0,1,0,
 Jonny Bairstow,49,4,20,10,12,1,1,83.33,0,1,c van der Dussen b Ngidi
 Dawid Malan,51,4,20,6,11,1,0,54.54,0,1,c †de Kock b Jansen
 Joe Root,52,4,20,2,6,0,0,33.33,0,1,c Miller b Jansen
-Ben Stokes,58,4,20,5,8,1,0,62.50,0,1,c & b Rabada
-Harry Brook,50,4,20,17,25,2,1,68.00,0,1,lbw b Coetzee
+Ben Stokes,58,4,20,5,8,1,0,62.5,0,1,c & b Rabada
+Harry Brook,50,4,20,17,25,2,1,68.0,0,1,lbw b Coetzee
 Jos Buttler,48,4,20,15,7,2,1,214.28,0,1,c †de Kock b Coetzee
-David Willey,59,4,20,12,12,1,1,100.00,0,1,c Rabada b Ngidi
+David Willey,59,4,20,12,12,1,1,100.0,0,1,c Rabada b Ngidi
 Adil Rashid,62,4,20,10,14,1,0,71.42,0,1,c Hendricks b Coetzee
 Gus Atkinson,61,4,20,35,21,7,0,166.66,0,1, b Maharaj
 Mark Wood,63,4,20,43,17,2,5,252.94,0,0,
-Reece Topley,64,4,20,0,-,0,0,0,1,0,Retired hurt
-Devon Conway,100,7,21,0,9,0,0,0.00,0,1,c Iyer b Mohammed Siraj
+Reece Topley,64,4,20,0,0,0,0,0.0,1,0,Retired hurt
+Devon Conway,100,7,21,0,9,0,0,0.0,0,1,c Iyer b Mohammed Siraj
 Will Young,101,7,21,17,27,3,0,62.96,0,1, b Mohammed Shami
-Rachin Ravindra,106,7,21,75,87,6,1,86.20,0,1,c Shubman Gill b Mohammed Shami
+Rachin Ravindra,106,7,21,75,87,6,1,86.2,0,1,c Shubman Gill b Mohammed Shami
 Daryl Mitchell,103,7,21,130,127,9,5,102.36,0,1,c Kohli b Mohammed Shami
 Tom Latham,99,7,21,5,7,1,0,71.42,0,1,lbw b Kuldeep Yadav
 Glenn Phillips,105,7,21,23,26,0,1,88.46,0,1,c Sharma b Kuldeep Yadav
-Mark Chapman,102,7,21,6,8,0,0,75.00,0,1,c Kohli b Bumrah
-Mitchell Santner,107,7,21,1,2,0,0,50.00,0,1, b Mohammed Shami
-Matt Henry,113,7,21,0,1,0,0,0.00,0,1, b Mohammed Shami
-Lockie Ferguson,109,7,21,1,5,0,0,20.00,0,1,run out (†Rahul)
-Trent Boult,108,7,21,0,1,0,0,0.00,0,0,
-Rohit Sharma,65,5,21,46,40,4,4,115.00,0,1, b Ferguson
+Mark Chapman,102,7,21,6,8,0,0,75.0,0,1,c Kohli b Bumrah
+Mitchell Santner,107,7,21,1,2,0,0,50.0,0,1, b Mohammed Shami
+Matt Henry,113,7,21,0,1,0,0,0.0,0,1, b Mohammed Shami
+Lockie Ferguson,109,7,21,1,5,0,0,20.0,0,1,run out (†Rahul)
+Trent Boult,108,7,21,0,1,0,0,0.0,0,0,
+Rohit Sharma,65,5,21,46,40,4,4,115.0,0,1, b Ferguson
 Shubman Gill,70,5,21,26,31,5,0,83.87,0,1,c Mitchell b Ferguson
 Virat Kohli,68,5,21,95,104,8,2,91.34,0,1,c Phillips b Henry
 Shreyas Iyer,67,5,21,33,29,6,0,113.79,0,1,c Conway b Boult
 KL Rahul,69,5,21,27,35,3,0,77.14,0,1,lbw b Santner
-Suryakumar Yadav,71,5,21,2,4,0,0,50.00,0,1,run out (Santner/Boult/†Latham)
+Suryakumar Yadav,71,5,21,2,4,0,0,50.0,0,1,run out (Santner/Boult/†Latham)
 Ravindra Jadeja,73,5,21,39,44,3,1,88.63,0,0,
-Mohammed Shami,78,5,21,1,1,0,0,100.00,0,0,
-Rohit Sharma,65,5,21,0,0,0,0,0,1,0,
-KL Rahul,69,5,21,0,0,0,0,0,1,0,
-Jasprit Bumrah,76,5,21,0,0,0,0,0,1,0,
-Kuldeep Yadav,77,5,21,0,0,0,0,0,1,0,
-Mohammed Siraj,79,5,21,0,0,0,0,0,1,0,
+Mohammed Shami,78,5,21,1,1,0,0,100.0,0,0,
+Rohit Sharma,65,5,21,0,0,0,0,0.0,1,0,
+KL Rahul,69,5,21,0,0,0,0,0.0,1,0,
+Jasprit Bumrah,76,5,21,0,0,0,0,0.0,1,0,
+Kuldeep Yadav,77,5,21,0,0,0,0,0.0,1,0,
+Mohammed Siraj,79,5,21,0,0,0,0,0.0,1,0,
 Abdullah Shafique,115,8,22,58,75,5,2,77.33,0,1,lbw b Noor Ahmad
 Imam-ul-Haq,118,8,22,17,22,2,0,77.27,0,1,c Naveen-ul-Haq b Azmatullah Omarzai
 Babar Azam,114,8,22,74,92,4,1,80.43,0,1,c Mohammad Nabi b Noor Ahmad
-Mohammad Rizwan,119,8,22,8,10,0,1,80.00,0,1,c Mujeeb Ur Rahman b Noor Ahmad
+Mohammad Rizwan,119,8,22,8,10,0,1,80.0,0,1,c Mujeeb Ur Rahman b Noor Ahmad
 Saud Shakeel,120,8,22,25,34,3,0,73.52,0,1,c Rashid Khan b Mohammad Nabi
 Shadab Khan,124,8,22,40,38,1,1,105.26,0,1,c Mohammad Nabi b Naveen-ul-Haq
 Iftikhar Ahmed,117,8,22,40,27,2,4,148.14,0,1,c Azmatullah Omarzai b Naveen-ul-Haq
-Shaheen Shah Afridi,127,8,22,3,3,0,0,100.00,0,0,
-Babar Azam,114,8,22,0,0,0,0,0,1,0,
-Mohammad Rizwan,119,8,22,0,0,0,0,0,1,0,
-Usama Mir,128,8,22,0,0,0,0,0,1,0,
-Hasan Ali,126,8,22,0,0,0,0,0,1,0,
-Haris Rauf,125,8,22,0,0,0,0,0,1,0,
+Shaheen Shah Afridi,127,8,22,3,3,0,0,100.0,0,0,
+Babar Azam,114,8,22,0,0,0,0,0.0,1,0,
+Mohammad Rizwan,119,8,22,0,0,0,0,0.0,1,0,
+Usama Mir,128,8,22,0,0,0,0,0.0,1,0,
+Hasan Ali,126,8,22,0,0,0,0,0.0,1,0,
+Haris Rauf,125,8,22,0,0,0,0,0.0,1,0,
 Rahmanullah Gurbaz,5,1,22,65,53,9,1,122.64,0,1,c Usama Mir b Shaheen Shah Afridi
 Ibrahim Zadran,2,1,22,87,113,10,0,76.99,0,1,c †Mohammad Rizwan b Hasan Ali
 Rahmat Shah,9,1,22,77,84,5,2,91.66,0,0,
 Hashmatullah Shahidi,1,1,22,48,45,4,0,106.66,0,0,
-Hashmatullah Shahidi,1,1,22,0,0,0,0,0,1,0,
-Azmatullah Omarzai,7,1,22,0,0,0,0,0,1,0,
-Ikram Alikhil,3,1,22,0,0,0,0,0,1,0,
-Mohammad Nabi,8,1,22,0,0,0,0,0,1,0,
-Rashid Khan,10,1,22,0,0,0,0,0,1,0,
-Mujeeb Ur Rahman,13,1,22,0,0,0,0,0,1,0,
-Naveen-ul-Haq,14,1,22,0,0,0,0,0,1,0,
-Noor Ahmad,15,1,22,0,0,0,0,0,1,0,
+Hashmatullah Shahidi,1,1,22,0,0,0,0,0.0,1,0,
+Azmatullah Omarzai,7,1,22,0,0,0,0,0.0,1,0,
+Ikram Alikhil,3,1,22,0,0,0,0,0.0,1,0,
+Mohammad Nabi,8,1,22,0,0,0,0,0.0,1,0,
+Rashid Khan,10,1,22,0,0,0,0,0.0,1,0,
+Mujeeb Ur Rahman,13,1,22,0,0,0,0,0.0,1,0,
+Naveen-ul-Haq,14,1,22,0,0,0,0,0.0,1,0,
+Noor Ahmad,15,1,22,0,0,0,0,0.0,1,0,
 Quinton de Kock,130,9,23,174,140,15,7,124.28,0,1,c Nasum Ahmed b Hasan Mahmud
 Reeza Hendricks,131,9,23,12,19,1,0,63.15,0,1, b Shoriful Islam
 Rassie van der Dussen,135,9,23,1,7,0,0,14.28,0,1,lbw b Mehidy Hasan Miraz
 Aiden Markram,133,9,23,60,69,7,0,86.95,0,1,c Litton Das b Shakib Al Hasan
 Heinrich Klaasen,132,9,23,90,49,2,8,183.67,0,1,c Mahmudullah b Hasan Mahmud
 David Miller,134,9,23,34,15,1,4,226.66,0,0,
-Marco Jansen,136,9,23,1,1,0,0,100.00,0,0,
-Quinton de Kock,130,9,23,0,0,0,0,0,1,0,
-Aiden Markram,133,9,23,0,0,0,0,0,1,0,
-Gerald Coetzee,138,9,23,0,0,0,0,0,1,0,
-Keshav Maharaj,139,9,23,0,0,0,0,0,1,0,
-Kagiso Rabada,141,9,23,0,0,0,0,0,1,0,
-Lizaad Williams,143,9,23,0,0,0,0,0,1,0,
+Marco Jansen,136,9,23,1,1,0,0,100.0,0,0,
+Quinton de Kock,130,9,23,0,0,0,0,0.0,1,0,
+Aiden Markram,133,9,23,0,0,0,0,0.0,1,0,
+Gerald Coetzee,138,9,23,0,0,0,0,0.0,1,0,
+Keshav Maharaj,139,9,23,0,0,0,0,0.0,1,0,
+Kagiso Rabada,141,9,23,0,0,0,0,0.0,1,0,
+Lizaad Williams,143,9,23,0,0,0,0,0.0,1,0,
 Tanzid Hasan,36,3,23,12,17,1,0,70.58,0,1,c †Klaasen b Jansen
-Litton Das,34,3,23,22,44,3,1,50.00,0,1,lbw b Rabada
-Najmul Hossain Shanto,32,3,23,0,1,0,0,0.00,0,1,c †Klaasen b Jansen
-Shakib Al Hasan,41,3,23,1,4,0,0,25.00,0,1,c †Klaasen b Williams
+Litton Das,34,3,23,22,44,3,1,50.0,0,1,lbw b Rabada
+Najmul Hossain Shanto,32,3,23,0,1,0,0,0.0,0,1,c †Klaasen b Jansen
+Shakib Al Hasan,41,3,23,1,4,0,0,25.0,0,1,c †Klaasen b Williams
 Mushfiqur Rahim,35,3,23,8,17,1,0,47.05,0,1,c sub (AL Phehlukwayo) b Coetzee
-Mahmudullah,39,3,23,111,111,11,4,100.00,0,1,c Jansen b Coetzee
+Mahmudullah,39,3,23,111,111,11,4,100.0,0,1,c Jansen b Coetzee
 Mehidy Hasan Miraz,40,3,23,11,19,1,0,57.89,0,1,c sub (AL Phehlukwayo) b Maharaj
-Nasum Ahmed,44,3,23,19,19,3,0,100.00,0,1,c & b Coetzee
-Hasan Mahmud,42,3,23,15,25,2,0,60.00,0,1,c Coetzee b Rabada
+Nasum Ahmed,44,3,23,19,19,3,0,100.0,0,1,c & b Coetzee
+Hasan Mahmud,42,3,23,15,25,2,0,60.0,0,1,c Coetzee b Rabada
 Mustafizur Rahman,43,3,23,11,21,2,0,52.38,0,1,c Miller b Williams
-Shoriful Islam,45,3,23,6,4,1,0,150.00,0,0,
-Mitchell Marsh,24,2,24,9,15,2,0,60.00,0,1,c Ackermann b van Beek
+Shoriful Islam,45,3,23,6,4,1,0,150.0,0,0,
+Mitchell Marsh,24,2,24,9,15,2,0,60.0,0,1,c Ackermann b van Beek
 David Warner,21,2,24,104,93,11,3,111.82,0,1,c Dutt b van Beek
 Steven Smith,20,2,24,71,68,9,1,104.41,0,1,c van der Merwe b Dutt
 Marnus Labuschagne,19,2,24,62,47,7,2,131.91,0,1,c Dutt b de Leede
 Josh Inglis,18,2,24,14,12,1,1,116.66,0,1,c Engelbrecht b de Leede
-Glenn Maxwell,25,2,24,106,44,9,8,240.90,0,1,c Engelbrecht b van Beek
+Glenn Maxwell,25,2,24,106,44,9,8,240.9,0,1,c Engelbrecht b van Beek
 Cameron Green,23,2,24,8,11,1,0,72.72,0,1,run out (Engelbrecht)
 Pat Cummins,27,2,24,12,9,2,0,133.33,0,0,
-Mitchell Starc,29,2,24,0,1,0,0,0.00,0,1,c Ackermann b van Beek
-Adam Zampa,30,2,24,1,1,0,0,100.00,0,0,
-Josh Inglis,18,2,24,0,0,0,0,0,1,0,
-Pat Cummins,27,2,24,0,0,0,0,0,1,0,
-Josh Hazlewood,28,2,24,0,0,0,0,0,1,0,
-Vikramjit Singh,86,6,24,25,25,6,0,100.00,0,1,run out (Maxwell)
+Mitchell Starc,29,2,24,0,1,0,0,0.0,0,1,c Ackermann b van Beek
+Adam Zampa,30,2,24,1,1,0,0,100.0,0,0,
+Josh Inglis,18,2,24,0,0,0,0,0.0,1,0,
+Pat Cummins,27,2,24,0,0,0,0,0.0,1,0,
+Josh Hazlewood,28,2,24,0,0,0,0,0.0,1,0,
+Vikramjit Singh,86,6,24,25,25,6,0,100.0,0,1,run out (Maxwell)
 Max O'Dowd,85,6,24,6,9,1,0,66.66,0,1, b Starc
-Colin Ackermann,87,6,24,10,11,2,0,90.90,0,1,lbw b Hazlewood
+Colin Ackermann,87,6,24,10,11,2,0,90.9,0,1,lbw b Hazlewood
 Sybrand Engelbrecht,89,6,24,11,21,1,0,52.38,0,1,c Warner b Marsh
 Bas de Leede,88,6,24,4,7,1,0,57.14,0,1,lbw b Cummins
 Scott Edwards,82,6,24,12,22,0,0,54.54,0,0,
 Teja Nidamanuru,90,6,24,14,18,2,0,77.77,0,1,c †Inglis b Marsh
-Logan van Beek,95,6,24,0,3,0,0,0.00,0,1,c †Inglis b Zampa
-Roelof van der Merwe,92,6,24,0,1,0,0,0.00,0,1,lbw b Zampa
-Aryan Dutt,93,6,24,1,8,0,0,12.50,0,1,lbw b Zampa
-Paul van Meekeren,96,6,24,0,1,0,0,0.00,0,1,st †Inglis b Zampa
+Logan van Beek,95,6,24,0,3,0,0,0.0,0,1,c †Inglis b Zampa
+Roelof van der Merwe,92,6,24,0,1,0,0,0.0,0,1,lbw b Zampa
+Aryan Dutt,93,6,24,1,8,0,0,12.5,0,1,lbw b Zampa
+Paul van Meekeren,96,6,24,0,1,0,0,0.0,0,1,st †Inglis b Zampa
 Jonny Bairstow,49,4,25,30,31,3,0,96.77,0,1,c de Silva b Rajitha
-Dawid Malan,51,4,25,28,25,6,0,112.00,0,1,c †Mendis b Mathews
-Joe Root,52,4,25,3,10,0,0,30.00,0,1,run out (Mathews/†Mendis)
-Ben Stokes,58,4,25,43,73,6,0,58.90,0,1,c sub (MADI Hemantha) b Kumara
+Dawid Malan,51,4,25,28,25,6,0,112.0,0,1,c †Mendis b Mathews
+Joe Root,52,4,25,3,10,0,0,30.0,0,1,run out (Mathews/†Mendis)
+Ben Stokes,58,4,25,43,73,6,0,58.9,0,1,c sub (MADI Hemantha) b Kumara
 Jos Buttler,48,4,25,8,6,1,0,133.33,0,1,c †Mendis b Kumara
 Liam Livingstone,57,4,25,1,6,0,0,16.66,0,1,lbw b Kumara
-Moeen Ali,54,4,25,15,15,1,0,100.00,0,1,c Perera b Mathews
-Chris Woakes,60,4,25,0,4,0,0,0.00,0,1,c Samarawickrama b Rajitha
+Moeen Ali,54,4,25,15,15,1,0,100.0,0,1,c Perera b Mathews
+Chris Woakes,60,4,25,0,4,0,0,0.0,0,1,c Samarawickrama b Rajitha
 David Willey,59,4,25,14,17,1,1,82.35,0,0,
 Adil Rashid,62,4,25,2,7,0,0,28.57,0,1,run out (†Mendis)
 Mark Wood,63,4,25,5,6,1,0,83.33,0,1,st †Mendis b Theekshana
 Pathum Nissanka,148,10,25,77,83,7,2,92.77,0,0,
-Kusal Perera,149,10,25,4,5,1,0,80.00,0,1,c Stokes b Willey
+Kusal Perera,149,10,25,4,5,1,0,80.0,0,1,c Stokes b Willey
 Kusal Mendis,146,10,25,11,12,2,0,91.66,0,1,c †Buttler b Willey
 Sadeera Samarawickrama,150,10,25,65,54,7,1,120.37,0,0,
-Kusal Mendis,146,10,25,0,0,0,0,0,1,0,
-Charith Asalanka,151,10,25,0,0,0,0,0,1,0,
-Dhananjaya de Silva,152,10,25,0,0,0,0,0,1,0,
-Angelo Mathews,155,10,25,0,0,0,0,0,1,0,
-Maheesh Theekshana,160,10,25,0,0,0,0,0,1,0,
-Kasun Rajitha,159,10,25,0,0,0,0,0,1,0,
-Dilshan Madushanka,158,10,25,0,0,0,0,0,1,0,
-Lahiru Kumara,162,10,25,0,0,0,0,0,1,0,
+Kusal Mendis,146,10,25,0,0,0,0,0.0,1,0,
+Charith Asalanka,151,10,25,0,0,0,0,0.0,1,0,
+Dhananjaya de Silva,152,10,25,0,0,0,0,0.0,1,0,
+Angelo Mathews,155,10,25,0,0,0,0,0.0,1,0,
+Maheesh Theekshana,160,10,25,0,0,0,0,0.0,1,0,
+Kasun Rajitha,159,10,25,0,0,0,0,0.0,1,0,
+Dilshan Madushanka,158,10,25,0,0,0,0,0.0,1,0,
+Lahiru Kumara,162,10,25,0,0,0,0,0.0,1,0,
 Abdullah Shafique,115,8,26,9,17,1,0,52.94,0,1,c Ngidi b Jansen
 Imam-ul-Haq,118,8,26,12,18,2,0,66.66,0,1,c Klaasen b Jansen
 Babar Azam,114,8,26,50,65,4,1,76.92,0,1,c †de Kock b Shamsi
 Mohammad Rizwan,119,8,26,31,27,4,1,114.81,0,1,c †de Kock b Coetzee
 Iftikhar Ahmed,117,8,26,21,31,1,1,67.74,0,1,c Klaasen b Shamsi
-Saud Shakeel,120,8,26,52,52,7,0,100.00,0,1,c †de Kock b Shamsi
+Saud Shakeel,120,8,26,52,52,7,0,100.0,0,1,c †de Kock b Shamsi
 Shadab Khan,124,8,26,43,36,3,2,119.44,0,1,c Maharaj b Coetzee
-Mohammad Nawaz,122,8,26,24,24,1,2,100.00,0,1,c Miller b Jansen
-Shaheen Shah Afridi,127,8,26,2,4,0,0,50.00,0,1,c Maharaj b Shamsi
+Mohammad Nawaz,122,8,26,24,24,1,2,100.0,0,1,c Miller b Jansen
+Shaheen Shah Afridi,127,8,26,2,4,0,0,50.0,0,1,c Maharaj b Shamsi
 Mohammad Wasim,123,8,26,7,9,0,1,77.77,0,1,c †de Kock b Ngidi
-Haris Rauf,125,8,26,0,1,0,0,0.00,0,0,
-Temba Bavuma,129,9,26,28,27,4,1,103.70,0,1,c Saud Shakeel b Mohammad Wasim
+Haris Rauf,125,8,26,0,1,0,0,0.0,0,0,
+Temba Bavuma,129,9,26,28,27,4,1,103.7,0,1,c Saud Shakeel b Mohammad Wasim
 Quinton de Kock,130,9,26,24,14,5,0,171.42,0,1,c Mohammad Wasim b Shaheen Shah Afridi
 Rassie van der Dussen,135,9,26,21,39,0,0,53.84,0,1,lbw b Usama Mir
 Aiden Markram,133,9,26,91,93,7,3,97.84,0,1,c Babar Azam b Usama Mir
-Heinrich Klaasen,132,9,26,12,10,0,1,120.00,0,1,c Usama Mir b Mohammad Wasim
+Heinrich Klaasen,132,9,26,12,10,0,1,120.0,0,1,c Usama Mir b Mohammad Wasim
 David Miller,134,9,26,29,33,2,2,87.87,0,1,c †Mohammad Rizwan b Shaheen Shah Afridi
 Marco Jansen,136,9,26,20,14,2,1,142.85,0,1,c Babar Azam b Haris Rauf
 Gerald Coetzee,138,9,26,10,13,0,0,76.92,0,1,c †Mohammad Rizwan b Shaheen Shah Afridi
@@ -619,351 +619,351 @@ Glenn Maxwell,25,2,27,41,24,5,2,170.83,0,1,c Boult b Neesham
 Josh Inglis,18,2,27,38,28,4,1,135.71,0,1,c Phillips b Boult
 Pat Cummins,27,2,27,37,14,2,4,264.28,0,1,lbw b Boult
 Mitchell Starc,29,2,27,1,3,0,0,33.33,0,1,c Neesham b Henry
-Adam Zampa,30,2,27,0,3,0,0,0.00,0,1, b Boult
-Josh Hazlewood,28,2,27,0,0,0,0,-,0,0,
-Devon Conway,100,7,27,28,17,6,0,164.70,0,1,c Starc b Hazlewood
+Adam Zampa,30,2,27,0,3,0,0,0.0,0,1, b Boult
+Josh Hazlewood,28,2,27,0,0,0,0,0.0,0,0,
+Devon Conway,100,7,27,28,17,6,0,164.7,0,1,c Starc b Hazlewood
 Will Young,101,7,27,32,37,4,1,86.48,0,1,c Starc b Hazlewood
 Rachin Ravindra,106,7,27,116,89,9,5,130.33,0,1,c Labuschagne b Cummins
 Daryl Mitchell,103,7,27,54,51,6,1,105.88,0,1,c Starc b Zampa
 Tom Latham,99,7,27,21,22,2,0,95.45,0,1,c Hazlewood b Zampa
-Glenn Phillips,105,7,27,12,16,1,0,75.00,0,1,c Labuschagne b Maxwell
+Glenn Phillips,105,7,27,12,16,1,0,75.0,0,1,c Labuschagne b Maxwell
 James Neesham,104,7,27,58,39,3,3,148.71,0,1,run out (Labuschagne/†Inglis)
 Mitchell Santner,107,7,27,17,12,1,1,141.66,0,1,c Maxwell b Zampa
-Matt Henry,113,7,27,9,8,1,0,112.50,0,1,c Hazlewood b Cummins
-Trent Boult,108,7,27,10,8,0,1,125.00,0,0,
-Lockie Ferguson,109,7,27,0,1,0,0,0.00,0,0,
+Matt Henry,113,7,27,9,8,1,0,112.5,0,1,c Hazlewood b Cummins
+Trent Boult,108,7,27,10,8,0,1,125.0,0,0,
+Lockie Ferguson,109,7,27,0,1,0,0,0.0,0,0,
 Vikramjit Singh,86,6,28,3,9,0,0,33.33,0,1,c Shakib Al Hasan b Taskin Ahmed
-Max O'Dowd,85,6,28,0,3,0,0,0.00,0,1,c Tanzid Hasan b Shoriful Islam
-Wesley Barresi,83,6,28,41,41,8,0,100.00,0,1,c Shakib Al Hasan b Mustafizur Rahman
+Max O'Dowd,85,6,28,0,3,0,0,0.0,0,1,c Tanzid Hasan b Shoriful Islam
+Wesley Barresi,83,6,28,41,41,8,0,100.0,0,1,c Shakib Al Hasan b Mustafizur Rahman
 Colin Ackermann,87,6,28,15,33,1,0,45.45,0,1,c Mustafizur Rahman b Shakib Al Hasan
-Scott Edwards,82,6,28,68,89,6,0,76.40,0,1,c Mehidy Hasan Miraz b Mustafizur Rahman
+Scott Edwards,82,6,28,68,89,6,0,76.4,0,1,c Mehidy Hasan Miraz b Mustafizur Rahman
 Bas de Leede,88,6,28,17,32,2,0,53.12,0,1,c †Mushfiqur Rahim b Taskin Ahmed
 Sybrand Engelbrecht,89,6,28,35,61,3,0,57.37,0,1,lbw b Mahedi Hasan
 Logan van Beek,95,6,28,23,16,2,1,143.75,0,0,
-Shariz Ahmad,94,6,28,6,8,0,0,75.00,0,1,run out (Mahmudullah/†Mushfiqur Rahim)
-Aryan Dutt,93,6,28,9,6,0,1,150.00,0,1,c Mehidy Hasan Miraz b Shoriful Islam
-Paul van Meekeren,96,6,28,0,2,0,0,0.00,0,1,lbw b Mahedi Hasan
-Litton Das,34,3,28,3,12,0,0,25.00,0,1,c †Edwards b Dutt
+Shariz Ahmad,94,6,28,6,8,0,0,75.0,0,1,run out (Mahmudullah/†Mushfiqur Rahim)
+Aryan Dutt,93,6,28,9,6,0,1,150.0,0,1,c Mehidy Hasan Miraz b Shoriful Islam
+Paul van Meekeren,96,6,28,0,2,0,0,0.0,0,1,lbw b Mahedi Hasan
+Litton Das,34,3,28,3,12,0,0,25.0,0,1,c †Edwards b Dutt
 Tanzid Hasan,36,3,28,15,16,3,0,93.75,0,1,c †Edwards b van Beek
-Mehidy Hasan Miraz,40,3,28,35,40,5,1,87.50,0,1,c †Edwards b de Leede
-Najmul Hossain Shanto,32,3,28,9,18,2,0,50.00,0,1,c van Beek b van Meekeren
+Mehidy Hasan Miraz,40,3,28,35,40,5,1,87.5,0,1,c †Edwards b de Leede
+Najmul Hossain Shanto,32,3,28,9,18,2,0,50.0,0,1,c van Beek b van Meekeren
 Shakib Al Hasan,41,3,28,5,14,0,0,35.71,0,1,c †Edwards b van Meekeren
-Mushfiqur Rahim,35,3,28,1,5,0,0,20.00,0,1, b van Meekeren
+Mushfiqur Rahim,35,3,28,1,5,0,0,20.0,0,1, b van Meekeren
 Mahmudullah,39,3,28,20,41,2,0,48.78,0,1,c Dutt b de Leede
 Mahedi Hasan,38,3,28,17,38,1,0,44.73,0,1,run out (de Leede)
 Taskin Ahmed,47,3,28,11,35,1,0,31.42,0,1,c de Leede b van Meekeren
 Mustafizur Rahman,43,3,28,20,35,2,1,57.14,0,1, b Ackermann
-Shoriful Islam,45,3,28,0,0,0,0,-,0,0,
+Shoriful Islam,45,3,28,0,0,0,0,0.0,0,0,
 Rohit Sharma,65,5,29,87,101,10,3,86.13,0,1,c Livingstone b Rashid
 Shubman Gill,70,5,29,9,13,1,0,69.23,0,1, b Woakes
-Virat Kohli,68,5,29,0,9,0,0,0.00,0,1,c Stokes b Willey
-Shreyas Iyer,67,5,29,4,16,0,0,25.00,0,1,c Wood b Woakes
+Virat Kohli,68,5,29,0,9,0,0,0.0,0,1,c Stokes b Willey
+Shreyas Iyer,67,5,29,4,16,0,0,25.0,0,1,c Wood b Woakes
 KL Rahul,69,5,29,39,58,3,0,67.24,0,1,c Bairstow b Willey
 Suryakumar Yadav,71,5,29,49,47,4,1,104.25,0,1,c Woakes b Willey
 Ravindra Jadeja,73,5,29,8,13,0,0,61.53,0,1,lbw b Rashid
-Mohammed Shami,78,5,29,1,5,0,0,20.00,0,1,c †Buttler b Wood
-Jasprit Bumrah,76,5,29,16,25,1,0,64.00,0,1,run out (†Buttler)
+Mohammed Shami,78,5,29,1,5,0,0,20.0,0,1,c †Buttler b Wood
+Jasprit Bumrah,76,5,29,16,25,1,0,64.0,0,1,run out (†Buttler)
 Kuldeep Yadav,77,5,29,9,13,1,0,69.23,0,0,
-Rohit Sharma,65,5,29,0,0,0,0,0,1,0,
-KL Rahul,69,5,29,0,0,0,0,0,1,0,
-Mohammed Siraj,79,5,29,0,0,0,0,0,1,0,
+Rohit Sharma,65,5,29,0,0,0,0,0.0,1,0,
+KL Rahul,69,5,29,0,0,0,0,0.0,1,0,
+Mohammed Siraj,79,5,29,0,0,0,0,0.0,1,0,
 Jonny Bairstow,49,4,29,14,23,2,0,60.86,0,1, b Mohammed Shami
 Dawid Malan,51,4,29,16,17,2,1,94.11,0,1, b Bumrah
-Joe Root,52,4,29,0,1,0,0,0.00,0,1,lbw b Bumrah
-Ben Stokes,58,4,29,0,10,0,0,0.00,0,1, b Mohammed Shami
+Joe Root,52,4,29,0,1,0,0,0.0,0,1,lbw b Bumrah
+Ben Stokes,58,4,29,0,10,0,0,0.0,0,1, b Mohammed Shami
 Jos Buttler,48,4,29,10,23,1,0,43.47,0,1, b Kuldeep Yadav
 Moeen Ali,54,4,29,15,31,0,0,48.38,0,1,c †Rahul b Mohammed Shami
 Liam Livingstone,57,4,29,27,46,2,0,58.69,0,1,lbw b Kuldeep Yadav
-Chris Woakes,60,4,29,10,20,1,0,50.00,0,1,st †Rahul b Jadeja
+Chris Woakes,60,4,29,10,20,1,0,50.0,0,1,st †Rahul b Jadeja
 David Willey,59,4,29,16,17,0,2,94.11,0,0,
-Adil Rashid,62,4,29,13,20,2,0,65.00,0,1, b Mohammed Shami
-Mark Wood,63,4,29,0,1,0,0,0.00,0,1, b Bumrah
+Adil Rashid,62,4,29,13,20,2,0,65.0,0,1, b Mohammed Shami
+Mark Wood,63,4,29,0,1,0,0,0.0,0,1, b Bumrah
 Pathum Nissanka,148,10,30,46,60,5,0,76.66,0,1,c †Rahmanullah Gurbaz b Azmatullah Omarzai
 Dimuth Karunaratne,147,10,30,15,21,1,0,71.42,0,1,lbw b Fazalhaq Farooqi
-Kusal Mendis,146,10,30,39,50,3,0,78.00,0,1,c sub (Najibullah Zadran) b Mujeeb Ur Rahman
-Sadeera Samarawickrama,150,10,30,36,40,3,0,90.00,0,1,lbw b Mujeeb Ur Rahman
+Kusal Mendis,146,10,30,39,50,3,0,78.0,0,1,c sub (Najibullah Zadran) b Mujeeb Ur Rahman
+Sadeera Samarawickrama,150,10,30,36,40,3,0,90.0,0,1,lbw b Mujeeb Ur Rahman
 Charith Asalanka,151,10,30,22,28,2,0,78.57,0,1,c Rashid Khan b Fazalhaq Farooqi
 Dhananjaya de Silva,152,10,30,14,26,1,0,53.84,0,1, b Rashid Khan
 Angelo Mathews,155,10,30,23,26,1,1,88.46,0,1,c Mohammad Nabi b Fazalhaq Farooqi
-Dushmantha Chameera,157,10,30,1,4,0,0,25.00,0,1,run out (Ibrahim Zadran)
+Dushmantha Chameera,157,10,30,1,4,0,0,25.0,0,1,run out (Ibrahim Zadran)
 Maheesh Theekshana,160,10,30,29,31,3,1,93.54,0,1, b Fazalhaq Farooqi
 Kasun Rajitha,159,10,30,5,7,0,0,71.42,0,1,run out (†Rahmanullah Gurbaz)
-Dilshan Madushanka,158,10,30,0,4,0,0,0.00,0,0,
-Rahmanullah Gurbaz,5,1,30,0,4,0,0,0.00,0,1, b Madushanka
+Dilshan Madushanka,158,10,30,0,4,0,0,0.0,0,0,
+Rahmanullah Gurbaz,5,1,30,0,4,0,0,0.0,0,1, b Madushanka
 Ibrahim Zadran,2,1,30,39,57,4,1,68.42,0,1,c Karunaratne b Madushanka
 Rahmat Shah,9,1,30,62,74,7,0,83.78,0,1,c Karunaratne b Rajitha
 Hashmatullah Shahidi,1,1,30,58,74,2,1,78.37,0,0,
 Azmatullah Omarzai,7,1,30,73,63,6,3,115.87,0,0,
-Hashmatullah Shahidi,1,1,30,0,0,0,0,0,1,0,
-Ikram Alikhil,3,1,30,0,0,0,0,0,1,0,
-Mohammad Nabi,8,1,30,0,0,0,0,0,1,0,
-Rashid Khan,10,1,30,0,0,0,0,0,1,0,
-Mujeeb Ur Rahman,13,1,30,0,0,0,0,0,1,0,
-Naveen-ul-Haq,14,1,30,0,0,0,0,0,1,0,
-Fazalhaq Farooqi,12,1,30,0,0,0,0,0,1,0,
-Tanzid Hasan,36,3,31,0,5,0,0,0.00,0,1,lbw b Shaheen Shah Afridi
+Hashmatullah Shahidi,1,1,30,0,0,0,0,0.0,1,0,
+Ikram Alikhil,3,1,30,0,0,0,0,0.0,1,0,
+Mohammad Nabi,8,1,30,0,0,0,0,0.0,1,0,
+Rashid Khan,10,1,30,0,0,0,0,0.0,1,0,
+Mujeeb Ur Rahman,13,1,30,0,0,0,0,0.0,1,0,
+Naveen-ul-Haq,14,1,30,0,0,0,0,0.0,1,0,
+Fazalhaq Farooqi,12,1,30,0,0,0,0,0.0,1,0,
+Tanzid Hasan,36,3,31,0,5,0,0,0.0,0,1,lbw b Shaheen Shah Afridi
 Litton Das,34,3,31,45,64,6,0,70.31,0,1,c Agha Salman b Iftikhar Ahmed
 Najmul Hossain Shanto,32,3,31,4,3,1,0,133.33,0,1,c Usama Mir b Shaheen Shah Afridi
-Mushfiqur Rahim,35,3,31,5,8,1,0,62.50,0,1,c †Mohammad Rizwan b Haris Rauf
-Mahmudullah,39,3,31,56,70,6,1,80.00,0,1, b Shaheen Shah Afridi
+Mushfiqur Rahim,35,3,31,5,8,1,0,62.5,0,1,c †Mohammad Rizwan b Haris Rauf
+Mahmudullah,39,3,31,56,70,6,1,80.0,0,1, b Shaheen Shah Afridi
 Shakib Al Hasan,41,3,31,43,64,4,0,67.18,0,1,c Agha Salman b Haris Rauf
 Towhid Hridoy,37,3,31,7,3,0,1,233.33,0,1,c Iftikhar Ahmed b Usama Mir
 Mehidy Hasan Miraz,40,3,31,25,30,1,1,83.33,0,1, b Mohammad Wasim
 Taskin Ahmed,47,3,31,6,13,0,0,46.15,0,1, b Mohammad Wasim
 Mustafizur Rahman,43,3,31,3,7,0,0,42.85,0,1, b Mohammad Wasim
-Shoriful Islam,45,3,31,1,4,0,0,25.00,0,0,
+Shoriful Islam,45,3,31,1,4,0,0,25.0,0,0,
 Abdullah Shafique,115,8,31,68,69,9,2,98.55,0,1,lbw b Mehidy Hasan Miraz
 Fakhar Zaman,116,8,31,81,74,3,7,109.45,0,1,c Towhid Hridoy b Mehidy Hasan Miraz
 Babar Azam,114,8,31,9,16,1,0,56.25,0,1,c Mahmudullah b Mehidy Hasan Miraz
-Mohammad Rizwan,119,8,31,26,21,4,0,123.80,0,0,
+Mohammad Rizwan,119,8,31,26,21,4,0,123.8,0,0,
 Iftikhar Ahmed,117,8,31,17,15,2,0,113.33,0,0,
-Babar Azam,114,8,31,0,0,0,0,0,1,0,
-Mohammad Rizwan,119,8,31,0,0,0,0,0,1,0,
-Saud Shakeel,120,8,31,0,0,0,0,0,1,0,
-Agha Salman,121,8,31,0,0,0,0,0,1,0,
-Shaheen Shah Afridi,127,8,31,0,0,0,0,0,1,0,
-Usama Mir,128,8,31,0,0,0,0,0,1,0,
-Mohammad Wasim,123,8,31,0,0,0,0,0,1,0,
-Haris Rauf,125,8,31,0,0,0,0,0,1,0,
+Babar Azam,114,8,31,0,0,0,0,0.0,1,0,
+Mohammad Rizwan,119,8,31,0,0,0,0,0.0,1,0,
+Saud Shakeel,120,8,31,0,0,0,0,0.0,1,0,
+Agha Salman,121,8,31,0,0,0,0,0.0,1,0,
+Shaheen Shah Afridi,127,8,31,0,0,0,0,0.0,1,0,
+Usama Mir,128,8,31,0,0,0,0,0.0,1,0,
+Mohammad Wasim,123,8,31,0,0,0,0,0.0,1,0,
+Haris Rauf,125,8,31,0,0,0,0,0.0,1,0,
 Quinton de Kock,130,9,32,114,116,10,3,98.27,0,1,c Phillips b Southee
 Temba Bavuma,129,9,32,24,28,4,1,85.71,0,1,c Mitchell b Boult
 Rassie van der Dussen,135,9,32,133,118,9,5,112.71,0,1, b Southee
 David Miller,134,9,32,53,30,2,4,176.66,0,1,c Mitchell b Neesham
 Heinrich Klaasen,132,9,32,15,7,1,1,214.28,0,0,
-Aiden Markram,133,9,32,6,1,0,1,600.00,0,0,
-Quinton de Kock,130,9,32,0,0,0,0,0,1,0,
-Temba Bavuma,129,9,32,0,0,0,0,0,1,0,
-Marco Jansen,136,9,32,0,0,0,0,0,1,0,
-Gerald Coetzee,138,9,32,0,0,0,0,0,1,0,
-Keshav Maharaj,139,9,32,0,0,0,0,0,1,0,
-Kagiso Rabada,141,9,32,0,0,0,0,0,1,0,
-Lungi Ngidi,140,9,32,0,0,0,0,0,1,0,
+Aiden Markram,133,9,32,6,1,0,1,600.0,0,0,
+Quinton de Kock,130,9,32,0,0,0,0,0.0,1,0,
+Temba Bavuma,129,9,32,0,0,0,0,0.0,1,0,
+Marco Jansen,136,9,32,0,0,0,0,0.0,1,0,
+Gerald Coetzee,138,9,32,0,0,0,0,0.0,1,0,
+Keshav Maharaj,139,9,32,0,0,0,0,0.0,1,0,
+Kagiso Rabada,141,9,32,0,0,0,0,0.0,1,0,
+Lungi Ngidi,140,9,32,0,0,0,0,0.0,1,0,
 Devon Conway,100,7,32,2,6,0,0,33.33,0,1,c Markram b Jansen
 Will Young,101,7,32,33,37,5,0,89.18,0,1,c †de Kock b Coetzee
 Rachin Ravindra,106,7,32,9,16,1,0,56.25,0,1,c Coetzee b Jansen
-Daryl Mitchell,103,7,32,24,30,4,0,80.00,0,1,c Miller b Maharaj
+Daryl Mitchell,103,7,32,24,30,4,0,80.0,0,1,c Miller b Maharaj
 Tom Latham,99,7,32,4,15,0,0,26.66,0,1,c Maharaj b Rabada
-Glenn Phillips,105,7,32,60,50,4,4,120.00,0,1,c Rabada b Coetzee
+Glenn Phillips,105,7,32,60,50,4,4,120.0,0,1,c Rabada b Coetzee
 Mitchell Santner,107,7,32,7,18,1,0,38.88,0,1, b Maharaj
 Tim Southee,112,7,32,7,11,1,0,63.63,0,1,lbw b Jansen
-James Neesham,104,7,32,0,8,0,0,0.00,0,1, b Maharaj
+James Neesham,104,7,32,0,8,0,0,0.0,0,1, b Maharaj
 Trent Boult,108,7,32,9,14,1,0,64.28,0,1,c Miller b Maharaj
-Matt Henry,113,7,32,0,9,0,0,0.00,0,0,
-Rohit Sharma,65,5,33,4,2,1,0,200.00,0,1, b Madushanka
-Shubman Gill,70,5,33,92,92,11,2,100.00,0,1,c †Mendis b Madushanka
+Matt Henry,113,7,32,0,9,0,0,0.0,0,0,
+Rohit Sharma,65,5,33,4,2,1,0,200.0,0,1, b Madushanka
+Shubman Gill,70,5,33,92,92,11,2,100.0,0,1,c †Mendis b Madushanka
 Virat Kohli,68,5,33,88,94,11,0,93.61,0,1,c Nissanka b Madushanka
 Shreyas Iyer,67,5,33,82,56,3,6,146.42,0,1,c Theekshana b Madushanka
 KL Rahul,69,5,33,21,19,2,0,110.52,0,1,c Hemantha b Chameera
 Suryakumar Yadav,71,5,33,12,9,2,0,133.33,0,1,c †Mendis b Madushanka
 Ravindra Jadeja,73,5,33,35,24,1,1,145.83,0,1,run out (Samarawickrama/†Mendis)
-Mohammed Shami,78,5,33,2,4,0,0,50.00,0,1,run out (†Mendis)
-Jasprit Bumrah,76,5,33,1,1,0,0,100.00,0,0,
-Rohit Sharma,65,5,33,0,0,0,0,0,1,0,
-KL Rahul,69,5,33,0,0,0,0,0,1,0,
-Kuldeep Yadav,77,5,33,0,0,0,0,0,1,0,
-Mohammed Siraj,79,5,33,0,0,0,0,0,1,0,
-Pathum Nissanka,148,10,33,0,1,0,0,0.00,0,1,lbw b Bumrah
-Dimuth Karunaratne,147,10,33,0,1,0,0,0.00,0,1,lbw b Mohammed Siraj
-Kusal Mendis,146,10,33,1,10,0,0,10.00,0,1, b Mohammed Siraj
-Sadeera Samarawickrama,150,10,33,0,4,0,0,0.00,0,1,c Iyer b Mohammed Siraj
+Mohammed Shami,78,5,33,2,4,0,0,50.0,0,1,run out (†Mendis)
+Jasprit Bumrah,76,5,33,1,1,0,0,100.0,0,0,
+Rohit Sharma,65,5,33,0,0,0,0,0.0,1,0,
+KL Rahul,69,5,33,0,0,0,0,0.0,1,0,
+Kuldeep Yadav,77,5,33,0,0,0,0,0.0,1,0,
+Mohammed Siraj,79,5,33,0,0,0,0,0.0,1,0,
+Pathum Nissanka,148,10,33,0,1,0,0,0.0,0,1,lbw b Bumrah
+Dimuth Karunaratne,147,10,33,0,1,0,0,0.0,0,1,lbw b Mohammed Siraj
+Kusal Mendis,146,10,33,1,10,0,0,10.0,0,1, b Mohammed Siraj
+Sadeera Samarawickrama,150,10,33,0,4,0,0,0.0,0,1,c Iyer b Mohammed Siraj
 Charith Asalanka,151,10,33,1,24,0,0,4.16,0,1,c Jadeja b Mohammed Shami
-Angelo Mathews,155,10,33,12,25,1,0,48.00,0,1, b Mohammed Shami
-Dushan Hemantha,153,10,33,0,1,0,0,0.00,0,1,c †Rahul b Mohammed Shami
-Dushmantha Chameera,157,10,33,0,6,0,0,0.00,0,1,c †Rahul b Mohammed Shami
+Angelo Mathews,155,10,33,12,25,1,0,48.0,0,1, b Mohammed Shami
+Dushan Hemantha,153,10,33,0,1,0,0,0.0,0,1,c †Rahul b Mohammed Shami
+Dushmantha Chameera,157,10,33,0,6,0,0,0.0,0,1,c †Rahul b Mohammed Shami
 Maheesh Theekshana,160,10,33,12,23,2,0,52.17,0,0,
 Kasun Rajitha,159,10,33,14,17,2,0,82.35,0,1,c Shubman Gill b Mohammed Shami
 Dilshan Madushanka,158,10,33,5,6,1,0,83.33,0,1,c Iyer b Jadeja
-Wesley Barresi,83,6,34,1,4,0,0,25.00,0,1,lbw b Mujeeb Ur Rahman
-Max O'Dowd,85,6,34,42,40,9,0,105.00,0,1,run out (Azmatullah Omarzai)
+Wesley Barresi,83,6,34,1,4,0,0,25.0,0,1,lbw b Mujeeb Ur Rahman
+Max O'Dowd,85,6,34,42,40,9,0,105.0,0,1,run out (Azmatullah Omarzai)
 Colin Ackermann,87,6,34,29,35,4,0,82.85,0,1,run out (Rashid Khan/†Ikram Alikhil)
 Sybrand Engelbrecht,89,6,34,58,86,6,0,67.44,0,1,run out (Mohammad Nabi/†Ikram Alikhil)
-Scott Edwards,82,6,34,0,1,0,0,0.00,0,1,run out (†Ikram Alikhil)
-Bas de Leede,88,6,34,3,6,0,0,50.00,0,1,c †Ikram Alikhil b Mohammad Nabi
-Saqib Zulfiqar,91,6,34,3,15,0,0,20.00,0,1,c †Ikram Alikhil b Noor Ahmad
+Scott Edwards,82,6,34,0,1,0,0,0.0,0,1,run out (†Ikram Alikhil)
+Bas de Leede,88,6,34,3,6,0,0,50.0,0,1,c †Ikram Alikhil b Mohammad Nabi
+Saqib Zulfiqar,91,6,34,3,15,0,0,20.0,0,1,c †Ikram Alikhil b Noor Ahmad
 Logan van Beek,95,6,34,2,13,0,0,15.38,0,1,st †Ikram Alikhil b Mohammad Nabi
 Roelof van der Merwe,92,6,34,11,33,0,0,33.33,0,1,c Ibrahim Zadran b Noor Ahmad
 Aryan Dutt,93,6,34,10,22,0,0,45.45,0,0,
 Paul van Meekeren,96,6,34,4,24,0,0,16.66,0,1,lbw b Mohammad Nabi
-Rahmanullah Gurbaz,5,1,34,10,11,2,0,90.90,0,1,c †Edwards b van Beek
+Rahmanullah Gurbaz,5,1,34,10,11,2,0,90.9,0,1,c †Edwards b van Beek
 Ibrahim Zadran,2,1,34,20,34,2,0,58.82,0,1, b van der Merwe
 Rahmat Shah,9,1,34,52,54,8,0,96.29,0,1,c & b Saqib Zulfiqar
-Hashmatullah Shahidi,1,1,34,56,64,6,0,87.50,0,0,
+Hashmatullah Shahidi,1,1,34,56,64,6,0,87.5,0,0,
 Azmatullah Omarzai,7,1,34,31,28,3,0,110.71,0,0,
-Hashmatullah Shahidi,1,1,34,0,0,0,0,0,1,0,
-Mohammad Nabi,8,1,34,0,0,0,0,0,1,0,
-Ikram Alikhil,3,1,34,0,0,0,0,0,1,0,
-Rashid Khan,10,1,34,0,0,0,0,0,1,0,
-Mujeeb Ur Rahman,13,1,34,0,0,0,0,0,1,0,
-Noor Ahmad,15,1,34,0,0,0,0,0,1,0,
-Fazalhaq Farooqi,12,1,34,0,0,0,0,0,1,0,
+Hashmatullah Shahidi,1,1,34,0,0,0,0,0.0,1,0,
+Mohammad Nabi,8,1,34,0,0,0,0,0.0,1,0,
+Ikram Alikhil,3,1,34,0,0,0,0,0.0,1,0,
+Rashid Khan,10,1,34,0,0,0,0,0.0,1,0,
+Mujeeb Ur Rahman,13,1,34,0,0,0,0,0.0,1,0,
+Noor Ahmad,15,1,34,0,0,0,0,0.0,1,0,
+Fazalhaq Farooqi,12,1,34,0,0,0,0,0.0,1,0,
 Devon Conway,100,7,35,35,39,6,0,89.74,0,1,c †Mohammad Rizwan b Hasan Ali
 Rachin Ravindra,106,7,35,108,94,15,1,114.89,0,1,c Saud Shakeel b Mohammad Wasim
 Kane Williamson,98,7,35,95,79,10,2,120.25,0,1,c Fakhar Zaman b Iftikhar Ahmed
 Daryl Mitchell,103,7,35,29,18,4,1,161.11,0,1, b Haris Rauf
 Mark Chapman,102,7,35,39,27,7,0,144.44,0,1, b Mohammad Wasim
-Glenn Phillips,105,7,35,41,25,4,2,164.00,0,1, b Mohammad Wasim
+Glenn Phillips,105,7,35,41,25,4,2,164.0,0,1, b Mohammad Wasim
 Mitchell Santner,107,7,35,26,17,0,2,152.94,0,0,
-Tom Latham,99,7,35,2,2,0,0,100.00,0,0,
-Kane Williamson,98,7,35,0,0,0,0,0,1,0,
-Tom Latham,99,7,35,0,0,0,0,0,1,0,
-Ish Sodhi,111,7,35,0,0,0,0,0,1,0,
-Tim Southee,112,7,35,0,0,0,0,0,1,0,
-Trent Boult,108,7,35,0,0,0,0,0,1,0,
+Tom Latham,99,7,35,2,2,0,0,100.0,0,0,
+Kane Williamson,98,7,35,0,0,0,0,0.0,1,0,
+Tom Latham,99,7,35,0,0,0,0,0.0,1,0,
+Ish Sodhi,111,7,35,0,0,0,0,0.0,1,0,
+Tim Southee,112,7,35,0,0,0,0,0.0,1,0,
+Trent Boult,108,7,35,0,0,0,0,0.0,1,0,
 Abdullah Shafique,115,8,35,4,9,1,0,44.44,0,1,c Williamson b Southee
 Fakhar Zaman,116,8,35,126,81,8,11,155.55,0,0,
 Babar Azam,114,8,35,66,63,6,2,104.76,0,0,
-Babar Azam,114,8,35,0,0,0,0,0,1,0,
-Mohammad Rizwan,119,8,35,0,0,0,0,0,1,0,
-Saud Shakeel,120,8,35,0,0,0,0,0,1,0,
-Iftikhar Ahmed,117,8,35,0,0,0,0,0,1,0,
-Agha Salman,121,8,35,0,0,0,0,0,1,0,
-Hasan Ali,126,8,35,0,0,0,0,0,1,0,
-Shaheen Shah Afridi,127,8,35,0,0,0,0,0,1,0,
-Mohammad Wasim,123,8,35,0,0,0,0,0,1,0,
-Haris Rauf,125,8,35,0,0,0,0,0,1,0,
-Travis Head,17,2,36,11,10,1,0,110.00,0,1,c Root b Woakes
+Babar Azam,114,8,35,0,0,0,0,0.0,1,0,
+Mohammad Rizwan,119,8,35,0,0,0,0,0.0,1,0,
+Saud Shakeel,120,8,35,0,0,0,0,0.0,1,0,
+Iftikhar Ahmed,117,8,35,0,0,0,0,0.0,1,0,
+Agha Salman,121,8,35,0,0,0,0,0.0,1,0,
+Hasan Ali,126,8,35,0,0,0,0,0.0,1,0,
+Shaheen Shah Afridi,127,8,35,0,0,0,0,0.0,1,0,
+Mohammad Wasim,123,8,35,0,0,0,0,0.0,1,0,
+Haris Rauf,125,8,35,0,0,0,0,0.0,1,0,
+Travis Head,17,2,36,11,10,1,0,110.0,0,1,c Root b Woakes
 David Warner,21,2,36,15,16,1,1,93.75,0,1,c Willey b Woakes
 Steven Smith,20,2,36,44,52,3,0,84.61,0,1,c Ali b Rashid
 Marnus Labuschagne,19,2,36,71,83,7,0,85.54,0,1,lbw b Wood
-Josh Inglis,18,2,36,3,6,0,0,50.00,0,1,c Ali b Rashid
+Josh Inglis,18,2,36,3,6,0,0,50.0,0,1,c Ali b Rashid
 Cameron Green,23,2,36,47,52,5,0,90.38,0,1, b Willey
 Marcus Stoinis,26,2,36,35,32,3,2,109.37,0,1,c Bairstow b Livingstone
 Pat Cummins,27,2,36,10,13,1,0,76.92,0,1,c Malan b Wood
 Mitchell Starc,29,2,36,10,13,0,0,76.92,0,1,c Ali b Woakes
 Adam Zampa,30,2,36,29,19,4,0,152.63,0,1,c †Buttler b Woakes
-Josh Hazlewood,28,2,36,1,1,0,0,100.00,0,0,
-Jonny Bairstow,49,4,36,0,1,0,0,0.00,0,1,c †Inglis b Starc
+Josh Hazlewood,28,2,36,1,1,0,0,100.0,0,0,
+Jonny Bairstow,49,4,36,0,1,0,0,0.0,0,1,c †Inglis b Starc
 Dawid Malan,51,4,36,50,64,4,1,78.12,0,1,c Head b Cummins
 Joe Root,52,4,36,13,17,2,0,76.47,0,1,c †Inglis b Starc
 Ben Stokes,58,4,36,64,90,2,3,71.11,0,1,c Stoinis b Zampa
 Jos Buttler,48,4,36,1,7,0,0,14.28,0,1,c Green b Zampa
 Moeen Ali,54,4,36,42,43,6,0,97.67,0,1,c Warner b Zampa
-Liam Livingstone,57,4,36,2,5,0,0,40.00,0,1,c sub (SA Abbott) b Cummins
+Liam Livingstone,57,4,36,2,5,0,0,40.0,0,1,c sub (SA Abbott) b Cummins
 Chris Woakes,60,4,36,32,33,4,1,96.96,0,1,c Labuschagne b Stoinis
 David Willey,59,4,36,15,14,3,0,107.14,0,1,c Zampa b Hazlewood
 Adil Rashid,62,4,36,20,15,1,1,133.33,0,1,c †Inglis b Hazlewood
-Mark Wood,63,4,36,0,0,0,0,-,0,0,
+Mark Wood,63,4,36,0,0,0,0,0.0,0,0,
 Rohit Sharma,65,5,37,40,24,6,2,166.66,0,1,c Bavuma b Rabada
 Shubman Gill,70,5,37,23,24,4,1,95.83,0,1, b Maharaj
 Virat Kohli,68,5,37,101,121,10,0,83.47,0,0,
-Shreyas Iyer,67,5,37,77,87,7,2,88.50,0,1,c Markram b Ngidi
+Shreyas Iyer,67,5,37,77,87,7,2,88.5,0,1,c Markram b Ngidi
 KL Rahul,69,5,37,8,17,0,0,47.05,0,1,c van der Dussen b Jansen
 Suryakumar Yadav,71,5,37,22,14,5,0,157.14,0,1,c †de Kock b Shamsi
 Ravindra Jadeja,73,5,37,29,15,3,1,193.33,0,0,
-Rohit Sharma,65,5,37,0,0,0,0,0,1,0,
-KL Rahul,69,5,37,0,0,0,0,0,1,0,
-Mohammed Shami,78,5,37,0,0,0,0,0,1,0,
-Jasprit Bumrah,76,5,37,0,0,0,0,0,1,0,
-Kuldeep Yadav,77,5,37,0,0,0,0,0,1,0,
-Mohammed Siraj,79,5,37,0,0,0,0,0,1,0,
-Quinton de Kock,130,9,37,5,10,1,0,50.00,0,1, b Mohammed Siraj
+Rohit Sharma,65,5,37,0,0,0,0,0.0,1,0,
+KL Rahul,69,5,37,0,0,0,0,0.0,1,0,
+Mohammed Shami,78,5,37,0,0,0,0,0.0,1,0,
+Jasprit Bumrah,76,5,37,0,0,0,0,0.0,1,0,
+Kuldeep Yadav,77,5,37,0,0,0,0,0.0,1,0,
+Mohammed Siraj,79,5,37,0,0,0,0,0.0,1,0,
+Quinton de Kock,130,9,37,5,10,1,0,50.0,0,1, b Mohammed Siraj
 Temba Bavuma,129,9,37,11,19,1,0,57.89,0,1, b Jadeja
 Rassie van der Dussen,135,9,37,13,32,1,0,40.62,0,1,lbw b Mohammed Shami
-Aiden Markram,133,9,37,9,6,2,0,150.00,0,1,c †Rahul b Mohammed Shami
+Aiden Markram,133,9,37,9,6,2,0,150.0,0,1,c †Rahul b Mohammed Shami
 Heinrich Klaasen,132,9,37,1,11,0,0,9.09,0,1,lbw b Jadeja
-David Miller,134,9,37,11,11,2,0,100.00,0,1, b Jadeja
+David Miller,134,9,37,11,11,2,0,100.0,0,1, b Jadeja
 Marco Jansen,136,9,37,14,30,1,0,46.66,0,1,c Jadeja b Kuldeep Yadav
 Keshav Maharaj,139,9,37,7,11,1,0,63.63,0,1, b Jadeja
 Kagiso Rabada,141,9,37,6,26,0,0,23.07,0,1,c & b Jadeja
-Lungi Ngidi,140,9,37,0,3,0,0,0.00,0,1, b Kuldeep Yadav
-Tabraiz Shamsi,142,9,37,4,4,1,0,100.00,0,0,
+Lungi Ngidi,140,9,37,0,3,0,0,0.0,0,1, b Kuldeep Yadav
+Tabraiz Shamsi,142,9,37,4,4,1,0,100.0,0,0,
 Pathum Nissanka,148,10,38,41,36,8,0,113.88,0,1, b Tanzim Hasan Sakib
-Kusal Perera,149,10,38,4,5,1,0,80.00,0,1,c †Mushfiqur Rahim b Shoriful Islam
+Kusal Perera,149,10,38,4,5,1,0,80.0,0,1,c †Mushfiqur Rahim b Shoriful Islam
 Kusal Mendis,146,10,38,19,30,1,1,63.33,0,1,c Shoriful Islam b Shakib Al Hasan
 Sadeera Samarawickrama,150,10,38,41,42,4,0,97.61,0,1,c Mahmudullah b Shakib Al Hasan
 Charith Asalanka,151,10,38,108,105,6,5,102.85,0,1,c Litton Das b Tanzim Hasan Sakib
-Angelo Mathews,155,10,38,0,0,0,0,-,0,0,
+Angelo Mathews,155,10,38,0,0,0,0,0.0,0,0,
 Dhananjaya de Silva,152,10,38,34,36,4,1,94.44,0,1,st †Mushfiqur Rahim b Mehidy Hasan Miraz
 Maheesh Theekshana,160,10,38,21,31,3,0,67.74,0,1,c sub (Nasum Ahmed) b Shoriful Islam
 Dushmantha Chameera,157,10,38,4,9,0,0,44.44,0,1,run out (†Mushfiqur Rahim)
-Kasun Rajitha,159,10,38,0,2,0,0,0.00,0,1,c Litton Das b Tanzim Hasan Sakib
-Dilshan Madushanka,158,10,38,0,1,0,0,0.00,0,0,
-Tanzid Hasan,36,3,38,9,5,2,0,180.00,0,1,c Nissanka b Madushanka
+Kasun Rajitha,159,10,38,0,2,0,0,0.0,0,1,c Litton Das b Tanzim Hasan Sakib
+Dilshan Madushanka,158,10,38,0,1,0,0,0.0,0,0,
+Tanzid Hasan,36,3,38,9,5,2,0,180.0,0,1,c Nissanka b Madushanka
 Litton Das,34,3,38,23,22,2,2,104.54,0,1,lbw b Madushanka
-Najmul Hossain Shanto,32,3,38,90,101,12,0,89.10,0,1, b Mathews
+Najmul Hossain Shanto,32,3,38,90,101,12,0,89.1,0,1, b Mathews
 Shakib Al Hasan,41,3,38,82,65,12,2,126.15,0,1,c Asalanka b Mathews
 Mahmudullah,39,3,38,22,23,3,1,95.65,0,1, b Theekshana
 Mushfiqur Rahim,35,3,38,10,13,1,0,76.92,0,1, b Madushanka
 Towhid Hridoy,37,3,38,15,7,0,2,214.28,0,0,
-Mehidy Hasan Miraz,40,3,38,3,5,0,0,60.00,0,1,c Asalanka b Theekshana
+Mehidy Hasan Miraz,40,3,38,3,5,0,0,60.0,0,1,c Asalanka b Theekshana
 Tanzim Hasan Sakib,46,3,38,5,6,1,0,83.33,0,0,
-Shakib Al Hasan,41,3,38,0,0,0,0,0,1,0,
-Mushfiqur Rahim,35,3,38,0,0,0,0,0,1,0,
-Taskin Ahmed,47,3,38,0,0,0,0,0,1,0,
-Shoriful Islam,45,3,38,0,0,0,0,0,1,0,
-Rahmanullah Gurbaz,5,1,39,21,25,2,0,84.00,0,1,c Starc b Hazlewood
-Ibrahim Zadran,2,1,39,129,143,8,3,90.20,0,0,
+Shakib Al Hasan,41,3,38,0,0,0,0,0.0,1,0,
+Mushfiqur Rahim,35,3,38,0,0,0,0,0.0,1,0,
+Taskin Ahmed,47,3,38,0,0,0,0,0.0,1,0,
+Shoriful Islam,45,3,38,0,0,0,0,0.0,1,0,
+Rahmanullah Gurbaz,5,1,39,21,25,2,0,84.0,0,1,c Starc b Hazlewood
+Ibrahim Zadran,2,1,39,129,143,8,3,90.2,0,0,
 Rahmat Shah,9,1,39,30,44,1,0,68.18,0,1,c Hazlewood b Maxwell
 Hashmatullah Shahidi,1,1,39,26,43,2,0,60.46,0,1, b Starc
 Azmatullah Omarzai,7,1,39,22,18,1,2,122.22,0,1,c Maxwell b Zampa
-Mohammad Nabi,8,1,39,12,10,0,1,120.00,0,1, b Hazlewood
+Mohammad Nabi,8,1,39,12,10,0,1,120.0,0,1, b Hazlewood
 Rashid Khan,10,1,39,35,18,2,3,194.44,0,0,
-Hashmatullah Shahidi,1,1,39,0,0,0,0,0,1,0,
-Ikram Alikhil,3,1,39,0,0,0,0,0,1,0,
-Mujeeb Ur Rahman,13,1,39,0,0,0,0,0,1,0,
-Noor Ahmad,15,1,39,0,0,0,0,0,1,0,
-Naveen-ul-Haq,14,1,39,0,0,0,0,0,1,0,
+Hashmatullah Shahidi,1,1,39,0,0,0,0,0.0,1,0,
+Ikram Alikhil,3,1,39,0,0,0,0,0.0,1,0,
+Mujeeb Ur Rahman,13,1,39,0,0,0,0,0.0,1,0,
+Noor Ahmad,15,1,39,0,0,0,0,0.0,1,0,
+Naveen-ul-Haq,14,1,39,0,0,0,0,0.0,1,0,
 David Warner,21,2,39,18,29,3,0,62.06,0,1, b Azmatullah Omarzai
-Travis Head,17,2,39,0,2,0,0,0.00,0,1,c †Ikram Alikhil b Naveen-ul-Haq
+Travis Head,17,2,39,0,2,0,0,0.0,0,1,c †Ikram Alikhil b Naveen-ul-Haq
 Mitchell Marsh,24,2,39,24,11,2,2,218.18,0,1,lbw b Naveen-ul-Haq
-Marnus Labuschagne,19,2,39,14,28,2,0,50.00,0,1,run out (Rahmat Shah)
-Josh Inglis,18,2,39,0,1,0,0,0.00,0,1,c Ibrahim Zadran b Azmatullah Omarzai
+Marnus Labuschagne,19,2,39,14,28,2,0,50.0,0,1,run out (Rahmat Shah)
+Josh Inglis,18,2,39,0,1,0,0,0.0,0,1,c Ibrahim Zadran b Azmatullah Omarzai
 Glenn Maxwell,25,2,39,201,128,21,10,157.03,0,0,
 Marcus Stoinis,26,2,39,6,7,1,0,85.71,0,1,lbw b Rashid Khan
 Mitchell Starc,29,2,39,3,7,0,0,42.85,0,1,c †Ikram Alikhil b Rashid Khan
 Pat Cummins,27,2,39,12,68,1,0,17.64,0,0,
-Josh Inglis,18,2,39,0,0,0,0,0,1,0,
-Pat Cummins,27,2,39,0,0,0,0,0,1,0,
-Adam Zampa,30,2,39,0,0,0,0,0,1,0,
-Josh Hazlewood,28,2,39,0,0,0,0,0,1,0,
+Josh Inglis,18,2,39,0,0,0,0,0.0,1,0,
+Pat Cummins,27,2,39,0,0,0,0,0.0,1,0,
+Adam Zampa,30,2,39,0,0,0,0,0.0,1,0,
+Josh Hazlewood,28,2,39,0,0,0,0,0.0,1,0,
 Jonny Bairstow,49,4,40,15,17,2,0,88.23,0,1,c van Meekeren b Dutt
 Dawid Malan,51,4,40,87,74,10,2,117.56,0,1,run out (†Edwards/van Beek)
-Joe Root,52,4,40,28,35,1,0,80.00,0,1, b van Beek
+Joe Root,52,4,40,28,35,1,0,80.0,0,1, b van Beek
 Ben Stokes,58,4,40,108,84,6,6,128.57,0,1,c Engelbrecht b van Beek
 Harry Brook,50,4,40,11,16,2,0,68.75,0,1,c Ackermann b de Leede
 Jos Buttler,48,4,40,5,11,0,0,45.45,0,1,c Nidamanuru b van Meekeren
 Moeen Ali,54,4,40,4,15,0,0,26.66,0,1,c de Leede b Dutt
 Chris Woakes,60,4,40,51,45,5,1,113.33,0,1,c †Edwards b de Leede
-David Willey,59,4,40,6,2,0,1,300.00,0,1,c Engelbrecht b de Leede
-Gus Atkinson,61,4,40,2,1,0,0,200.00,0,0,
-Adil Rashid,62,4,40,1,1,0,0,100.00,0,0,
+David Willey,59,4,40,6,2,0,1,300.0,0,1,c Engelbrecht b de Leede
+Gus Atkinson,61,4,40,2,1,0,0,200.0,0,0,
+Adil Rashid,62,4,40,1,1,0,0,100.0,0,0,
 Wesley Barresi,83,6,40,37,62,3,1,59.67,0,1,run out (Woakes/Ali)
 Max O'Dowd,85,6,40,5,11,1,0,45.45,0,1,c Ali b Woakes
-Colin Ackermann,87,6,40,0,2,0,0,0.00,0,1,c †Buttler b Willey
+Colin Ackermann,87,6,40,0,2,0,0,0.0,0,1,c †Buttler b Willey
 Sybrand Engelbrecht,89,6,40,33,49,3,1,67.34,0,1,c Woakes b Willey
 Scott Edwards,82,6,40,38,42,3,1,90.47,0,1,c Malan b Ali
 Bas de Leede,88,6,40,10,12,2,0,83.33,0,1, b Rashid
 Teja Nidamanuru,90,6,40,41,34,2,3,120.58,0,0,
-Logan van Beek,95,6,40,2,2,0,0,100.00,0,1,c Malan b Rashid
-Roelof van der Merwe,92,6,40,0,4,0,0,0.00,0,1,c Rashid b Ali
+Logan van Beek,95,6,40,2,2,0,0,100.0,0,1,c Malan b Rashid
+Roelof van der Merwe,92,6,40,0,4,0,0,0.0,0,1,c Rashid b Ali
 Aryan Dutt,93,6,40,1,3,0,0,33.33,0,1, b Rashid
 Paul van Meekeren,96,6,40,4,3,1,0,133.33,0,1,st †Buttler b Ali
-Pathum Nissanka,148,10,41,2,8,0,0,25.00,0,1,c †Latham b Southee
+Pathum Nissanka,148,10,41,2,8,0,0,25.0,0,1,c †Latham b Southee
 Kusal Perera,149,10,41,51,28,9,2,182.14,0,1,c Santner b Ferguson
 Kusal Mendis,146,10,41,6,7,1,0,85.71,0,1,c Ravindra b Boult
-Sadeera Samarawickrama,150,10,41,1,2,0,0,50.00,0,1,c Mitchell b Boult
-Charith Asalanka,151,10,41,8,8,1,0,100.00,0,1,lbw b Boult
+Sadeera Samarawickrama,150,10,41,1,2,0,0,50.0,0,1,c Mitchell b Boult
+Charith Asalanka,151,10,41,8,8,1,0,100.0,0,1,lbw b Boult
 Angelo Mathews,155,10,41,16,27,2,0,59.25,0,1,c Mitchell b Santner
 Dhananjaya de Silva,152,10,41,19,24,2,1,79.16,0,1,c Mitchell b Santner
 Chamika Karunaratne,154,10,41,6,17,1,0,35.29,0,1,c †Latham b Ferguson
 Maheesh Theekshana,160,10,41,38,91,3,0,41.75,0,0,
-Dushmantha Chameera,157,10,41,1,20,0,0,5.00,0,1,c Boult b Ravindra
+Dushmantha Chameera,157,10,41,1,20,0,0,5.0,0,1,c Boult b Ravindra
 Dilshan Madushanka,158,10,41,19,48,2,0,39.58,0,1,c †Latham b Ravindra
 Devon Conway,100,7,41,45,42,9,0,107.14,0,1,c de Silva b Chameera
 Rachin Ravindra,106,7,41,42,34,3,3,123.52,0,1,c de Silva b Theekshana
 Kane Williamson,98,7,41,14,15,2,0,93.33,0,1, b Mathews
-Daryl Mitchell,103,7,41,43,31,5,2,138.70,0,1,c Asalanka b Mathews
+Daryl Mitchell,103,7,41,43,31,5,2,138.7,0,1,c Asalanka b Mathews
 Mark Chapman,102,7,41,7,6,1,0,116.66,0,1,run out (Samarawickrama/Mathews)
-Glenn Phillips,105,7,41,17,10,3,0,170.00,0,0,
-Tom Latham,99,7,41,2,2,0,0,100.00,0,0,
-Kane Williamson,98,7,41,0,0,0,0,0,1,0,
-Tom Latham,99,7,41,0,0,0,0,0,1,0,
-Mitchell Santner,107,7,41,0,0,0,0,0,1,0,
-Lockie Ferguson,109,7,41,0,0,0,0,0,1,0,
-Tim Southee,112,7,41,0,0,0,0,0,1,0,
-Trent Boult,108,7,41,0,0,0,0,0,1,0,
+Glenn Phillips,105,7,41,17,10,3,0,170.0,0,0,
+Tom Latham,99,7,41,2,2,0,0,100.0,0,0,
+Kane Williamson,98,7,41,0,0,0,0,0.0,1,0,
+Tom Latham,99,7,41,0,0,0,0,0.0,1,0,
+Mitchell Santner,107,7,41,0,0,0,0,0.0,1,0,
+Lockie Ferguson,109,7,41,0,0,0,0,0.0,1,0,
+Tim Southee,112,7,41,0,0,0,0,0.0,1,0,
+Trent Boult,108,7,41,0,0,0,0,0.0,1,0,
 Rahmanullah Gurbaz,5,1,42,25,22,3,1,113.63,0,1,c Klaasen b Maharaj
-Ibrahim Zadran,2,1,42,15,30,3,0,50.00,0,1,c †de Kock b Coetzee
+Ibrahim Zadran,2,1,42,15,30,3,0,50.0,0,1,c †de Kock b Coetzee
 Rahmat Shah,9,1,42,26,46,2,0,56.52,0,1,c Miller b Ngidi
 Hashmatullah Shahidi,1,1,42,2,7,0,0,28.57,0,1,c †de Kock b Maharaj
 Azmatullah Omarzai,7,1,42,97,107,7,3,90.65,0,0,
@@ -971,63 +971,63 @@ Ikram Alikhil,3,1,42,12,14,1,1,85.71,0,1,c †de Kock b Coetzee
 Mohammad Nabi,8,1,42,2,3,0,0,66.66,0,1,c †de Kock b Ngidi
 Rashid Khan,10,1,42,14,30,0,0,46.66,0,1,c †de Kock b Phehlukwayo
 Noor Ahmad,15,1,42,26,32,4,0,81.25,0,1,c †de Kock b Coetzee
-Mujeeb Ur Rahman,13,1,42,8,5,0,1,160.00,0,1,c Markram b Coetzee
-Naveen-ul-Haq,14,1,42,2,4,0,0,50.00,0,1,run out (Rabada)
+Mujeeb Ur Rahman,13,1,42,8,5,0,1,160.0,0,1,c Markram b Coetzee
+Naveen-ul-Haq,14,1,42,2,4,0,0,50.0,0,1,run out (Rabada)
 Quinton de Kock,130,9,42,41,47,2,3,87.23,0,1,lbw b Mohammad Nabi
 Temba Bavuma,129,9,42,23,28,3,0,82.14,0,1,c Rahmanullah Gurbaz b Mujeeb Ur Rahman
-Rassie van der Dussen,135,9,42,76,95,6,1,80.00,0,0,
+Rassie van der Dussen,135,9,42,76,95,6,1,80.0,0,0,
 Aiden Markram,133,9,42,25,32,1,1,78.12,0,1,c Naveen-ul-Haq b Rashid Khan
 Heinrich Klaasen,132,9,42,10,13,1,0,76.92,0,1, b Rashid Khan
 David Miller,134,9,42,24,33,1,1,72.72,0,1,c & b Mohammad Nabi
-Andile Phehlukwayo,137,9,42,39,37,1,3,105.40,0,0,
-Quinton de Kock,130,9,42,0,0,0,0,0,1,0,
-Temba Bavuma,129,9,42,0,0,0,0,0,1,0,
-Gerald Coetzee,138,9,42,0,0,0,0,0,1,0,
-Keshav Maharaj,139,9,42,0,0,0,0,0,1,0,
-Kagiso Rabada,141,9,42,0,0,0,0,0,1,0,
-Lungi Ngidi,140,9,42,0,0,0,0,0,1,0,
+Andile Phehlukwayo,137,9,42,39,37,1,3,105.4,0,0,
+Quinton de Kock,130,9,42,0,0,0,0,0.0,1,0,
+Temba Bavuma,129,9,42,0,0,0,0,0.0,1,0,
+Gerald Coetzee,138,9,42,0,0,0,0,0.0,1,0,
+Keshav Maharaj,139,9,42,0,0,0,0,0.0,1,0,
+Kagiso Rabada,141,9,42,0,0,0,0,0.0,1,0,
+Lungi Ngidi,140,9,42,0,0,0,0,0.0,1,0,
 Tanzid Hasan,36,3,43,36,34,6,0,105.88,0,1,c & b Abbott
-Litton Das,34,3,43,36,45,5,0,80.00,0,1,c Labuschagne b Zampa
+Litton Das,34,3,43,36,45,5,0,80.0,0,1,c Labuschagne b Zampa
 Najmul Hossain Shanto,32,3,43,45,57,6,0,78.94,0,1,run out (Labuschagne/†Inglis)
 Towhid Hridoy,37,3,43,74,79,5,2,93.67,0,1,c Labuschagne b Stoinis
 Mahmudullah,39,3,43,32,28,1,3,114.28,0,1,run out (Labuschagne)
-Mushfiqur Rahim,35,3,43,21,24,0,1,87.50,0,1,c Cummins b Zampa
-Mehidy Hasan Miraz,40,3,43,29,20,4,0,145.00,0,1,c Cummins b Abbott
+Mushfiqur Rahim,35,3,43,21,24,0,1,87.5,0,1,c Cummins b Zampa
+Mehidy Hasan Miraz,40,3,43,29,20,4,0,145.0,0,1,c Cummins b Abbott
 Nasum Ahmed,44,3,43,7,11,0,0,63.63,0,1,run out (Abbott)
 Mahedi Hasan,38,3,43,2,3,0,0,66.66,0,0,
-Taskin Ahmed,47,3,43,0,1,0,0,0.00,0,0,
-Najmul Hossain Shanto,32,3,43,0,0,0,0,0,1,0,
-Mushfiqur Rahim,35,3,43,0,0,0,0,0,1,0,
-Mustafizur Rahman,43,3,43,0,0,0,0,0,1,0,
-Travis Head,17,2,43,10,11,2,0,90.90,0,1, b Taskin Ahmed
+Taskin Ahmed,47,3,43,0,1,0,0,0.0,0,0,
+Najmul Hossain Shanto,32,3,43,0,0,0,0,0.0,1,0,
+Mushfiqur Rahim,35,3,43,0,0,0,0,0.0,1,0,
+Mustafizur Rahman,43,3,43,0,0,0,0,0.0,1,0,
+Travis Head,17,2,43,10,11,2,0,90.9,0,1, b Taskin Ahmed
 David Warner,21,2,43,53,61,6,0,86.88,0,1,c Najmul Hossain Shanto b Mustafizur Rahman
 Mitchell Marsh,24,2,43,177,132,17,9,134.09,0,0,
 Steven Smith,20,2,43,63,64,4,1,98.43,0,0,
-Marnus Labuschagne,19,2,43,0,0,0,0,0,1,0,
-Josh Inglis,18,2,43,0,0,0,0,0,1,0,
-Marcus Stoinis,26,2,43,0,0,0,0,0,1,0,
-Pat Cummins,27,2,43,0,0,0,0,0,1,0,
-Adam Zampa,30,2,43,0,0,0,0,0,1,0,
-Josh Hazlewood,28,2,43,0,0,0,0,0,1,0,
-Sean Abbott,22,2,43,0,0,0,0,0,1,0,
+Marnus Labuschagne,19,2,43,0,0,0,0,0.0,1,0,
+Josh Inglis,18,2,43,0,0,0,0,0.0,1,0,
+Marcus Stoinis,26,2,43,0,0,0,0,0.0,1,0,
+Pat Cummins,27,2,43,0,0,0,0,0.0,1,0,
+Adam Zampa,30,2,43,0,0,0,0,0.0,1,0,
+Josh Hazlewood,28,2,43,0,0,0,0,0.0,1,0,
+Sean Abbott,22,2,43,0,0,0,0,0.0,1,0,
 Dawid Malan,51,4,44,31,39,5,0,79.48,0,1,c †Mohammad Rizwan b Iftikhar Ahmed
 Jonny Bairstow,49,4,44,59,61,7,1,96.72,0,1,c Agha Salman b Haris Rauf
 Joe Root,52,4,44,60,72,4,0,83.33,0,1,c Shadab Khan b Shaheen Shah Afridi
 Ben Stokes,58,4,44,84,76,11,2,110.52,0,1, b Shaheen Shah Afridi
-Jos Buttler,48,4,44,27,18,3,1,150.00,0,1,run out (Haris Rauf)
+Jos Buttler,48,4,44,27,18,3,1,150.0,0,1,run out (Haris Rauf)
 Harry Brook,50,4,44,30,17,2,2,176.47,0,1,c Shaheen Shah Afridi b Haris Rauf
 Moeen Ali,54,4,44,8,6,0,1,133.33,0,1, b Haris Rauf
-Chris Woakes,60,4,44,4,4,1,0,100.00,0,0,
-David Willey,59,4,44,15,5,2,1,300.00,0,1,c Iftikhar Ahmed b Mohammad Wasim
-Gus Atkinson,61,4,44,0,1,0,0,0.00,0,1, b Mohammad Wasim
-Adil Rashid,62,4,44,0,1,0,0,0.00,0,0,
-Abdullah Shafique,115,8,44,0,2,0,0,0.00,0,1,lbw b Willey
+Chris Woakes,60,4,44,4,4,1,0,100.0,0,0,
+David Willey,59,4,44,15,5,2,1,300.0,0,1,c Iftikhar Ahmed b Mohammad Wasim
+Gus Atkinson,61,4,44,0,1,0,0,0.0,0,1, b Mohammad Wasim
+Adil Rashid,62,4,44,0,1,0,0,0.0,0,0,
+Abdullah Shafique,115,8,44,0,2,0,0,0.0,0,1,lbw b Willey
 Fakhar Zaman,116,8,44,1,9,0,0,11.11,0,1,c Stokes b Willey
 Babar Azam,114,8,44,38,45,6,0,84.44,0,1,c Rashid b Atkinson
 Mohammad Rizwan,119,8,44,36,51,2,0,70.58,0,1, b Ali
 Saud Shakeel,120,8,44,29,37,4,0,78.37,0,1, b Rashid
 Agha Salman,121,8,44,51,45,6,1,113.33,0,1,c Stokes b Willey
-Iftikhar Ahmed,117,8,44,3,5,0,0,60.00,0,1,c Malan b Ali
+Iftikhar Ahmed,117,8,44,3,5,0,0,60.0,0,1,c Malan b Ali
 Shadab Khan,124,8,44,4,7,1,0,57.14,0,1, b Rashid
 Shaheen Shah Afridi,127,8,44,25,23,3,1,108.69,0,1,lbw b Atkinson
 Mohammad Wasim,123,8,44,16,14,2,1,114.28,0,0,
@@ -1037,15 +1037,15 @@ Shubman Gill,70,5,45,51,32,3,4,159.37,0,1,c Nidamanuru b van Meekeren
 Virat Kohli,68,5,45,51,56,5,1,91.07,0,1, b van der Merwe
 Shreyas Iyer,67,5,45,128,94,10,5,136.17,0,0,
 KL Rahul,69,5,45,102,64,11,4,159.37,0,1,c Engelbrecht b de Leede
-Suryakumar Yadav,71,5,45,2,1,0,0,200.00,0,0,
-Rohit Sharma,65,5,45,0,0,0,0,0,1,0,
-KL Rahul,69,5,45,0,0,0,0,0,1,0,
-Ravindra Jadeja,73,5,45,0,0,0,0,0,1,0,
-Jasprit Bumrah,76,5,45,0,0,0,0,0,1,0,
-Mohammed Shami,78,5,45,0,0,0,0,0,1,0,
-Kuldeep Yadav,77,5,45,0,0,0,0,0,1,0,
-Mohammed Siraj,79,5,45,0,0,0,0,0,1,0,
-Wesley Barresi,83,6,45,4,5,0,0,80.00,0,1,c †Rahul b Mohammed Siraj
+Suryakumar Yadav,71,5,45,2,1,0,0,200.0,0,0,
+Rohit Sharma,65,5,45,0,0,0,0,0.0,1,0,
+KL Rahul,69,5,45,0,0,0,0,0.0,1,0,
+Ravindra Jadeja,73,5,45,0,0,0,0,0.0,1,0,
+Jasprit Bumrah,76,5,45,0,0,0,0,0.0,1,0,
+Mohammed Shami,78,5,45,0,0,0,0,0.0,1,0,
+Kuldeep Yadav,77,5,45,0,0,0,0,0.0,1,0,
+Mohammed Siraj,79,5,45,0,0,0,0,0.0,1,0,
+Wesley Barresi,83,6,45,4,5,0,0,80.0,0,1,c †Rahul b Mohammed Siraj
 Max O'Dowd,85,6,45,30,42,3,1,71.42,0,1, b Jadeja
 Colin Ackermann,87,6,45,35,32,6,0,109.37,0,1,lbw b Kuldeep Yadav
 Sybrand Engelbrecht,89,6,45,45,80,4,0,56.25,0,1, b Mohammed Siraj
@@ -1053,76 +1053,76 @@ Scott Edwards,82,6,45,17,30,1,0,56.66,0,1,c †Rahul b Kohli
 Bas de Leede,88,6,45,12,21,1,0,57.14,0,1, b Bumrah
 Teja Nidamanuru,90,6,45,54,39,1,6,138.46,0,1,c Mohammed Shami b Sharma
 Logan van Beek,95,6,45,16,15,2,0,106.66,0,1, b Kuldeep Yadav
-Roelof van der Merwe,92,6,45,16,8,1,2,200.00,0,1,c Mohammed Shami b Jadeja
+Roelof van der Merwe,92,6,45,16,8,1,2,200.0,0,1,c Mohammed Shami b Jadeja
 Aryan Dutt,93,6,45,5,11,0,0,45.45,0,1, b Bumrah
-Paul van Meekeren,96,6,45,3,4,0,0,75.00,0,0,
+Paul van Meekeren,96,6,45,3,4,0,0,75.0,0,0,
 Rohit Sharma,65,5,46,47,29,4,4,162.06,0,1,c Williamson b Southee
 Shubman Gill,70,5,46,80,66,8,3,121.21,0,0,
 Virat Kohli,68,5,46,117,113,9,2,103.53,0,1,c Conway b Southee
-Shreyas Iyer,67,5,46,105,70,4,8,150.00,0,1,c Mitchell b Boult
-KL Rahul,69,5,46,39,20,5,2,195.00,0,0,
-Suryakumar Yadav,71,5,46,1,2,0,0,50.00,0,1,c Phillips b Southee
-Rohit Sharma,65,5,46,0,0,0,0,0,1,0,
-KL Rahul,69,5,46,0,0,0,0,0,1,0,
-Ravindra Jadeja,73,5,46,0,0,0,0,0,1,0,
-Jasprit Bumrah,76,5,46,0,0,0,0,0,1,0,
-Mohammed Shami,78,5,46,0,0,0,0,0,1,0,
-Kuldeep Yadav,77,5,46,0,0,0,0,0,1,0,
-Mohammed Siraj,79,5,46,0,0,0,0,0,1,0,
+Shreyas Iyer,67,5,46,105,70,4,8,150.0,0,1,c Mitchell b Boult
+KL Rahul,69,5,46,39,20,5,2,195.0,0,0,
+Suryakumar Yadav,71,5,46,1,2,0,0,50.0,0,1,c Phillips b Southee
+Rohit Sharma,65,5,46,0,0,0,0,0.0,1,0,
+KL Rahul,69,5,46,0,0,0,0,0.0,1,0,
+Ravindra Jadeja,73,5,46,0,0,0,0,0.0,1,0,
+Jasprit Bumrah,76,5,46,0,0,0,0,0.0,1,0,
+Mohammed Shami,78,5,46,0,0,0,0,0.0,1,0,
+Kuldeep Yadav,77,5,46,0,0,0,0,0.0,1,0,
+Mohammed Siraj,79,5,46,0,0,0,0,0.0,1,0,
 Devon Conway,100,7,46,13,15,3,0,86.66,0,1,c †Rahul b Mohammed Shami
 Rachin Ravindra,106,7,46,13,22,3,0,59.09,0,1,c †Rahul b Mohammed Shami
 Kane Williamson,98,7,46,69,73,8,1,94.52,0,1,c Yadav b Mohammed Shami
-Daryl Mitchell,103,7,46,134,119,9,7,112.60,0,1,c Jadeja b Mohammed Shami
-Tom Latham,99,7,46,0,2,0,0,0.00,0,1,lbw b Mohammed Shami
+Daryl Mitchell,103,7,46,134,119,9,7,112.6,0,1,c Jadeja b Mohammed Shami
+Tom Latham,99,7,46,0,2,0,0,0.0,0,1,lbw b Mohammed Shami
 Glenn Phillips,105,7,46,41,33,4,2,124.24,0,1,c Jadeja b Bumrah
-Mark Chapman,102,7,46,2,5,0,0,40.00,0,1,c Jadeja b Kuldeep Yadav
-Mitchell Santner,107,7,46,9,10,0,0,90.00,0,1,c Sharma b Mohammed Siraj
-Tim Southee,112,7,46,9,10,1,0,90.00,0,1,c †Rahul b Mohammed Shami
-Trent Boult,108,7,46,2,2,0,0,100.00,0,0,
-Lockie Ferguson,109,7,46,6,3,0,1,200.00,0,1,c †Rahul b Mohammed Shami
+Mark Chapman,102,7,46,2,5,0,0,40.0,0,1,c Jadeja b Kuldeep Yadav
+Mitchell Santner,107,7,46,9,10,0,0,90.0,0,1,c Sharma b Mohammed Siraj
+Tim Southee,112,7,46,9,10,1,0,90.0,0,1,c †Rahul b Mohammed Shami
+Trent Boult,108,7,46,2,2,0,0,100.0,0,0,
+Lockie Ferguson,109,7,46,6,3,0,1,200.0,0,1,c †Rahul b Mohammed Shami
 Quinton de Kock,130,9,47,3,14,0,0,21.42,0,1,c Cummins b Hazlewood
-Temba Bavuma,129,9,47,0,4,0,0,0.00,0,1,c †Inglis b Starc
+Temba Bavuma,129,9,47,0,4,0,0,0.0,0,1,c †Inglis b Starc
 Rassie van der Dussen,135,9,47,6,31,0,0,19.35,0,1,c Smith b Hazlewood
-Aiden Markram,133,9,47,10,20,2,0,50.00,0,1,c Warner b Starc
+Aiden Markram,133,9,47,10,20,2,0,50.0,0,1,c Warner b Starc
 Heinrich Klaasen,132,9,47,47,48,4,2,97.91,0,1, b Head
 David Miller,134,9,47,101,116,8,5,87.06,0,1,c Head b Cummins
-Marco Jansen,136,9,47,0,1,0,0,0.00,0,1,lbw b Head
+Marco Jansen,136,9,47,0,1,0,0,0.0,0,1,lbw b Head
 Gerald Coetzee,138,9,47,19,39,2,0,48.71,0,1,c †Inglis b Cummins
-Keshav Maharaj,139,9,47,4,8,0,0,50.00,0,1,c Smith b Starc
+Keshav Maharaj,139,9,47,4,8,0,0,50.0,0,1,c Smith b Starc
 Kagiso Rabada,141,9,47,10,12,0,1,83.33,0,1,c Maxwell b Cummins
-Tabraiz Shamsi,142,9,47,1,5,0,0,20.00,0,0,
+Tabraiz Shamsi,142,9,47,1,5,0,0,20.0,0,0,
 Travis Head,17,2,47,62,48,9,2,129.16,0,1, b Maharaj
 David Warner,21,2,47,29,18,1,4,161.11,0,1, b Markram
-Mitchell Marsh,24,2,47,0,6,0,0,0.00,0,1,c van der Dussen b Rabada
+Mitchell Marsh,24,2,47,0,6,0,0,0.0,0,1,c van der Dussen b Rabada
 Steven Smith,20,2,47,30,62,2,0,48.38,0,1,c †de Kock b Coetzee
 Marnus Labuschagne,19,2,47,18,31,2,0,58.06,0,1,lbw b Shamsi
-Glenn Maxwell,25,2,47,1,5,0,0,20.00,0,1, b Shamsi
+Glenn Maxwell,25,2,47,1,5,0,0,20.0,0,1, b Shamsi
 Josh Inglis,18,2,47,28,49,3,0,57.14,0,1, b Coetzee
-Mitchell Starc,29,2,47,16,38,2,0,42.10,0,0,
+Mitchell Starc,29,2,47,16,38,2,0,42.1,0,0,
 Pat Cummins,27,2,47,14,29,2,0,48.27,0,0,
-Josh Inglis,18,2,47,0,0,0,0,0,1,0,
-Pat Cummins,27,2,47,0,0,0,0,0,1,0,
-Adam Zampa,30,2,47,0,0,0,0,0,1,0,
-Josh Hazlewood,28,2,47,0,0,0,0,0,1,0,
+Josh Inglis,18,2,47,0,0,0,0,0.0,1,0,
+Pat Cummins,27,2,47,0,0,0,0,0.0,1,0,
+Adam Zampa,30,2,47,0,0,0,0,0.0,1,0,
+Josh Hazlewood,28,2,47,0,0,0,0,0.0,1,0,
 Rohit Sharma,65,5,48,47,31,4,3,151.61,0,1,c Head b Maxwell
 Shubman Gill,70,5,48,4,7,0,0,57.14,0,1,c Zampa b Starc
 Virat Kohli,68,5,48,54,63,4,0,85.71,0,1, b Cummins
 Shreyas Iyer,67,5,48,4,3,1,0,133.33,0,1,c †Inglis b Cummins
 KL Rahul,69,5,48,66,107,1,0,61.68,0,1,c †Inglis b Starc
-Ravindra Jadeja,73,5,48,9,22,0,0,40.90,0,1,c †Inglis b Hazlewood
+Ravindra Jadeja,73,5,48,9,22,0,0,40.9,0,1,c †Inglis b Hazlewood
 Suryakumar Yadav,71,5,48,18,28,1,0,64.28,0,1,c †Inglis b Hazlewood
-Mohammed Shami,78,5,48,6,10,1,0,60.00,0,1,c †Inglis b Starc
+Mohammed Shami,78,5,48,6,10,1,0,60.0,0,1,c †Inglis b Starc
 Jasprit Bumrah,76,5,48,1,3,0,0,33.33,0,1,lbw b Zampa
 Kuldeep Yadav,77,5,48,10,18,0,0,55.55,0,1,run out (Labuschagne/Cummins)
-Mohammed Siraj,79,5,48,9,8,1,0,112.50,0,0,
+Mohammed Siraj,79,5,48,9,8,1,0,112.5,0,0,
 David Warner,21,2,48,7,3,1,0,233.33,0,1,c Kohli b Mohammed Shami
 Travis Head,17,2,48,137,120,15,4,114.16,0,1,c Shubman Gill b Mohammed Siraj
-Mitchell Marsh,24,2,48,15,15,1,1,100.00,0,1,c †Rahul b Bumrah
+Mitchell Marsh,24,2,48,15,15,1,1,100.0,0,1,c †Rahul b Bumrah
 Steven Smith,20,2,48,4,9,1,0,44.44,0,1,lbw b Bumrah
 Marnus Labuschagne,19,2,48,58,110,4,0,52.72,0,0,
-Glenn Maxwell,25,2,48,2,1,0,0,200.00,0,0,
-Josh Inglis,18,2,48,0,0,0,0,0,1,0,
-Mitchell Starc,29,2,48,0,0,0,0,0,1,0,
-Pat Cummins,27,2,48,0,0,0,0,0,1,0,
-Adam Zampa,30,2,48,0,0,0,0,0,1,0,
-Josh Hazlewood,28,2,48,0,0,0,0,0,1,0,
+Glenn Maxwell,25,2,48,2,1,0,0,200.0,0,0,
+Josh Inglis,18,2,48,0,0,0,0,0.0,1,0,
+Mitchell Starc,29,2,48,0,0,0,0,0.0,1,0,
+Pat Cummins,27,2,48,0,0,0,0,0.0,1,0,
+Adam Zampa,30,2,48,0,0,0,0,0.0,1,0,
+Josh Hazlewood,28,2,48,0,0,0,0,0.0,1,0,

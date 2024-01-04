@@ -1,11 +1,11 @@
-team_id,team_name,team_abbreviation
-1,Afghanistan,AFG
-2,Australia,AUS
-3,Bangladesh,BAN
-4,England,ENG
-5,India,IND
-6,Netherlands,NED
-7,New Zealand,NZ
-8,Pakistan,PAK
-9,South Africa,SA
-10,Sri Lanka,SL
+team_id,team_name,team_abbreviation,flag_img
+1,Afghanistan,AFG,static/imgs/flags/Afghanistan.jpg
+2,Australia,AUS,static/imgs/flags/Australia.jpg
+3,Bangladesh,BAN,static/imgs/flags/Bangladesh.jpg
+4,England,ENG,static/imgs/flags/England.jpg
+5,India,IND,static/imgs/flags/India.jpg
+6,Netherlands,NED,static/imgs/flags/Netherlands.jpg
+7,New Zealand,NZ,static/imgs/flags/New Zealand.jpg
+8,Pakistan,PAK,static/imgs/flags/Pakistan.jpg
+9,South Africa,SA,static/imgs/flags/South Africa.jpg
+10,Sri Lanka,SL,static/imgs/flags/Sri Lanka.jpg
