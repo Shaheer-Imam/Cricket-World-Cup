@@ -185,10 +185,10 @@ class Dataset(object):
             scrapper = Scrapper(main_url)
             scorecards = scrapper.scrap_scorecard()
             bowling_scorecards = scrapper.scrap_bowling_scorecard()
-            for scorecard in scorecards:
+            for innings, scorecard in enumerate(scorecards, 1):
                 team_name = scrapper.get_team_name_from_scorecard(scorecard)
                 team_id = teams_df.loc[teams_df["team_name"] == team_name, "team_id"].values[0]
-                data = scrapper.scrap_data_from_scorecard(scorecard, match_id, team_id, team_name, playing_xi, players_df)
+                data = scrapper.scrap_data_from_scorecard(scorecard, match_id, team_id, team_name, playing_xi, players_df, innings)
                 scorecard_data.extend(data)
 
             for bowling_scorecard in bowling_scorecards:
