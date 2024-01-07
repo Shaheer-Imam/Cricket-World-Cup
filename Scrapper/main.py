@@ -175,6 +175,7 @@ class Dataset(object):
 
     def build_matches_dataset(self, match_links):
         scorecard_data = []
+        bowling_scorecard_data = []
         players_df = pd.read_csv(os.path.join(os.getcwd(),"Datasets/players.csv"))
         teams_df = pd.read_csv(os.path.join(os.getcwd(), "Datasets/teams.csv"))
         for match_id, match_link in enumerate(match_links, 1):
@@ -191,14 +192,21 @@ class Dataset(object):
                 data = scrapper.scrap_data_from_scorecard(scorecard, match_id, team_id, team_name, playing_xi, players_df, innings)
                 scorecard_data.extend(data)
 
-            for bowling_scorecard in bowling_scorecards:
-                pass
+            for innings, bowling_scorecard in enumerate(bowling_scorecards, 1):
+                data = scrapper.scrap_bowling_data_from_scorecard(bowling_scorecard, match_id, innings, players_df)
+                bowling_scorecard_data.extend(data)
 
-        headers = scorecard_data[0].keys()
+        batting_scorecard_headers = scorecard_data[0].keys()
+        bowling_scorecard_headers = bowling_scorecard_data[0].keys()
         with open("Datasets/match_scores.csv", 'w', newline='') as csvfile:
-            csv_writer = csv.DictWriter(csvfile, fieldnames=headers)
+            csv_writer = csv.DictWriter(csvfile, fieldnames=batting_scorecard_headers)
             csv_writer.writeheader()
             csv_writer.writerows(scorecard_data)
+
+        with open("Datasets/bowling_scores.csv", 'w', newline='') as csvfile:
+            csv_writer = csv.DictWriter(csvfile, fieldnames=bowling_scorecard_headers)
+            csv_writer.writeheader()
+            csv_writer.writerows(bowling_scorecard_data)
 
     def begin(self):
         self.build_team_dataset()

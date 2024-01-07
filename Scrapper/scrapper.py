@@ -59,7 +59,7 @@ class Scrapper(object):
         return scorecard_tables
 
     def scrap_bowling_scorecard(self):
-        bowling_scorecard = self.html.find_all("table", {"class":"ds-w-full ds-table ds-table-md ds-table-auto"})
+        bowling_scorecard = self.html.find_all("table", {"class": "ds-w-full ds-table ds-table-md ds-table-auto"})
         return bowling_scorecard
 
     def scrap_data_from_scorecard(self, scorecard, match_id, team_id, team_name, playing_xi, players_df, innings):
@@ -139,6 +139,32 @@ class Scrapper(object):
                 scores.append(data_json)
 
         return scores
+
+    def scrap_bowling_data_from_scorecard(self, bowling_scorecard, match_id, innings, players_df):
+        bowling_scores = []
+        bowler_rows = bowling_scorecard.find("tbody").find_all("tr", {"class": ""})
+        for row in bowler_rows:
+            stats = row.find_all("td", {"class": "ds-w-0"})
+            player_name = row.find("span").text
+            player_df_row = players_df[players_df["name"] == player_name]
+            data_json = {
+                "player_name": player_name,
+                "player_id": player_df_row["player_id"].values[0],
+                "team_id": player_df_row["team_id"].values[0],
+                "match_id": match_id,
+                "innings": innings,
+                "overs": float(stats[0].text),
+                "maidens": int(stats[1].text),
+                "runs": int(stats[2].text),
+                "wickets": int(stats[3].text),
+                "economy": float(stats[4].text),
+                "wides": int(stats[8].text),
+                "no_ball": int(stats[9].text)
+            }
+
+            bowling_scores.append(data_json)
+
+        return bowling_scores
 
     def scrap_playing_XI(self):
         main_table = self.html.find("table", "ds-w-full ds-table ds-table-sm ds-table-bordered ds-border-collapse ds-border ds-border-line ds-table-auto ds-bg-fill-content-prime")
