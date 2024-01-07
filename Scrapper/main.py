@@ -15,9 +15,6 @@ class Dataset(object):
         self.points_url = json_data['url']['table']
         self.teams_url = json_data['url']['team']
         self.squads_url = json_data['url']['squad']
-        self.build_matches = bool(json_data['dataset']['matches'])
-        self.build_officials = bool(json_data['dataset']['officials'])
-        self.build_team = bool(json_data['dataset']['teams'])
         self.teams = {}
 
     def get_world_cup_match_ids(self):
@@ -44,7 +41,6 @@ class Dataset(object):
             team_data["flag_img"] = f"static/imgs/flags/{team_name}.jpg"
             teams_dataset.append(team_data)
 
-        if self.build_team:
             headers = teams_dataset[0].keys()
             with open("Datasets/teams.csv", 'w', newline='') as csvfile:
                 csv_writer = csv.DictWriter(csvfile, fieldnames=headers)
