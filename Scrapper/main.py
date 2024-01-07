@@ -31,14 +31,17 @@ class Dataset(object):
     def build_team_dataset(self):
         if not os.path.exists(os.path.join(os.getcwd(),"Datasets")):
             os.mkdir("Datasets")
+
         teams_dataset = []
         teams = self.scrap_teams_in_tournament()
         for team_id, team in enumerate(teams,1):
             team_data = {}
-            self.teams[team.text] = team_id
+            team_name = team.text
+            self.teams[team_name] = team_id
             team_data["team_id"] = team_id
-            team_data["team_name"] = team.text
+            team_data["team_name"] = team_name
             team_data["team_abbreviation"] = Constants.TEAMS[team.text]
+            team_data["flag_img"] = f"static/imgs/flags/{team_name}.jpg"
             teams_dataset.append(team_data)
 
         if self.build_team:
@@ -112,12 +115,17 @@ class Dataset(object):
         return team_squad_scrapper.get_squad_url()
 
     def build_fixtures_dataset(self):
+        teams_df = pd.read_csv(os.path.join(os.getcwd(), "Datasets/teams.csv"))
+        tournament_teams = list(teams_df["team_name"])
         matches = []
         match_links = []
         fixtures = self.scrap_fixtures()
         match_date = None
         for match_id, fixture in enumerate(fixtures, 1):
             #fixture_ = Fixture(fixture, match_id)
+            is_semi_final_one = 0
+            is_semi_final_two = 0
+            is_final = 0
             date_str = fixture.find("div", "ds-text-compact-xs ds-font-bold ds-w-24").text
             if date_str == '':
                 date_str = match_date
@@ -125,9 +133,22 @@ class Dataset(object):
             teams = fixture.find_all("p", {"class": "ds-text-tight-m ds-font-bold ds-capitalize ds-truncate"})
             match_link = fixture.find("a", "ds-no-tap-higlight")
             cricinfo_match_id = match_link.get("href").split("/")[-2].split("-")[-1]
+            result = fixture.find("p", {"class": "ds-text-tight-s ds-font-regular ds-line-clamp-2 ds-text-typo"}).text
+            team_won = next((team for team in tournament_teams if team.lower() in result.lower()), None)
+            team_won_id = self.teams[team_won]
+            match_title = fixture.find("span", "ds-text-tight-s ds-font-medium ds-text-typo").text
+            if "Final (D/N)" in match_title:
+                is_final = 1
+            if "1st Semi Final" in match_title:
+                is_semi_final_one = 1
+            if "2nd Semi Final" in match_title:
+                is_semi_final_two = 1
             json_data = {
                 "match_id": match_id,
                 "cricinfo_matchid": cricinfo_match_id,
+                "semi_final_1": is_semi_final_one,
+                "semi_final_2": is_semi_final_two,
+                "is_final": is_final,
                 "date": DateFormatter.convert_date_to_DDMMYY(date_str),
                 "team_one_name": teams[0].text,
                 "team_one_id": self.teams[teams[0].text],
@@ -135,7 +156,8 @@ class Dataset(object):
                 "team_two_id": self.teams[teams[1].text],
                 "team_one_score": scores[0].text,
                 "team_two_score": scores[1].text.split(" ")[-1],
-                "result": fixture.find("p", {"class": "ds-text-tight-s ds-font-regular ds-line-clamp-2 ds-text-typo"}).text
+                "result": fixture.find("p", {"class": "ds-text-tight-s ds-font-regular ds-line-clamp-2 ds-text-typo"}).text,
+                "team_won_id": team_won_id
             }
             match_links.append(match_link.get("href"))
             match_date = date_str
@@ -153,6 +175,7 @@ class Dataset(object):
 
     def build_matches_dataset(self, match_links):
         scorecard_data = []
+        bowling_scorecard_data = []
         players_df = pd.read_csv(os.path.join(os.getcwd(),"Datasets/players.csv"))
         teams_df = pd.read_csv(os.path.join(os.getcwd(), "Datasets/teams.csv"))
         for match_id, match_link in enumerate(match_links, 1):
@@ -162,16 +185,28 @@ class Dataset(object):
             playing_xi = playing_eleven_scrapper.scrap_playing_XI()
             scrapper = Scrapper(main_url)
             scorecards = scrapper.scrap_scorecard()
-            for scorecard in scorecards:
+            bowling_scorecards = scrapper.scrap_bowling_scorecard()
+            for innings, scorecard in enumerate(scorecards, 1):
                 team_name = scrapper.get_team_name_from_scorecard(scorecard)
                 team_id = teams_df.loc[teams_df["team_name"] == team_name, "team_id"].values[0]
-                data = scrapper.scrap_data_from_scorecard(scorecard, match_id, team_id, team_name, playing_xi, players_df)
+                data = scrapper.scrap_data_from_scorecard(scorecard, match_id, team_id, team_name, playing_xi, players_df, innings)
                 scorecard_data.extend(data)
-        headers = scorecard_data[0].keys()
+
+            for innings, bowling_scorecard in enumerate(bowling_scorecards, 1):
+                data = scrapper.scrap_bowling_data_from_scorecard(bowling_scorecard, match_id, innings, players_df)
+                bowling_scorecard_data.extend(data)
+
+        batting_scorecard_headers = scorecard_data[0].keys()
+        bowling_scorecard_headers = bowling_scorecard_data[0].keys()
         with open("Datasets/match_scores.csv", 'w', newline='') as csvfile:
-            csv_writer = csv.DictWriter(csvfile, fieldnames=headers)
+            csv_writer = csv.DictWriter(csvfile, fieldnames=batting_scorecard_headers)
             csv_writer.writeheader()
             csv_writer.writerows(scorecard_data)
+
+        with open("Datasets/bowling_scores.csv", 'w', newline='') as csvfile:
+            csv_writer = csv.DictWriter(csvfile, fieldnames=bowling_scorecard_headers)
+            csv_writer.writeheader()
+            csv_writer.writerows(bowling_scorecard_data)
 
     def begin(self):
         self.build_team_dataset()

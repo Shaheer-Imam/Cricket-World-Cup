@@ -1,49 +1,49 @@
-match_id,cricinfo_matchid,date,team_one_name,team_one_id,team_two_name,team_two_id,team_one_score,team_two_score,result
-1,1384392,05/10/23,England,4,New Zealand,7,282/9,283/1,New Zealand won by 9 wickets (with 82 balls remaining)
-2,1384393,06/10/23,Pakistan,8,Netherlands,6,286,205,Pakistan won by 81 runs
-3,1384394,07/10/23,Afghanistan,1,Bangladesh,3,156,158/4,Bangladesh won by 6 wickets (with 92 balls remaining)
-4,1384395,07/10/23,South Africa,9,Sri Lanka,10,428/5,326,South Africa won by 102 runs
-5,1384396,08/10/23,Australia,2,India,5,199,201/4,India won by 6 wickets (with 52 balls remaining)
-6,1384397,09/10/23,New Zealand,7,Netherlands,6,322/7,223,New Zealand won by 99 runs
-7,1384398,10/10/23,England,4,Bangladesh,3,364/9,227,England won by 137 runs
-8,1384399,10/10/23,Sri Lanka,10,Pakistan,8,344/9,345/4,Pakistan won by 6 wickets (with 10 balls remaining)
-9,1384400,11/10/23,Afghanistan,1,India,5,272/8,273/2,India won by 8 wickets (with 90 balls remaining)
-10,1384401,12/10/23,South Africa,9,Australia,2,311/7,177,South Africa won by 134 runs
-11,1384402,13/10/23,Bangladesh,3,New Zealand,7,245/9,248/2,New Zealand won by 8 wickets (with 43 balls remaining)
-12,1384403,14/10/23,Pakistan,8,India,5,191,192/3,India won by 7 wickets (with 117 balls remaining)
-13,1384404,15/10/23,Afghanistan,1,England,4,284,215,Afghanistan won by 69 runs
-14,1384405,16/10/23,Sri Lanka,10,Australia,2,209,215/5,Australia won by 5 wickets (with 88 balls remaining)
-15,1384406,17/10/23,Netherlands,6,South Africa,9,(43/43 ov) 245/8,207,Netherlands won by 38 runs
-16,1384407,18/10/23,New Zealand,7,Afghanistan,1,288/6,139,New Zealand won by 149 runs
-17,1384408,19/10/23,Bangladesh,3,India,5,256/8,261/3,India won by 7 wickets (with 51 balls remaining)
-18,1384409,20/10/23,Australia,2,Pakistan,8,367/9,305,Australia won by 62 runs
-19,1384410,21/10/23,Netherlands,6,Sri Lanka,10,262,263/5,Sri Lanka won by 5 wickets (with 10 balls remaining)
-20,1384411,21/10/23,South Africa,9,England,4,399/7,170,South Africa won by 229 runs
-21,1384412,22/10/23,New Zealand,7,India,5,273,274/6,India won by 4 wickets (with 12 balls remaining)
-22,1384413,23/10/23,Pakistan,8,Afghanistan,1,282/7,286/2,Afghanistan won by 8 wickets (with 6 balls remaining)
-23,1384414,24/10/23,South Africa,9,Bangladesh,3,382/5,233,South Africa won by 149 runs
-24,1384415,25/10/23,Australia,2,Netherlands,6,399/8,90,Australia won by 309 runs
-25,1384416,26/10/23,England,4,Sri Lanka,10,156,160/2,Sri Lanka won by 8 wickets (with 146 balls remaining)
-26,1384417,27/10/23,Pakistan,8,South Africa,9,270,271/9,South Africa won by 1 wicket (with 16 balls remaining)
-27,1384418,28/10/23,Australia,2,New Zealand,7,388,383/9,Australia won by 5 runs
-28,1384419,28/10/23,Netherlands,6,Bangladesh,3,229,142,Netherlands won by 87 runs
-29,1384420,29/10/23,India,5,England,4,229/9,129,India won by 100 runs
-30,1384421,30/10/23,Sri Lanka,10,Afghanistan,1,241,242/3,Afghanistan won by 7 wickets (with 28 balls remaining)
-31,1384422,31/10/23,Bangladesh,3,Pakistan,8,204,205/3,Pakistan won by 7 wickets (with 105 balls remaining)
-32,1384423,01/11/23,South Africa,9,New Zealand,7,357/4,167,South Africa won by 190 runs
-33,1384424,02/11/23,India,5,Sri Lanka,10,357/8,55,India won by 302 runs
-34,1384425,03/11/23,Netherlands,6,Afghanistan,1,179,181/3,Afghanistan won by 7 wickets (with 111 balls remaining)
-35,1384426,04/11/23,New Zealand,7,Pakistan,8,401/6,200/1,Pakistan won by 21 runs (DLS method)
-36,1384427,04/11/23,Australia,2,England,4,286,253,Australia won by 33 runs
-37,1384428,05/11/23,India,5,South Africa,9,326/5,83,India won by 243 runs
-38,1384429,06/11/23,Sri Lanka,10,Bangladesh,3,279,282/7,Bangladesh won by 3 wickets (with 53 balls remaining)
-39,1384430,07/11/23,Afghanistan,1,Australia,2,291/5,293/7,Australia won by 3 wickets (with 19 balls remaining)
-40,1384431,08/11/23,England,4,Netherlands,6,339/9,179,England won by 160 runs
-41,1384432,09/11/23,Sri Lanka,10,New Zealand,7,171,172/5,New Zealand won by 5 wickets (with 160 balls remaining)
-42,1384433,10/11/23,Afghanistan,1,South Africa,9,244,247/5,South Africa won by 5 wickets (with 15 balls remaining)
-43,1384434,11/11/23,Bangladesh,3,Australia,2,306/8,307/2,Australia won by 8 wickets (with 32 balls remaining)
-44,1384435,11/11/23,England,4,Pakistan,8,337/9,244,England won by 93 runs
-45,1384436,12/11/23,India,5,Netherlands,6,410/4,250,India won by 160 runs
-46,1384437,15/11/23,India,5,New Zealand,7,397/4,327,P1 v P4 - India won by 70 runs
-47,1384438,16/11/23,South Africa,9,Australia,2,212,215/7,P2 v P3 - Australia won by 3 wickets (with 16 balls remaining)
-48,1384439,19/11/23,India,5,Australia,2,240,241/4,Australia won by 6 wickets (with 42 balls remaining)
+match_id,cricinfo_matchid,semi_final_1,semi_final_2,is_final,date,team_one_name,team_one_id,team_two_name,team_two_id,team_one_score,team_two_score,result,team_won_id
+1,1384392,0,0,0,05/10/23,England,4,New Zealand,7,282/9,283/1,New Zealand won by 9 wickets (with 82 balls remaining),7
+2,1384393,0,0,0,06/10/23,Pakistan,8,Netherlands,6,286,205,Pakistan won by 81 runs,8
+3,1384394,0,0,0,07/10/23,Afghanistan,1,Bangladesh,3,156,158/4,Bangladesh won by 6 wickets (with 92 balls remaining),3
+4,1384395,0,0,0,07/10/23,South Africa,9,Sri Lanka,10,428/5,326,South Africa won by 102 runs,9
+5,1384396,0,0,0,08/10/23,Australia,2,India,5,199,201/4,India won by 6 wickets (with 52 balls remaining),5
+6,1384397,0,0,0,09/10/23,New Zealand,7,Netherlands,6,322/7,223,New Zealand won by 99 runs,7
+7,1384398,0,0,0,10/10/23,England,4,Bangladesh,3,364/9,227,England won by 137 runs,4
+8,1384399,0,0,0,10/10/23,Sri Lanka,10,Pakistan,8,344/9,345/4,Pakistan won by 6 wickets (with 10 balls remaining),8
+9,1384400,0,0,0,11/10/23,Afghanistan,1,India,5,272/8,273/2,India won by 8 wickets (with 90 balls remaining),5
+10,1384401,0,0,0,12/10/23,South Africa,9,Australia,2,311/7,177,South Africa won by 134 runs,9
+11,1384402,0,0,0,13/10/23,Bangladesh,3,New Zealand,7,245/9,248/2,New Zealand won by 8 wickets (with 43 balls remaining),7
+12,1384403,0,0,0,14/10/23,Pakistan,8,India,5,191,192/3,India won by 7 wickets (with 117 balls remaining),5
+13,1384404,0,0,0,15/10/23,Afghanistan,1,England,4,284,215,Afghanistan won by 69 runs,1
+14,1384405,0,0,0,16/10/23,Sri Lanka,10,Australia,2,209,215/5,Australia won by 5 wickets (with 88 balls remaining),2
+15,1384406,0,0,0,17/10/23,Netherlands,6,South Africa,9,(43/43 ov) 245/8,207,Netherlands won by 38 runs,6
+16,1384407,0,0,0,18/10/23,New Zealand,7,Afghanistan,1,288/6,139,New Zealand won by 149 runs,7
+17,1384408,0,0,0,19/10/23,Bangladesh,3,India,5,256/8,261/3,India won by 7 wickets (with 51 balls remaining),5
+18,1384409,0,0,0,20/10/23,Australia,2,Pakistan,8,367/9,305,Australia won by 62 runs,2
+19,1384410,0,0,0,21/10/23,Netherlands,6,Sri Lanka,10,262,263/5,Sri Lanka won by 5 wickets (with 10 balls remaining),10
+20,1384411,0,0,0,21/10/23,South Africa,9,England,4,399/7,170,South Africa won by 229 runs,9
+21,1384412,0,0,0,22/10/23,New Zealand,7,India,5,273,274/6,India won by 4 wickets (with 12 balls remaining),5
+22,1384413,0,0,0,23/10/23,Pakistan,8,Afghanistan,1,282/7,286/2,Afghanistan won by 8 wickets (with 6 balls remaining),1
+23,1384414,0,0,0,24/10/23,South Africa,9,Bangladesh,3,382/5,233,South Africa won by 149 runs,9
+24,1384415,0,0,0,25/10/23,Australia,2,Netherlands,6,399/8,90,Australia won by 309 runs,2
+25,1384416,0,0,0,26/10/23,England,4,Sri Lanka,10,156,160/2,Sri Lanka won by 8 wickets (with 146 balls remaining),10
+26,1384417,0,0,0,27/10/23,Pakistan,8,South Africa,9,270,271/9,South Africa won by 1 wicket (with 16 balls remaining),9
+27,1384418,0,0,0,28/10/23,Australia,2,New Zealand,7,388,383/9,Australia won by 5 runs,2
+28,1384419,0,0,0,28/10/23,Netherlands,6,Bangladesh,3,229,142,Netherlands won by 87 runs,6
+29,1384420,0,0,0,29/10/23,India,5,England,4,229/9,129,India won by 100 runs,5
+30,1384421,0,0,0,30/10/23,Sri Lanka,10,Afghanistan,1,241,242/3,Afghanistan won by 7 wickets (with 28 balls remaining),1
+31,1384422,0,0,0,31/10/23,Bangladesh,3,Pakistan,8,204,205/3,Pakistan won by 7 wickets (with 105 balls remaining),8
+32,1384423,0,0,0,01/11/23,South Africa,9,New Zealand,7,357/4,167,South Africa won by 190 runs,9
+33,1384424,0,0,0,02/11/23,India,5,Sri Lanka,10,357/8,55,India won by 302 runs,5
+34,1384425,0,0,0,03/11/23,Netherlands,6,Afghanistan,1,179,181/3,Afghanistan won by 7 wickets (with 111 balls remaining),1
+35,1384426,0,0,0,04/11/23,New Zealand,7,Pakistan,8,401/6,200/1,Pakistan won by 21 runs (DLS method),8
+36,1384427,0,0,0,04/11/23,Australia,2,England,4,286,253,Australia won by 33 runs,2
+37,1384428,0,0,0,05/11/23,India,5,South Africa,9,326/5,83,India won by 243 runs,5
+38,1384429,0,0,0,06/11/23,Sri Lanka,10,Bangladesh,3,279,282/7,Bangladesh won by 3 wickets (with 53 balls remaining),3
+39,1384430,0,0,0,07/11/23,Afghanistan,1,Australia,2,291/5,293/7,Australia won by 3 wickets (with 19 balls remaining),2
+40,1384431,0,0,0,08/11/23,England,4,Netherlands,6,339/9,179,England won by 160 runs,4
+41,1384432,0,0,0,09/11/23,Sri Lanka,10,New Zealand,7,171,172/5,New Zealand won by 5 wickets (with 160 balls remaining),7
+42,1384433,0,0,0,10/11/23,Afghanistan,1,South Africa,9,244,247/5,South Africa won by 5 wickets (with 15 balls remaining),9
+43,1384434,0,0,0,11/11/23,Bangladesh,3,Australia,2,306/8,307/2,Australia won by 8 wickets (with 32 balls remaining),2
+44,1384435,0,0,0,11/11/23,England,4,Pakistan,8,337/9,244,England won by 93 runs,4
+45,1384436,0,0,0,12/11/23,India,5,Netherlands,6,410/4,250,India won by 160 runs,5
+46,1384437,0,0,1,15/11/23,India,5,New Zealand,7,397/4,327,P1 v P4 - India won by 70 runs,5
+47,1384438,0,0,1,16/11/23,South Africa,9,Australia,2,212,215/7,P2 v P3 - Australia won by 3 wickets (with 16 balls remaining),2
+48,1384439,0,0,1,19/11/23,India,5,Australia,2,240,241/4,Australia won by 6 wickets (with 42 balls remaining),2

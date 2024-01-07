@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import os
 
 class Player(object):
     def __init__(self, player_id, cricinfo_player_id, is_captain, team_id, team_name):
@@ -25,6 +26,7 @@ class Player(object):
         self.is_bowler = self.is_player_bowler()
         self.is_allrounder = self.is_player_allrounder()
         self.is_wicketkeeper = self.get_is_wicketkeeper()
+        self.image_path = f"static/imgs/players/{self.name}.jpg"
 
     def get_html(self):
         req = requests.get(self.html_url)
@@ -103,6 +105,7 @@ class Player(object):
             "is_batsman": 1 if self.is_batsman else 0,
             "is_bowler": 1 if self.is_bowler else 0,
             "is_allrounder": 1 if self.is_allrounder else 0,
-            "is_wicketkeeper": 1 if self.is_wicketkeeper else 0
+            "is_wicketkeeper": 1 if self.is_wicketkeeper else 0,
+            "image_path": self.image_path
         }
         return json
